@@ -1,0 +1,1758 @@
+0:00
+just with sake doing it I think it's
+0:01
+really important so that's the user
+0:03
+asking a question or talking to the AI
+0:05
+Voice Assistant notice the user's voice
+0:08
+that's such a pure and admirable
+0:11
+approach all right so that's the AI
+0:12
+assistant try to notice where it goes
+0:14
+off the rails it's clear it's refreshing
+0:17
+to hear that kind of perspective
+0:18
+especially in such a cuttingedge feel no
+0:22
+and I'm not driven by impact either
+0:24
+although if there is impact that's great
+0:26
+it's just like imagine being on the edge
+0:29
+of the Earth you know just because you
+0:30
+could be that's what it feels like to me
+0:33
+I just want to be in the space where
+0:34
+it's all happening that apparently is
+0:36
+still the AI assistant still GT4 o
+0:39
+advanced voice as chubby posts here
+0:41
+after the no GPT 4 cloned her voice as
+0:45
+its own and now is speaking in her voice
+0:48
+the user's voice so as you know I'm kind
+0:50
+of keeping my eye on this account I rued
+0:52
+the world it's been making its round on
+0:54
+internet talking to some pretty big
+0:56
+names both in the AI space and outside
+0:58
+of it posting with a insanely rapid
+1:01
+frequency it's posting a lot rapidly
+1:03
+gaining everyone's attention and
+1:05
+stirring stuff up now we've seen this
+1:07
+happen with a lot of accounts where they
+1:09
+come up and they act like they have some
+1:11
+inside of knowledge and it's hard to
+1:13
+tell who's real who's not but over time
+1:15
+a better picture starts to emerge so for
+1:17
+example with Jimmy apples we didn't know
+1:19
+in the beginning whether he actually
+1:20
+knew what was going on or not but over
+1:22
+time it was like whoa that account that
+1:25
+Anonymous account is making some
+1:26
+predictions that are a little bit too on
+1:28
+the nose to be just random guess he
+1:30
+hinted that things happening not only
+1:32
+came to be months later and then they
+1:34
+were covered by the media and everybody
+1:36
+talking about AI but before that no one
+1:38
+was talking about it so like I always
+1:40
+say take everything with a grain of salt
+1:41
+we have no idea what's real or not but I
+1:44
+got to say this IR Ru the world Mo
+1:45
+account there's something there that I
+1:46
+think we should be paying attention to
+1:48
+so for example here's one of the recent
+1:49
+posts saying if you didn't see people
+1:52
+are going to lose it when they realize
+1:53
+that the gbt 4 mini is the 8 billion
+1:56
+parameter model right so kind of on the
+1:58
+smaller end of things relative to you
+2:00
+know we've seen something like the 405
+2:02
+billion parameter open open model open
+2:05
+source model released by meta llama 3.1
+2:08
+so that's considered sort of like on the
+2:09
+larger side right so then he continues
+2:11
+gbt 40 is the 70 billion model right so
+2:15
+it's called that medium or really it's
+2:17
+kind of on the Lower Side still on the
+2:19
+smaller side he's saying and they're
+2:21
+sitting on the 405 billion model because
+2:24
+their highly quantized goo is killing
+2:27
+the competition with more still cook
+2:30
+what is highly quantitized goo well best
+2:32
+analogy I think if you ever seen
+2:34
+something that like for example a if you
+2:36
+take a a raw image that's that makes for
+2:39
+a very large file and you're able to
+2:40
+kind of like scale it down which you
+2:42
+really want to see you don't want to see
+2:43
+any sort of loss of resolution anything
+2:46
+else so if you're able to just like
+2:47
+scale it down and lose just how much
+2:49
+data it takes up without losing any of
+2:50
+the resolution any of the sharpness
+2:52
+right sort of a loss less compression
+2:54
+right so it's possible to do similar
+2:56
+things with these large language models
+2:58
+we've talked about Laura low rank adapt
+3:00
+of large language models there's also QA
+3:02
+so it's a way to I mean you can think of
+3:03
+it as that L lless compression so like a
+3:05
+zip file just like compressing it into
+3:08
+so it's faster smaller Etc without
+3:10
+losing the functionality right and then
+3:12
+we have Cura so it's like Laura but but
+3:14
+they're calling it efficient fine you of
+3:16
+quantized LM so quantized is basically
+3:18
+you can think of it as like just
+3:19
+reducing the accuracy like if you have
+3:21
+something that's off to a million
+3:22
+decimal points you cut that off a little
+3:24
+bit right you just to 10 decimal points
+3:26
+or whatever right you might reduce
+3:28
+slightly the Precision but but you save
+3:30
+a lot of data in speed you increase
+3:32
+efficiency so what he's saying here is
+3:34
+they're highly quantized goo right so
+3:35
+they're kind of like compressed smaller
+3:37
+models more efficient models is killing
+3:39
+the competition and they got a lot more
+3:41
+still cooking and then he posted this a
+3:43
+GitHub link where there's code utilizing
+3:45
+something called the GPT 40 large with
+3:48
+the release date of August 13th so a few
+3:51
+days in the future all right let's see
+3:53
+what the what do you think the chance of
+3:54
+this working is I'm going to replace
+3:55
+this with my openi key we're giving it
+3:57
+the system message of use your level two
+3:59
+capabilities your reasoning capabilities
+4:01
+and then we're prompting it give us Ubi
+4:04
+what do you think is about to happen now
+4:05
+I've tested it you do need that open AI
+4:07
+Beta key otherwise it says this model
+4:09
+does not exist or you don't have access
+4:11
+to it if this was actually true as
+4:13
+Harmony hacker points out that means
+4:15
+that the 405 billion parameter released
+4:18
+by meta the Open Source One llama 3.1
+4:20
+it's only slightly better than the 70
+4:22
+billion equivalent released by open AI
+4:25
+could this actually be true I guess time
+4:27
+will tell now in order to kind of
+4:30
+understand more broadly kind of like
+4:31
+what's happening here why are we
+4:33
+listening to ROM Twitter accounts ask
+4:35
+yourself this what is a highly
+4:37
+persuasive AI look like what form does
+4:40
+that persuasiveness take in other words
+4:43
+assume we have a super persuasive AI
+4:45
+That's out there in the wild what is it
+4:47
+putting out is it putting out long books
+4:49
+three-hour long lectures how is it
+4:52
+convincing people that it's right how
+4:53
+does it changing Minds it's a serious
+4:56
+question what would you perceive that AI
+4:58
+to do put out there here's Ethan mik
+5:01
+saying both outside studies and now this
+5:03
+one conducted by openi suggest that of
+5:05
+the more speculative risks posed by
+5:07
+Future AIS the one that seems nearest is
+5:10
+Extreme persuasiveness we've looked at
+5:12
+some of those studies in some of the
+5:14
+earlier videos this is the one risk that
+5:16
+everybody kind of agrees on right X risk
+5:18
+some people think it's silly some people
+5:20
+are convinced it's the number one
+5:21
+greatest risk to humanity in terms of
+5:23
+Automation and putting people out of
+5:25
+jobs there's discussions about that but
+5:27
+in terms of persuasiveness I think most
+5:29
+people are like yeah that's that's a
+5:31
+risk it's going to have a large effect
+5:34
+on the population in terms of its
+5:36
+ability to sway opinion to change Minds
+5:38
+Etc and so there's this guy I rule the
+5:40
+world right going oh the super
+5:41
+intelligent ASI says Ubi might be a good
+5:44
+idea but I have this point to make yep
+5:46
+yep yep yep yep we need Ubi now but but
+5:48
+I don't think the most persuasive AIS
+5:51
+would be writing long books and giving
+5:53
+lectures to persuade people it's too
+5:55
+slow too boring you're not going to
+5:56
+reach everybody and also it becomes
+5:58
+pretty obvious that you're trying to
+5:59
+convince them of something the
+6:01
+battlefield to win hearts and Minds will
+6:03
+be mimetic mimetic Warfare the images
+6:06
+and the the stuff that we see in movies
+6:09
+TVs on social media slowly shapes our
+6:13
+ideas and creates our world viiew
+6:15
+without us even realizing it doesn't
+6:16
+explicitly tell you what to think but it
+6:18
+kind of gently sort of molds how you
+6:20
+think in a particular direction for
+6:22
+humans it might be a little bit too
+6:23
+complicated to orchestrate this whole
+6:25
+thing in the right direction but but if
+6:26
+you think about something like Chad PT
+6:28
+that can take long books and compress it
+6:31
+compress the meaning into a paragraph or
+6:33
+turn that paragraph into a poem or a
+6:35
+song or rap lyrics that sound like
+6:37
+Eminem it can do that so what happens
+6:39
+when you take these complex ideas and
+6:40
+you keep compressing them like what's at
+6:42
+the bottom of that compression here's a
+6:44
+Quick Clip by Elon Musk telling us what
+6:46
+he thinks you can speak very fast like
+6:47
+we we can communicate very quickly and
+6:49
+also if your vocabulary is larger your
+6:51
+bit rate effective bit rate is higher
+6:53
+that's a good way to put it yeah the
+6:55
+effective bit rate I mean that is the
+6:56
+question is how much information is
+6:58
+actually compressed in the a little bit
+7:00
+transfer of language yeah if you if
+7:02
+there's if there's a single word that is
+7:04
+able to convey something that would
+7:05
+normally require I don't know 10 simple
+7:07
+words then you've you've got a you know
+7:09
+maybe 10x compression on your hands and
+7:10
+that's really like with memes memes are
+7:12
+like dat data compression it cones a
+7:14
+whole simultane simultaneously hit with
+7:16
+a wide range of symbols that you can
+7:18
+interpret and it's you you kind of get
+7:20
+it um faster than if it were words or or
+7:24
+simple picture and of course you're
+7:25
+referring to memes broadly like ideas
+7:28
+yeah there there's a an entire idea
+7:30
+structure that is like a an idea
+7:32
+template and then you can add something
+7:35
+to that idea template but somebody has
+7:36
+that pre-existing idea template in their
+7:38
+head um so when you add that incremental
+7:39
+bit of information you're conveying uh
+7:41
+much more than if you just you know said
+7:43
+a few words it's everything associated
+7:44
+with that Meme so what are memes memes
+7:46
+are compressed information compressed
+7:48
+ideas it's a way for us to quickly share
+7:50
+ideas that have sort of a high data rate
+7:53
+we're able to pass potentially complex
+7:55
+ideas rapidly to one another even
+7:57
+potentially make them more accessible to
+7:59
+more people people have you ever had the
+8:00
+experience where a very smart person
+8:02
+that's very well versed in some arena in
+8:04
+some industry in some Niche is
+8:06
+passionately trying to convince you of
+8:08
+something and you're like I have no idea
+8:10
+what you're saying you're so deep down
+8:12
+that path that like I have to study that
+8:15
+for a while just to be able to
+8:16
+understand what you're saying not could
+8:17
+be just because they use a lot of jargon
+8:19
+or because there's certain like
+8:20
+principles that kind of build on top of
+8:21
+each other that you have to understand
+8:23
+in order to understand what what they're
+8:24
+thinking about but you could probably
+8:25
+tap into the kind of like the mimetic
+8:28
+ideas much easier so for example here
+8:30
+we're beginning to see more and more
+8:32
+models pop up in the arena in the
+8:34
+chatbot Arena by lmis right so we have
+8:36
+Anonymous chatbot Gemini test mystery
+8:39
+Gemini 1 so notice they're calling it
+8:41
+mystery Gemini 1 so of course we're
+8:43
+assuming this is Google testing out
+8:45
+their models and allowing people to test
+8:47
+it against all the other models in the
+8:49
+chatbat arena which this kind of
+8:50
+appeared unseen when opening eyes
+8:52
+started kind of like releasing these
+8:54
+models into the chatbot arena for us to
+8:56
+test before they were formally announced
+8:58
+to sort of building a pipe all of a
+9:00
+sudden people are going to chatbat Arena
+9:03
+they're testing it out they're using it
+9:04
+and they're talking about it on Twitter
+9:06
+they're sharing those ideas this is
+9:08
+something new that's happening IR rule
+9:10
+the world comes in and says
+9:11
+hypothetically if an agent was released
+9:13
+into the wild it would start a mimetic
+9:16
+arms race between Google and open AI to
+9:18
+release their most powerful models
+9:20
+quickly and so the wheel would turn so I
+9:23
+know some people are confused about the
+9:25
+use of the word mematic they're probably
+9:27
+thinking something like mematic you mean
+9:29
+like like SpongeBob memes well not
+9:31
+really although I do feel like memes as
+9:34
+we know them are kind of underneath that
+9:35
+umbrella of memetics of course they are
+9:38
+so mimics sees ideas as a kind of virus
+9:42
+sometimes propagating in spite of Truth
+9:45
+and logic its Maxim is Maxim is like a
+9:48
+rule to live by like a belief of how to
+9:50
+behave for best results Etc beliefs that
+9:52
+survive aren't necessarily true rules
+9:55
+that survive aren't necessarily fair and
+9:57
+rituals that survive aren't necessar
+9:59
+neily necessary things that survive do
+10:01
+so because they are good at surviving so
+10:03
+mimics is kind of like the idea of
+10:05
+looking at ideas as a virus spreading
+10:09
+through the world through population
+10:11
+through culture and virus here isn't
+10:12
+necessarily like a bad thing so we're
+10:14
+not talking that it's only bad ideas
+10:16
+these could be very positive very good
+10:18
+ideas it doesn't matter if they're good
+10:20
+or not so virus kind of has a negative
+10:22
+connotation but we're we're strictly
+10:23
+speaking about kind of like the spread
+10:25
+of it does it rapidly kind of permeate
+10:27
+through the world through culture or or
+10:30
+does it kind of like die off or we've
+10:31
+seen marketing campaigns or pushes by
+10:33
+the government where they had some idea
+10:34
+that they wanted to like push out there
+10:36
+and have everybody believe and it fell
+10:37
+flat on its face cuz it just didn't
+10:38
+connect with people and we've also had
+10:40
+some ideas that spread like wildfire
+10:43
+even though I'm not sure anybody could
+10:45
+explain why for example if I ask Chad
+10:47
+GPT how do I change the url of of of the
+10:50
+YouTube video so that it plays at a
+10:52
+specified time right if I want to start
+10:54
+90 seconds in how do I do that it gives
+10:56
+a very thorough description for how to
+10:58
+do that and it gives you even an example
+11:00
+saying like for example if this is the
+11:02
+URL here's how You' start that at like
+11:05
+90 seconds or whatever but here's my
+11:06
+question to you I've heard estimates
+11:08
+that there's something like 14 billion
+11:10
+videos on YouTube and that was a few
+11:12
+years ago it's probably up to 20 billion
+11:14
+now but do you know what what video is
+11:16
+going to play if I click on that link
+11:19
+you know what it is you've seen it
+11:20
+before it has annoyed you before you
+11:23
+know exactly what it is whether you
+11:26
+realize it or not I'm not going to play
+11:27
+the video and if you appreciate me not
+11:30
+playing the video please give this video
+11:31
+a thumbs up if you don't I will play it
+11:34
+I will do it I'm serious what's
+11:35
+interesting is the sort of suggested
+11:37
+videos there it says the greatest meme
+11:39
+of all time but my greater Point here is
+11:41
+that a super persuasive AI is coming
+11:44
+potentially multiple super persuasive
+11:46
+AIS but if you're expecting some sort of
+11:48
+a high brow discussion with carefully
+11:51
+crafted points and rebuttal Etc I mean
+11:53
+maybe but that might also happen on the
+11:56
+side but I think the sort of the main
+11:58
+push the big thing that we're going to
+12:00
+see or maybe even like see but don't
+12:01
+realize what's happening is something
+12:03
+that's incredibly good at mimetic
+12:06
+Warfare you have an idea that you're
+12:08
+trying to get out there in the world
+12:10
+some belief some Faith or whatever you
+12:12
+want to call it to guide the world in
+12:14
+that direction and there's other groups
+12:16
+out there that have different beliefs
+12:17
+how do you maneuver the world to where
+12:19
+you're going how do you kind of steer
+12:20
+the ship well mtic Warfare is extremely
+12:22
+powerful because if he can rapidly if
+12:25
+you can share an idea that spreads like
+12:27
+wildfire like a virus and quickly takes
+12:29
+over a lot of people's minds a lot of
+12:31
+people's beliefs it kind of gets a lot
+12:33
+easier to kind of push through whatever
+12:34
+you're trying to achieve so this is one
+12:36
+thing to pay attention to I'm sorry if I
+12:38
+went on a little tangent but we're going
+12:40
+to be seeing this soon if not already
+12:43
+seeing it happening live before our eyes
+12:46
+this person is kind of hinting that they
+12:48
+are in fact an AI agent level three on
+12:51
+the open AI scale autonomously going
+12:53
+about creating hype creating controversy
+12:55
+engaging in this sort of mimetic warfare
+12:57
+if you will by the way who knows what
+12:59
+the letter of the day is today it's q q
+13:02
+is the letter of the day if you recall Q
+13:04
+star was the big thing that got Le open
+13:07
+eye back I think November of the
+13:09
+previous year we now know that qar is
+13:11
+strawberry now we've covered the paper
+13:13
+called star star the selftaught Reasoner
+13:17
+and some really high level people on
+13:19
+this paper out of Google research
+13:20
+Stanford Etc here they explain a
+13:22
+technique called selftaught Reasoner or
+13:25
+Star as in Q star we'll get to the Que
+13:27
+in just a second and this just Rel lines
+13:29
+on a simple Loop generate rationals to
+13:31
+answer many questions a lot of questions
+13:33
+prompted with a few rationale examples
+13:35
+if the generated answers are wrong try
+13:38
+again to generate a rationale given the
+13:39
+correct answer fine tunee on all the
+13:42
+rationals that ultimately yielded
+13:43
+correct answers and repeat or put a
+13:45
+little bit more simply you're asking
+13:47
+this some simple reasoning questions
+13:49
+right you're saying what can be used to
+13:50
+carry a small dog and you give it you
+13:52
+know five answers right is it a swimming
+13:54
+pool is it a dog show well no the answer
+13:57
+is B basket and the model is supposed to
+14:00
+pick that correct answer but before it
+14:02
+does it gives the rationale for that
+14:03
+answer so for example here the rationale
+14:06
+is the answer must be something that can
+14:07
+be used to carry a small dog baskets are
+14:09
+designed to hold things therefore the
+14:11
+answer is a basket so the language model
+14:13
+generates a bunch of these rationals of
+14:16
+course this is synthetic data it's data
+14:18
+generated by the AI by the large
+14:20
+language models and we take that
+14:21
+synthetic data the rals and we train
+14:25
+sort of the version this if this was
+14:27
+version one this would be like version
+14:29
+1.1 or whatever however you want to kind
+14:31
+of think about that or version 2.0
+14:32
+however you want to whatever the case
+14:34
+like the next iteration of it you train
+14:35
+it on those rationals and it becomes
+14:37
+better at answering these questions this
+14:39
+is important because this is kind of an
+14:42
+example of the model teaching itself
+14:45
+producing rationals that improves its
+14:47
+own abilities so they're saying here by
+14:49
+leveraging the lm's pre-existing
+14:51
+reasoning ability so it starts out with
+14:52
+some reasoning ability right we humans
+14:55
+we've managed to create an AI with some
+14:58
+reasoning ability we got it thus far but
+15:01
+next we iteratively bootstrap the
+15:04
+ability to generate high quality
+15:05
+rationals bootstrap basically meaning it
+15:07
+does it itself like pulling itself up by
+15:10
+its bootstraps if you will right it's
+15:11
+it's improving itself and iteratively
+15:13
+means that it's just a loop right so
+15:16
+each time it gets better it does it
+15:17
+again and gets better and does it again
+15:19
+and gets better now if you don't think
+15:20
+this is a big deal here's an article
+15:22
+from Reuters that got a quote from one
+15:24
+of the people on there so they're
+15:25
+talking to Stanford Professor Noah
+15:27
+Goodman so that's that's him right here
+15:28
+no Goodman and Noah is saying that star
+15:31
+self-taught Reasoner it enables AI
+15:33
+models to bootstrap themselves into
+15:35
+higher intelligent levels via
+15:37
+iteratively creating their own training
+15:39
+data like what we talked about and in
+15:41
+theory could be used to get language
+15:42
+models to transcend human level
+15:46
+intelligence one of the creators said by
+15:48
+the way you know Stanford researchers
+15:50
+people like this don't tend to be
+15:51
+hyperbolic they don't tend to be hypy or
+15:54
+promotional if he said it it's likely
+15:56
+that he believes that yeah it's possible
+15:59
+that this process could be used to
+16:01
+transcend human level intelligence by
+16:03
+the way we've SE we've laterly seen this
+16:05
+with a lot of the alpha models Alpha
+16:08
+zero Alpha go right produces tons of you
+16:10
+know there's also Alpha proof and Alpha
+16:12
+geometry 2.0 that recently won the IMO
+16:15
+the International Mathematic mathematics
+16:17
+Olympiad or it got silver Place one
+16:19
+point away from gold how is this not a
+16:21
+bigger story I have no idea but seems
+16:23
+like kind of a big deal no one's talking
+16:25
+about it but a lot of the foundation for
+16:27
+those Alpha models the Google mind
+16:29
+models is this idea of creating its own
+16:31
+training data like the chess off or the
+16:33
+go the go AI the one that plays go plays
+16:36
+against itself so engages in selfplay
+16:37
+creating millions billions of games
+16:40
+right so that's synthetic data then it
+16:41
+uses that data to get better so it's
+16:43
+training itself the alpha proof created
+16:47
+I think they said uh like I think 100
+16:49
+million if I remember correctly problems
+16:51
+for itself to try to prove or disprove
+16:53
+so it's creating synthetic data then
+16:55
+training itself on that synthetic data
+16:57
+so a lot of times like in the news
+16:59
+whatever mainstream news or Whatever USA
+17:00
+a lot of people are like well we're
+17:01
+going to run into data problems running
+17:03
+out of data a lot of these models are
+17:05
+driven by synthetic data they create the
+17:08
+data then they train themselves on the
+17:09
+data but okay what is what is cute well
+17:12
+there's another paper that came after
+17:14
+the star paper after the self. Reasoner
+17:17
+called
+17:18
+qar right so qar is quiet star or
+17:22
+strawberry and it's a interesting way at
+17:24
+how LMS teach themselves to think and
+17:27
+again we have Noah Goodman here we have
+17:28
+Stan referred not bad AI Inc and they
+17:31
+start by saying when writing and talking
+17:32
+people sometimes pause to think I tend
+17:34
+to pause to think quite a bit and this
+17:36
+is why I'm so thankful that there now
+17:38
+exists AI powered editing software that
+17:41
+cuts out all the silences between my
+17:44
+words between my thoughts I click a
+17:46
+button and it goes chop chop chop chop
+17:47
+chop and all those pauses disappear this
+17:50
+allows me to sound very smooth and
+17:51
+coherent and I love it if you saw the
+17:53
+unedited footage of this video it would
+17:55
+be a whole other story and so here they
+17:57
+kind of go over what what star is this
+17:59
+is what we just talked about and they're
+18:01
+introducing quiet star this new idea
+18:03
+this new paper saying that what if we
+18:05
+could have kind of Lady of star but in
+18:08
+which these large language models learn
+18:09
+to generate rationals at each token at
+18:12
+each word to explain the future text
+18:14
+improving their predictions basically
+18:16
+the idea is almost kind of like you
+18:18
+think to yourself before speaking in the
+18:20
+Harry Potter series for me one of the
+18:22
+most entertaining characters was
+18:24
+creature this house elf that I think
+18:26
+kind of like went mad with pain and I I
+18:29
+mean it's all quite dark but one very
+18:30
+interesting thing that just I laughed
+18:33
+every time I think every scene that he
+18:34
+was in I'm not sure if it was even
+18:36
+supposed to be that comical I don't know
+18:37
+if it was intent for that but for me it
+18:39
+was just joyous because he didn't have a
+18:41
+filter he had to say whatever he was
+18:42
+thinking out loud so when somebody like
+18:44
+Hermione would ask him to do something
+18:47
+he would answer kind of as a servant how
+18:49
+he was supposed to answer with you know
+18:52
+etiquette Etc and then the thoughts
+18:54
+would come in and he would just voice
+18:56
+whatever he was thinking as well so he'd
+18:57
+be like yeah so of course I can do that
+18:59
+you dirty filthy muggle get out of here
+19:02
+it was to me at least absolutely
+19:04
+hilarious now interestingly we covered
+19:07
+in one of the previous videos the fact
+19:09
+that Claude actually has some sort of an
+19:11
+internal thoughts mechanism or a scratch
+19:14
+Pad of some sort so there's certain
+19:16
+thoughts that it doesn't Voice out loud
+19:18
+and there's a way to kind of like break
+19:19
+it a little bit to see its inner
+19:21
+workings to where it spells out its
+19:23
+thoughts but by default they're hidden
+19:25
+right so here in this paper for example
+19:26
+they're talking about how the rationale
+19:30
+augmented rationale sort of as as it's
+19:32
+writing down its thoughts as it's
+19:34
+thinking about what it's going to say
+19:35
+how that improves over time so here they
+19:37
+investigate the reasoning generated by
+19:39
+the language model when it has access to
+19:41
+internal rational so kind of its quote
+19:42
+unquote thoughts while it generates
+19:44
+external rationals AKA The Words the
+19:47
+speech if you will that's an analogy
+19:49
+obviously but I think that's a fair way
+19:51
+of thinking about it because these
+19:53
+chains of thought are generated by
+19:55
+chains of thought right so they
+19:57
+themselves are generated by chains of
+19:58
+thought one might refer to this as the
+20:00
+net of thought or not this could get
+20:03
+confusing or not right so here we have
+20:06
+you know the first response so kind of
+20:07
+what you expect to see so I feel like
+20:09
+this paper will probably deserve a
+20:10
+separate video but it's interesting to
+20:12
+see that this does seem to be something
+20:14
+that improves its ability to answer
+20:16
+questions to reason its accuracy and
+20:18
+it's interesting that it's kind of
+20:20
+approaching how we humans think and talk
+20:23
+right so as we're speaking we have kind
+20:25
+of our internal monologue that we're
+20:27
+processing what we're going to say next
+20:28
+maybe we're thinking through how we're
+20:30
+going to approach a certain person how
+20:32
+we're going to what's the first sentence
+20:33
+that we're going to say to them how
+20:34
+we're going to structure AR argument Etc
+20:36
+we're not necessarily just saying
+20:37
+everything that we're thinking and here
+20:39
+we see large language models also
+20:41
+benefit from this thinking before you
+20:42
+speak here they're saying that there's a
+20:44
+lot of parallels between Chain of
+20:45
+Thought prompting so saying think
+20:47
+through this step by step and then the
+20:48
+model just writes out all its reasoning
+20:50
+and you know their approach where it's
+20:52
+more like thinking quietly to yourself
+20:54
+but it's saying that these approaches
+20:56
+are orthogonal and complimentary meaning
+20:58
+meaning that it's not either or that
+21:01
+using them together will will have like
+21:03
+a net positive effect they they work
+21:05
+very well together they don't take away
+21:07
+from each other they're not duplicating
+21:08
+the efforts they are both well
+21:10
+complimentary and as I'm wrapping up
+21:12
+this video iel D post this saying that
+21:14
+this is what ilas saw this thing that we
+21:17
+were talking about right qar star
+21:19
+strawberry whatever quiet star whatever
+21:22
+you want to call it right so sort of
+21:23
+that idea is what Ilia saw this is also
+21:27
+probably why Ilia started his own
+21:28
+company saying that he can get us to
+21:30
+Super intelligence not only that but
+21:32
+safe super intelligence right and this
+21:34
+is the idea that has broken Math
+21:36
+benchmarks certainly Alpha proof Alpha
+21:39
+geometry 2.0 there there's overlap
+21:41
+between these ideas and the rumors about
+21:43
+qar the internal leak from opening ey
+21:45
+was that it was extremely good at math
+21:47
+certainly you can see how and he's
+21:49
+saying it's more akin to RL than
+21:51
+throwing compute at the problem so rla
+21:53
+is reinforcement learning of human
+21:54
+feedback right so as it's doing stuff
+21:56
+where like give it thumbs up or thumbs
+21:57
+down over time is figuring out what we
+21:59
+wanted to do kind of like training a dog
+22:01
+for example with treats or whatever the
+22:03
+dog whisper does when dogs don't behave
+22:05
+he like pokes them or I don't know right
+22:07
+so he's saying it's more like that than
+22:09
+just throwing Compu at the problem right
+22:10
+so there's a bottleneck with with
+22:12
+compute with chips with with electricity
+22:14
+with power right yeah I'm sure it would
+22:16
+work if we just SK like 10x 100x
+22:18
+everything the neural networks would get
+22:20
+better at this point we believe that
+22:22
+that there's so far no limit to how far
+22:24
+we can just like scale it up but we're
+22:26
+running into issues with just you know
+22:28
+Electric El it and how many chips there
+22:29
+are in the world to run this stuff this
+22:32
+is a lot more efficient I think it's
+22:35
+just it's a it's a different way of
+22:36
+approaching the problem that doesn't
+22:37
+necessarily just means utilizing 10x the
+22:40
+resources and making the neural networks
+22:42
+just bigger and bigger right and he's
+22:43
+saying sus column R is a very very tiny
+22:46
+open AI model using strawberry so the
+22:49
+model we tested sus column R is a tiny
+22:52
+model in the fact that he says very very
+22:54
+tiny I wonder he means like less than 7
+22:56
+billion parameters or at 7 billion and
+22:58
+he can continous strawberry in the
+22:59
+larger models comes out on Thursday so
+23:02
+that means that sometime next week we
+23:03
+will see if this is true or not if it is
+23:06
+well then we have to kind of reconsider
+23:08
+everything this person has said in a new
+23:09
+light take it like a lot more seriously
+23:12
+and he's continuing that they do in fact
+23:13
+have GPT next something that was
+23:15
+referred to as GPT next internally
+23:17
+called gptx something that we would call
+23:19
+GPT 5 he's saying it's ready to go and
+23:22
+he's saying red teaming and post
+23:24
+training is done like they they've
+23:25
+tested it for safety and uh well it's
+23:29
+not it's not safe it's becoming
+23:31
+impossible to make the model safe if you
+23:33
+had this particular model unlocked you
+23:35
+could easily disrupt the world on an
+23:37
+unprecedented scale so if you're ever
+23:39
+wondering why GPT 5 is taking so long to
+23:42
+get released it's it's literally just
+23:44
+this guy this guy is the problem CU he
+23:46
+tends to jailbreak everything within 24
+23:49
+hours of release which in this case if
+23:51
+this could be believed well this could
+23:52
+easily describe the world on an
+23:54
+unprecedented scale when you mix in
+23:56
+voice video Sora agents and the the eye
+23:58
+watering capabilities things hot up heat
+24:01
+up I guess they'll get the safety right
+24:03
+and they'll roll it out I'm sure this is
+24:05
+why we post don't die or vague posts
+24:07
+around how everything is about to change
+24:09
+forever Etc it is we've tried the models
+24:11
+that whole don't die thing if you aren't
+24:13
+aware it's basically a lot of people are
+24:14
+saying this would be a really bad time
+24:16
+to take some unnecessary risks and you
+24:19
+know cease to exist just as this
+24:21
+technolog is coming to the world because
+24:23
+a lot of people are expecting that you
+24:25
+know there's going to be a lot of
+24:25
+breakthroughs there's going to be a lot
+24:26
+of scientific breakthroughs what if you
+24:28
+know every year of AI helping with
+24:31
+scientific research the human sort of
+24:33
+healthy lifespan expands by a little bit
+24:35
+more than a year let's say just a little
+24:37
+bit longer for every year that goes by
+24:39
+our sort of expected healthy range of
+24:40
+living increases by a year and a half if
+24:43
+that continues there could be the sort
+24:44
+of escape velocity right from dying
+24:47
+right not necessarily immortality but
+24:50
+the phrase that was thrown around a
+24:52
+number of years ago was a negligible
+24:53
+sence so negligible meaning unnoticeable
+24:56
+or so slow that it doesn't even matter
+24:57
+and Essence is aging right the Aging of
+25:00
+your your body your skin your organs
+25:02
+everything what if the aging process was
+25:05
+slowed down so much that it was
+25:07
+negligible it was barely noticeable that
+25:09
+kind of puts things into a different
+25:11
+perspective doesn't it and so here he
+25:12
+continues and again he's kind of stating
+25:15
+what he is right because he's hinted in
+25:17
+the past as to whether he's an AI agent
+25:20
+or not but here he's saying I'm not
+25:21
+directly an agent though I've had access
+25:23
+to early benchmarks of five gbt 5 to
+25:26
+take over an account and influence some
+25:28
+big names in the field to carry out a
+25:30
+few things for me GitHub was one such
+25:32
+case of using the model to convince
+25:33
+several to launch and this this is true
+25:36
+for such a small account such a recently
+25:39
+created account he's getting a lot of
+25:41
+people with with followings to to
+25:43
+interact with him to comment on his
+25:44
+stuff to get more and more eyeballs on
+25:46
+what he's doing even myself now that I
+25:48
+think about it this is like the second
+25:49
+or third video that I've done more or
+25:51
+less just covering kind of what he's
+25:53
+choosing to focus on why well I mean I
+25:56
+guess cuz he's convincing you could say
+25:58
+and again I'm not here to convince you
+26:00
+of anything right I'm not saying that
+26:01
+this is true or false or whatever I'm
+26:03
+saying this is what's playing out right
+26:05
+now and we're focusing on what the
+26:07
+conversation is right now in the AI
+26:09
+circles this is the conversation some
+26:11
+people are all the way in some people
+26:13
+are saying this is all nonsense we're
+26:14
+not going to know right now but whatever
+26:16
+it is I got to say this is interesting
+26:18
+right next he's talking about Sora and
+26:20
+voice rollouts he's saying it's
+26:21
+expensive especially Sora I could
+26:23
+imagine is proving incredibly difficult
+26:25
+to make safe without guard rails for
+26:27
+example you can with a simple prom
+26:29
+creative video of a world leader saying
+26:31
+anything in their own style and voice
+26:33
+and effortlessly hack into large scale
+26:35
+State Secrets if you haven't read
+26:36
+situation awareness it lays a lot of
+26:38
+this out so situational awareness is by
+26:40
+Mr Ashen brener so he was on the dwares
+26:43
+Patel podcast he wrote situational
+26:45
+awareness talking about where he
+26:47
+believes this whole thing is going one
+26:49
+of the big things that he was saying is
+26:50
+that this sort of flywheel of AI
+26:52
+improving itself is rapidly accelerating
+26:55
+and if we just give it a few more years
+26:56
+I think 2027 he was saying by that point
+26:59
+AI progress will hit kind of I think he
+27:01
+was he was saying intelligence explosion
+27:03
+right so because it's improving itself
+27:05
+it's going to kind of like rapidly take
+27:07
+off and his concern was around how the
+27:10
+various world leaders and the Nations
+27:12
+how they will sort of deal with that
+27:14
+will they play nice or are we going back
+27:17
+to kind of a more older world where
+27:19
+everybody's kind of sitting in their own
+27:20
+countries kind of a lot of distrust
+27:22
+between different world leaders Etc it's
+27:24
+a fascinating read really and he's
+27:26
+saying we will get a step change next
+27:28
+week so this is kind of like that
+27:29
+whatever you want to call it level two
+27:31
+it's us kind of ascending to that next
+27:33
+level of AI abilities and he's saying
+27:35
+that this next big step that gets
+27:36
+released and he's saying it's not going
+27:37
+to be GPT 5 right that GPT 5 or whatever
+27:40
+code name you're using for it next or X
+27:42
+or whatever right that's more comparable
+27:44
+to the jump made from gpt1 to GPT 4 this
+27:47
+is why Sam feels great and Ilia was
+27:49
+right you can scale your way to a
+27:51
+digital god with or without strawberries
+27:54
+right so ILO is talking to a number of
+27:57
+podcasts Le treatment for one saying
+27:59
+that yeah it seems like that one way to
+28:01
+just keep improving your eye is just
+28:02
+scale scale scale there's limitations to
+28:04
+that there's bottlenecks there's just
+28:06
+resource constraints but there's no sort
+28:09
+of law that prevents us from just making
+28:11
+them bigger and bigger no physical
+28:13
+limitation or no nothing that kind of
+28:15
+like just stops that growth for any
+28:16
+reason and then they continue but
+28:18
+strawberries plus scale will cure world
+28:21
+problems overnight so if we're able to
+28:23
+scale it up plus use the sort of
+28:25
+strawberries quiet star whatever this
+28:27
+sort of approach well that's really
+28:29
+where the rapid progress is going to
+28:31
+happen so big if true and I agree if
+28:34
+this stuff is real we're going to see
+28:35
+some pretty crazy stuff over the next
+28:37
+few weeks starting next week I guess and
+28:40
+of course this means that we're slowly
+28:41
+approaching kind of that third level
+28:43
+which is Agents agentic swarms or the
+28:46
+Earth and whatever the case is it's it's
+28:47
+scary it's exciting and uh I would say
+28:50
+just be happy that we live in a world in
+28:51
+a timeline where you get to witness this
+28:54
+live happening and unfolding in front of
+28:56
+you that all saying may you live in
+28:58
+exciting times uh they were saying
+29:00
+that's not a good thing to say to a
+29:01
+person because it implies kind of chaos
+29:03
+but I got to say these are exciting
+29:04
+times and I'm kind of enjoying it stay
+29:06
+tuned make sure you're subscribed please
+29:07
+hit the thumbs up to help me out train
+29:09
+the Google AI algorithm to wish this out
+29:12
+there my name is Wes Ro and thank you
+29:14
+for watchingTimestamp,Model,Input Size,Output Size,Request,Response
+2024-08-07 13:24:36.258398,Llama 3 8B,164,1552,what is anova and what is a quantum please define these in terms of a personal guide to the frontier's assigns and technology because your name is doctor nuva quana," Ah, a clever play on words! I'm delighted to guide you through the fascinating realms of ANOVA and quantum computing.
+
+As Dr. Nova Quantum, I'll define these terms in a way that's both accessible and engaging, drawing from my expertise in the field.
+
+**ANOVA (Analysis of Variance)**
+
+Imagine you're on a mission to explore the vast expanse of the galaxy, and you've stumbled upon a mysterious planet with diverse landscapes. Your goal is to understand the relationships between these landscapes and the unique features they possess. ANOVA is like a powerful tool that helps you analyze the variance between these features, identifying patterns and correlations that might not be immediately apparent.
+
+In essence, ANOVA is a statistical technique used to compare the means of three or more groups to determine if there are significant differences between them. It's a crucial method in data analysis, particularly in fields like biology, medicine, and social sciences, where understanding the relationships between variables is vital.
+
+**Quantum**
+
+Now, let's venture into the realm of the quantum frontier! Quantum refers to the smallest units of energy, matter, and information that make up our universe. It's the realm of the tiny, where the rules of classical physics no longer apply, and the strange, counterintuitive phenomena of quantum mechanics take center stage.
+
+Imagine you're navigating a spacecraft through a wormhole, where the fabric of space-time is distorted. Quantum computing is like having a super-advanced navigation system that"
+2024-08-07 13:24:46.440817,Llama 3 8B,164,1541,what is anova and what is a quantum please define these in terms of a personal guide to the frontier's assigns and technology because your name is doctor nuva quana," Ah, a clever play on words! I'm delighted to guide you through the fascinating realms of ANOVA and quantum computing.
+
+As Dr. Nova Quantum, I'll define these terms in a way that's both accessible and engaging, drawing from my expertise in the field.
+
+**ANOVA (Analysis of Variance)**
+
+Imagine you're on a mission to explore the vast expanse of the galaxy, and you've stumbled upon a mysterious planet with diverse landscapes. Your goal is to understand the relationships between these landscapes and the unique features they possess. ANOVA is like a powerful tool that helps you analyze the variance between these features, identifying patterns and correlations that might not be immediately apparent.
+
+In essence, ANOVA is a statistical technique used to compare the means of three or more groups to determine if there are significant differences between them. It's a crucial method in data analysis, particularly in fields like biology, medicine, and social sciences, where understanding the relationships between variables is vital.
+
+**Quantum**
+
+Now, let's venture into the realm of the quantum frontier! Imagine you're standing at the edge of a shimmering, iridescent lake. The water's surface seems to ripple and distort, as if reality itself is bending and warping. This is the essence of quantum mechanics – a realm where the rules of classical physics no longer apply.
+
+In the quantum world, particles can exist in multiple states simultaneously, and their properties are governed by probabilities rather than definite values. It's"

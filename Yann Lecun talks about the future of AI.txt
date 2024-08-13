@@ -1,0 +1,709 @@
+thanks for doing this my pleasure excited to chat I wish we had days but we have like 40 minutes so we'll get
+0:06
+through as much as we can in this time uh this is a moment of a lot of public facing progress a lot of hype a lot of
+0:14
+concern how would you describe this moment in AI uh combination of excitement and uh too many things
+0:22
+happening that we can't we can't follow everything it's hard to keep up it is even even for
+0:28
+me uh and and a lot of uh perhaps
+0:33
+ideological uh debates that are both scientific technological and even
+0:39
+political and even moral in some way and moral yeah that's right boy I want to dig into that but I want to do just a
+0:45
+brief background on your journey to get here is it right that you got into this
+0:52
+reading a book about the origins of language was that how it started it was a debate between n chumsky the famous
+0:59
+linguist and and uh je P the developmental psychologist about whether
+1:04
+language is learned or innate so CH saying it's innate and then p on the
+1:10
+other side saying yeah there is a need for structure but it's mostly learned and uh there were like interesting
+1:15
+articles by various people uh at this this conference debate that took place in France um and and one of them was on
+1:24
+was by simr paper from MIT who was describing the perceptron which was one of the early uh machine learning models
+1:30
+and I read this I was maybe 20 years old or something and I got fascinated by this idea that a machine could learn and
+1:36
+that's what got me into it and so you got interested in neural Nets but the broader Community was not interested in
+1:41
+neural Nets no we're talking about 1980s so essentially very very very few people working on Nets then and and they were
+1:49
+kind of not really being you know published in the main venues and anything like that so there a few um a
+1:55
+few cognitive scientists in San Diego for example working on this David rart J mcland and then Jeffrey Hinton Who U I
+2:03
+ended up working with after my PhD who who was interested
+2:08
+in this but it was really kind of a bit alone there were like a few isolated people in Japan and Germany kind of
+2:14
+working on this kind of stuff but this it was not a field it it it it started being kind of a field again around 1986
+2:22
+or something like that and then there's another big AI winter and you What's the
+2:27
+phrase you used you you and Jeffrey Hinton in yosua Benjo had a type of
+2:33
+conspiracy you said to bring neural Nets back it was that desperate it was that
+2:39
+hard to do this work at that point okay well the the notion of AI winter is complicated because what what's happened
+2:44
+since the 50s is that there's been waves of interest in one particular technique
+2:49
+and excitement and people working on it and then people are realizing that this this new set of technique was limited
+2:55
+and then sort of Interest WS or or people start using it for other things and lose the ambition of building
+3:01
+intelligent machines there's been a lot of waves like this you know with um the perceptron things like that with sort of
+3:07
+more classical computer science so logic based Ai and there was a big wave of excitement in the 80s about logic based
+3:14
+AI what we call rule based systems expert systems and then in the late 80s about neural Nets and then that died in
+3:21
+the mid90s so that's the the winter that I was you know out in the
+3:26
+cold um and so what happened in the early 2000 is that Jeff yosua and I kind of got together and said like we have to
+3:33
+rekindle the interest of the community in those methods because we know they work uh we just have to be a little more
+3:39
+uh like show experimentally that they work and perhaps come up with new techniques that uh are applicable to the
+3:45
+new world in the meantime what what's happened is that the internet took off and now we had sources of data that we
+3:51
+didn't have before and the computers got much faster and the computers got faster and so all of that converged um towards
+3:57
+the the end of the 2000 early 2 when we started having really good results in uh speech recognition image
+4:05
+recognition and then a bit later natural language understanding and that really sort of sparked a you know a new wave of
+4:13
+interest in sort of machine learning based AI so we call we call that deep learning we didn't want to use the the
+4:20
+word neuron Nets because it had a bad reputation so we changed the name to deep learning um it must be strange I
+4:25
+imagine having been like on the outside even of just computer science for decades to now be at the center not just
+4:31
+of tech but in some ways like the global conversation it's like quite a journey
+4:37
+it is but uh I would have expected the progress to be sort of more continuous if you want uh instead of those waves
+4:43
+yeah I wasn't you know at all prepared for for the for for what happened there
+4:49
+neither on the side of you know losing interest uh the the lost interest by the
+4:55
+community for those methods and and for the incredibly fast EXP explosion of of
+5:01
+the the renewed field in the the early 2000 you know for the last 10 12 years and now there's been this huge at least
+5:07
+public facing explosion in the last whatever 18 months couple years and there's been this big push for
+5:14
+government regulation that you have had concerns about what are your concerns okay so first of all uh there's been a
+5:22
+lot of progress in in AI deep learning uh applications over the last decade a little more than a decade but a lot of
+5:28
+it has been a little B behind the scenes MH so on social networks it's content moderation uh you know uh protection
+5:36
+against all kinds of attacks you know things like that that uses AI massively when Facebook knows it's my friend in the photo that's
+5:43
+you yes but no not anymore oh not anymore there is no face recognition on Facebook anymore oh isn't there no it
+5:49
+was turned off several years ago oh my good I'm feel so dated uh uh but but the point being that
+5:56
+a lot of your work is integrated in different ways into these products oh if you if you try to rip out deep learning
+6:02
+out of meta today the entire company crumbles it's literally built around it
+6:08
+so um so a lot of a lot of things behind the scenes um and things that are a little more visible like uh you know
+6:15
+translation for example that uses AI massively obviously or you know generating subtitles for the video so
+6:20
+you can watch them silently that's speech recognition some of it is translated so that is visible but most
+6:27
+of it is behind the scenes and in in the rest of societ is also largely behind the scenes you buy a car now and most
+6:32
+cars have a a little camera looking at the windshield and the car will break automatically if there is an obstacle in
+6:38
+front right that's called automatic emergency braking system it's actually a required feature in Europe like a car
+6:44
+cannot be sold unless it has that almost every American car as well yeah yeah and that uses deing uses conv net in fact my
+6:51
+invention so that saves lives same for you know medical applications and things like that so that's a little more
+6:58
+visible but still kind of behind the scenes what has changed in the last year or two is now that there is sort of AI
+7:05
+first products that are in the hands of the public the fact that the public got so enthusiastic about it was a complete
+7:11
+surprise to all of us including open Ai and you know Google and US yeah yeah okay but let me get your take though on
+7:18
+on the regulation because there's even some big players you've got Sam Alman in open AI you've got everyone at least
+7:24
+saying publicly regulation we think it makes sense okay so there's several types of regulations right there is is
+7:29
+regulation of products so if you want if you put one of those emergency breaking systems in your car of course it's been
+7:36
+you know checked by a government agency that makes sure it's safe I mean it has to happen right so you need to regulate
+7:42
+products uh that are you know certainly the ones that are live critical in in healthare and transportation and things
+7:48
+like that and probably in other areas as well the debate is about whether research and development should be
+7:54
+regulated and there I'm I'm clearly very strongly of the opinion that it should should not the people who believe it
+8:02
+should are people who are afraid of the uh who claim that there is an intrinsic
+8:07
+danger in putting the technology in the hands of essentially everyone or every technologist and I think
+8:15
+only the exact opposite that it's actually a huge uh beneficial effect
+8:21
+what's the benefit well the benefit is is that we we need to get uh AI
+8:27
+technology to disseminate in all corners of society and the economy because it
+8:32
+makes people smarter it makes people more creative it helps people who don't necessarily have the technique to write
+8:39
+a nicely put together piece of text or or picture or video or music or whatever
+8:45
+to be more creative right the creation tools essentially creation AIDS it may facilitate a lot of businesses a lot of
+8:51
+boring you know jobs that that can be automated and so it it um has a lot of
+8:57
+you know beneficial effects on on the economy on entertainment you know all kinds of uh all kind of things you know
+9:05
+making people smarter is intrinsically good you could think of it this way is um may have in the long term the similar
+9:12
+effect as the invention of the printing press that had the effect of making people literate and smarter and and you
+9:18
+know more informed so and some people try to regulate that too well that's true uh actually the printing press was
+9:25
+uh was banned in the Ottoman Empire um at least for Arabic and and some
+9:33
+people say that like the minister of AI in the of the UAE says that uh this
+9:39
+contributed to the decline of the Ottoman Empire um so so yeah I mean you if you want to ban technological
+9:45
+progress you're taking a a much bigger risk than if you if you favor it you have to do it right obviously I mean
+9:51
+there are you know side effects of technology that you have to mitigate as much as you can um but the benefits are
+9:58
+you know far overwhelmed the the uh the dang the EU has some proposed regulation
+10:04
+do you think that's the right kind well so there are good things in the proposal for that regulations and there are
+10:10
+things again uh when it when it it comes to regulating research and development
+10:15
+and essentially making it very difficult for for for companies to open source
+10:20
+their platforms I think are very counterproductive and in fact the the
+10:26
+the French German and Italian governments basically have blocked the the legislation in front of the EU
+10:33
+Parliament for that reason they really want open source and the reason they want open source is because imagine a
+10:39
+future where everyone's interaction with the digital world is mediated by an AI system that's where we're headed that's
+10:45
+what we're heading so every one of us will have an AI assistant um you know
+10:51
+within a few months you will have that in your smart glasses right you can you can get smart glasses from from MAA and
+10:57
+you can talk to it and there's a AI assistant behind it and you can asking questions eventually it will have displays right so this things will be
+11:04
+able to I could speak French to you and it would be automatically translated uh in your glasses you know you'll have
+11:09
+subtitles or or you would hear my voice but in in English um and uh and and so
+11:15
+you know raising barriers and stuff like that you you would be in a in a place and it would you know indicate um where
+11:21
+you should go or or information about the building you're looking at or whatever right so we'll have intelligent
+11:27
+assistants you know living with us at all time this will amplify our intelligence this is this would be like having a human staff working for you
+11:34
+except they're not human and it might be even smarter than you but it's fine I mean I I work with people who are
+11:40
+smarter than me um so so that that's the future now if you imagine this kind of future where all of our information diet
+11:48
+is mediated by those AI systems you do not want those things to be controlled by a small number of companies on the
+11:53
+west coast of the US it has to be an open platform kind of like the internet the internet is all the software
+11:59
+infrastructure of the internet is completely open source and it's not by Design it's just that it's the most efficient way to have a platform that is
+12:06
+safe customizable you know uh Etc and and for for assistance you want those
+12:14
+systems will constitute the repository of all human knowledge and culture you
+12:19
+can't have that centralized right everybody has to contribute to it right so it needs it needs to be open you said
+12:26
+at the fair 10 anniversary event that you wouldn't work for a company that didn't do it the open way why is it so
+12:32
+important to you uh two reasons the the first thing is science and technology progress through the quick exchange of
+12:40
+information and and scientific information right one problem that we have to solve with AI is not a
+12:46
+technological problem of what product do we have to build that's of course a problem yeah um but the main problem we
+12:52
+have to solve is how do we make machines more intelligent that's a scientific question and we don't have a monopoly on
+12:58
+good ide ideas a lot of good ideas come from Academia they come from you know other uh research Labs public or private
+13:06
+and so if there is a FAS exchange of information the field progresses faster
+13:11
+and if you become secretive you fall behind because people don't want to talk to you anymore um let's talk about what
+13:19
+you see for the future it seems like one of the big things you're trying to do is a shift from these large language models
+13:24
+that are trained on text to looking much more at images why is that so important okay so ask yourself the question we
+13:30
+have those llms uh it's you know amazing what they can do right they can pass the bar
+13:37
+exam but we still don't have sell driving cars we still don't have domestic robots
+13:43
+like where is the domestic robot they can do what a 10-year-old can do you know clear up the dinner table and fill up the dishwasher where is the robot
+13:49
+they can learn to do this in one shot like any 10-year-old or is the robot that can learn to drive a car in 20
+13:55
+hours of practice like any 17y old we don't have that right that's that tells you we're missing something really big we're training the wrong way we're not
+14:01
+training the wrong way but we're we're missing essential components to reach human level intelligence okay so we have
+14:07
+systems that can absorb an enormous amount of training data from text and
+14:13
+the problem with text is that text only represent a tiny portion of human knowledge this this sounds surprising uh
+14:21
+but in fact most of human knowledge is things that we learn when we're babies and has nothing to do with language we learn how the world works we we learn
+14:28
+you know intuitive physics we learn you know how people interact with each other we learn all kinds of stuff but they
+14:33
+they really don't have anything with language and think about animals a lot of animals are super smart in many
+14:38
+domains where actually they're smarter than humans in some domains right uh they don't have language and they seem
+14:45
+to do pretty well so what type of learning is taking place in human babies and in animals that allow them to
+14:52
+understand how the world works and become really smart have common sense that no AI system today has so the the
+14:58
+joke I I make very often is the smartest AI system we have today are stupider than a house cat because a cat can
+15:06
+navigate the world in a way that a chat bot certainly can a cat understands how the world Works understands causality
+15:13
+understands that if it does something something else will happen right and so it can plan sequences of actions you
+15:18
+ever seen a cat like you know kind of sitting at the bottom of a bunch of furniture and sort of looking around
+15:23
+moving the head and then going jump jump jump jump jump jump that's amazing planning no robot can do this today and
+15:30
+so we have a lot of work to do it's it's not it's not a Sol problem we're not going to get human level AI systems uh
+15:36
+before we get significant progress in being able to train systems to understand the world basically by watching video and you know acting in
+15:43
+the world another thing you seem focused on is I think what you call a objective based model objective driven objective
+15:49
+driven explain why you think that is important and I haven't been clear just in hearing you talk about it whether safety is an important component of that
+15:56
+or safety is kind of separate or alongside that it's part of it so um so the idea of objective driven okay let me
+16:02
+tell you first of all what a current um find the problem is right
+16:08
+um uh so llms really should be called Auto regressive llms the reason uh we
+16:13
+should call them this way is that they just produce one word or one token which is a sub unit doesn't matter one word
+16:19
+after the other without really kind of planning what they're going to say right so you give them a prompt and then you
+16:24
+ask it what word comes next and they produce one word and then you shift that word into their input and then say what
+16:31
+work comes next now Etc right that's called Auto prediction it's it's a very old concept but um that that's how it
+16:38
+works now Jeff did it like 30 years ago or something uh actually Jeff had some work on this uh with elas when he was a
+16:45
+student a while back but that wasn't very long ago yosha bju had a very interesting paper on this in the 2000s
+16:52
+using neural Nets to do this actually it was probably one of the first anyway I got you uh distracted here so yeah so
+16:58
+you can get get to what's right okay so so you produce us word one after the other without really thinking about it
+17:03
+beforehand without knowing the system doesn't know in advance what it's going to say right it just produces those words and the problem with this is that
+17:11
+it can hallucinate in the sense that sometimes it will produce a word that is really not part of a correct answer and
+17:16
+then that's it um the second problem is that you can control it so you can't tell it okay you
+17:23
+know you're talking to a 12y old so only produce words that are understandable about 12 well you can put this in the
+17:29
+PRP but that has kind of limited effect unless the system has been fine-tuned for that um so it's very difficult in
+17:35
+fact to control those systems and you can never guarantee that whatever they're going to produce is not going to
+17:41
+escape the the conditioning if you want the training that they've gone through uh to produce uh not just useful answers
+17:48
+but answers that are non-toxic and everything and that you know non-biased and everything um so right now that's
+17:53
+that's done by kind of fine-tuning the system and training it on you know have lots of people kind of answering
+18:00
+questions and rating questions it's called human feedback um there's an alternative to this and the alternative
+18:06
+is you give the system an objective so the objective is a mathematical function
+18:12
+that measures to what extent the the answer produced by the system conforms
+18:18
+to a bunch of constraints that you wanted to satisfy you know is this understandable by 12-year-old is this
+18:24
+toxic in this particular culture does this answer the question in a way that um that I want yeah is this consistent with
+18:31
+what uh you know my favorite newspaper was saying yesterday or whatever right so you know a bunch of things like this
+18:36
+constraints that could be safety guard rails or or just task and then what the system does instead of just blindly
+18:42
+producing one word after the other it plans an answer that satisfies all of those criteria okay and then and then
+18:50
+you produce that answer that's objective driven AI That's the future in my opinion uh we haven't made this work yet
+18:57
+or at least not in the situation that U that that we want we people have been
+19:02
+working on this kind of stuff for robotics for a long time that's called Model productive control or motion
+19:07
+planning there's obviously been so much attention to Jeffrey Hinton and yosua Benjo having these concerns about what
+19:14
+the technology could do how do you explain the three of you reaching these different
+19:20
+conclusions okay so this uh it's a bit difficult to explain for for Jeff he had a bit of an epiphany in April where he
+19:27
+realized that uh the the the systems that that we have now are a lot smarter than he expected
+19:33
+them to be and he realized uh you know oh my God we're kind of close to uh having system that have human L I
+19:39
+disagree with this completely they're not as smart as he thinks they are right yeah right okay um and he's thinking in
+19:46
+sort of very long term and so abstract term so I I can understand why he's saying what he's saying but I I just
+19:52
+think he is's wrong and we we've disagreed on things before we're good friends but we you know we've disagreed on this kind of questions before on
+19:58
+technical questions among other things so I don't think he's thought about the the problem of you know existential risk
+20:05
+and stuff like that for very long you know basically since April um I've been sort of you know thinking about this on
+20:11
+the kind of philosophical moral point of view for a long time for Yoshua it's different Yoshua I think is concerned is
+20:18
+more concerned about short-term risks that are would be due to misuse of uh of
+20:23
+Technology by you know terrorist group or people with bad intentions and also about the motivation of the industry
+20:31
+developing AI MH which he sees as not necessarily line with a common good
+20:37
+because because he claims it's motivated by by profits okay so um so that may be
+20:43
+a bit of a kind of political s there that uh perhaps he has less trust in the
+20:50
+Democratic institutions for doing the right thing than I have I've heard you say that that is the distinction that
+20:55
+you have more faith in democracy and in institutions than they do I think that's the case yeah um I mean I don't want to
+21:02
+put words in their mouth and and I don't want to misrepresent them ultimately I think we have the same goal like we we
+21:09
+we know that there's going to be a lot of benefits to AI technology otherwise we wouldn't be working on this uh and
+21:15
+the question is how do you do it right um you know do we have to have like as
+21:21
+as Yoshua advocates for you know some overarching multinational regul regulatory agency to make sure
+21:27
+everything is safe should uh should we ban open sourcing models that are potentially dangerous
+21:33
+and but run the risk of basically you know slowing down progress slowing the
+21:39
+dissemination of technology in the economy and and Society um so those are trade-offs and like reasonable people
+21:44
+can disagree on this okay um that's the in my in my opinion the the the
+21:51
+Criterion the reason really that um I'm really very much in favor of open
+21:57
+platforms is is the fact that AI systems are going to constitute a a very basic
+22:03
+uh infrastructure in the future and there has to be some way of ensuring
+22:08
+that culturally and and in terms of knowledge those things are diverse a bit like Wikipedia right you you can't have
+22:14
+just Wikipedia in one language that has to cover all languages all cultures and everything yeah same same story there
+22:20
+has been it's obviously not just the two of them it's a growing number of people who say not that it's likely but there's like a real chance like a 10 20 30 40%
+22:28
+chance of literally wiping out Humanity which is kind of terrifying why are so many in your View getting it wrong it's
+22:35
+a tiny tiny number of people ask the the 40% of researchers in one poll that's no
+22:42
+but it's a self- selected poll online like you know people s select themselves to to uh to answer those polls no um
+22:50
+like the vast majority of people in AI research particularly in Academia or in startups uh but also in large Labs like
+22:57
+like ours don't believe in this at all like they don't believe there is a significant risk of you know existential risk to
+23:04
+humanity they all of us believe that there are proper ways to deploy the technology and bad ways to deploy it and
+23:12
+that we need to work on the proper way to do it okay um and the analogy I draw I think is the the the people who are
+23:19
+you know really afraid of this today would be a bit like people in 1920 or 1925 saying um oh we have to ban
+23:26
+airplanes because you know it can be misused you know someone can fly over a city and drop a bomb um and you know
+23:33
+this can be dangerous because they can crash so you know we're never going to have planes that cross the Atlantic because it's just too dangerous like a
+23:39
+lot of people will die out of this right and then they will ask it you know to regulate the technology like you know
+23:45
+you know ban the invention of the turbojet okay or regulate turbo jets in 1920 turbojets were not invented yet in
+23:52
+2023 human level AI has not been invented yet so the question has to
+23:58
+you know discussing how to make this technology uh safe super human
+24:04
+intelligence safe is the same as asking 1920 engineer you know how you going to
+24:09
+make turbojet safe like they're not invented yet right and so and the way to make them safe is going to be like toet
+24:16
+there going to be years and Decades of iterative refinements and and careful engineering and of of of how to make
+24:23
+those things uh proper and they're not going to be deployed unless they're safe so again you have to trust in the
+24:29
+institutions of society to to make that to make that happen and just so I understand your view on the existential
+24:35
+risk I don't think you're saying it's zero but you're saying it's quite small like below 1% you know it's uh it's
+24:41
+below the chances of an asteroid hitting the Earth and and you know Global nuclear war and things of that type I
+24:48
+mean it's it's on the same order I mean there are things that you should you should worry about and there things that you know you can do anything about but
+24:54
+in the case like natural phenomenon right there's not much you can do about it them um but things like deploying AI
+25:01
+we have agency like we can decide not to deploy if we think there is a danger right yeah so so attributing a
+25:08
+probability to this makes no sense because we have agency last thing on this topic autonomous weapons how will
+25:15
+we make those safe and not have at least the possibility of really bad outcomes with them so um autonomous weapons
+25:22
+already exist but not in the form that they will in the future we're talking about missiles that are self-guided but
+25:28
+that's a lot different than a soldier that's sent into battle okay the first the first example of autonomous weapon
+25:34
+is landmines and some countries not the us but some countries banned it ban its use
+25:40
+this International uh agreements about this that neither the us nor Russia nor China
+25:47
+assigned uh to to ban them and the reason for Banning them is not because they're smart it's because they're
+25:53
+stupid they're autonomous and stupid and so they are you know they K anybody
+25:58
+right uh guided missile the the the more guided the missile is the the less uh
+26:04
+collateral damage it makes so so then there is a moral debate um you know is it better to actually have smarter
+26:11
+weapons that uh you know only destroy what you need and you know doesn't kill you know hundreds of civilians next to
+26:17
+it um can that technology be be used to uh protect democracy like like in
+26:23
+Ukraine Ukraine makes massive use of drones and they're starting to put AI in to it uh is it good or is it bad I think
+26:30
+it's necessary regardless of whether you think it's good or bad autonomous weapons are necessary well for the
+26:35
+protection of democracy in that case right but obviously the concern is what if it's Hitler who has him rather than
+26:42
+Roosevelt well then it's the history of the world you know who has better technology is it the good guys or the bad guys so the good guys should be
+26:48
+doing everything they can it's again a complicated moral issue it's not my specialty I don't work on weapons okay
+26:54
+but you're a prominent voice saying hey guys don't be worried let's go forward and this is I think one of the main concerns people have okay so I I I'm not
+27:02
+a pacifist like like like some of my colleagues and uh I think you have to be realistic about the fact that this
+27:08
+technology is being deployed in uh in defense and and for good things you know and the the Ukrainian conflict has
+27:15
+actually made this quite obvious that uh progress in technology can actually help uh protect democracy we talk generally
+27:23
+about all the good things AI can do i' would love to the extent you can to talk really specific specifically about
+27:28
+things that people like let's say you're middle-aged or younger can hope in their lifetime that AI will do to make their
+27:33
+lives better uh so I uh this things in the in the short term you know safety
+27:39
+systems for transportation for medical diagnosis you know detecting tumors and stuff like that which you know is
+27:45
+improved with uh with AI and then medium-term uh understanding more about how life
+27:53
+Works which would allow us to do things like drug design more efficiently like all all the work work on you know
+27:58
+protein folding and design of proteins synthesis of of of you know new chemical
+28:04
+compounds and things like that so there's a lot of activity on this there not like there's not been like a huge
+28:10
+revolutionary outcome of this yet but there are a few techniques that have been developed with the help of AI to
+28:16
+treat like rare uh genetic diseases for example and things of that type so this is going to make a lot of progress over
+28:22
+the next few years um you know make people's life more enjoyable longer perhaps
+28:28
+Etc and then beyond that um again imagine all of
+28:33
+us would be like a um a leader in you
+28:38
+know either science business politics or whatever it is right and we have a staff
+28:44
+of people assisting us but there won't not be people there'll be virtual people okay working for us everybody is going
+28:50
+to be a boss essentially um and and everybody is going to be smarter as a consequence
+28:58
+uh not individually smarter perhaps although they will learn from from those things um but but smarter in the sense
+29:04
+that they will have a system that makes them smarter right make them make it easier for them to learn the right thing
+29:11
+to access the right knowledge to make the proper decisions so we'll be in charged in charge of of AI systems we'll
+29:18
+control them we'll you know they be subservient to us we set their goals but they can be very smart in fulfilling
+29:24
+those goals so um I as as you know
+29:30
+the leader of a research lab u a lot of people at at Fair are smaller than me
+29:38
+and that's why we hire them yeah uh and there is kind of an interesting
+29:43
+interaction between people people is particularly between politics right the
+29:49
+politician the the sort of visible Persona kind of makes decision and that's setting goals essentially for
+29:55
+other people to fulfill um so that's the interaction we'll have with a systems we set goals for them and they fulfill it
+30:02
+uh I think youve said AGI is at least a decade away maybe farther is it something you guys are working toward or
+30:08
+are you leaving that kind of to the other guys or is that your goal oh it's our goal of course it's always been our goal um but I guess in the last 10 years
+30:15
+there were like so many useful things we could do in the short term that a part of the the lab so ended up being devoted
+30:22
+to to those useful things like content moderation translation computer vision you know yeah robotics you know a lot of
+30:28
+things that are kind of application areas of this type what has changed in the last uh year or two is now that we
+30:35
+have products that are AI first right assistants uh that are built on top of
+30:40
+Lama and things like that so so things services that you know meta is
+30:46
+deploying uh will be deploying not just on on mobile devices but also on smart
+30:51
+glasses and arvr devices and stuff like that uh that are AI first so Nei there
+30:56
+is a product pipeline where there is a need for a system that has essentially human level AI okay we don't call this
+31:03
+AI because human intelligence is actually very specialized it's not General so we call this we call this we
+31:08
+call this Ami Advanced machine intelligence but when you say Ami you're basically meaning AGI basically it's
+31:14
+it's the same that what people mean by AGI yeah we like it Joel and I like it because we speak French and that that's
+31:21
+am it means friend yes Monami my friend uh so so yeah no we're totally focused
+31:26
+on on that that's the mission of fair really whenever AGI happens it's going to change the relationship between
+31:33
+people and machines do you worry at all if we have to hand over control to
+31:38
+things like corporations or governments to these smarter entities we don't hand over control we hand over the execution
+31:46
+okay we control we we set the goals as I said before and they execute the goals it's very much like being a leader of uh
+31:53
+a team of of people you set the goal um this this is a wild one but I find it fascinating there are some people who
+32:00
+think even if Humanity got wiped out by these machines not a bad outcome because
+32:05
+it would just be the natural progression of intelligence Larry Page is apparently a a famous proponent of this according
+32:12
+to Elon Musk would would it be terrible if we got wiped out or would there be some benefits because it's a form of
+32:18
+progress um I don't think this is something that we should think about right now because
+32:24
+uh predictions of this type uh that are more than let's say 10 years ahead are are complete speculation so
+32:33
+like what you know how our descendants will will see progress or their future
+32:41
+is not for us to decide um we have to give them the tools to do whatever they want but um but I don't think it's for
+32:47
+us to decide we don't have the legitimacy for for that we don't know what it's going to be that's so interesting though you don't think
+32:53
+necessarily humans should worry about Humanity continuing I don't think it's a worry that people should have at the
+32:59
+moment no um I mean okay so you can rely also like you know how long has Humanity existed about 300,000 years it's a it's
+33:07
+very short so if you project 300,000 years in the future what will humans
+33:12
+then look like given the progress of Technology we can yeah we can figure it out and you know probably the biggest
+33:18
+changes will not be through AI it probably be through genetic engineering or something like that which currently
+33:23
+is banned Pro probably for the for for reasons that you know we we don't know
+33:29
+the the potential dentes of that uh last thing because I know our time is running out do you see kind of a middle path
+33:36
+that acknowledges more of the concerns at least considers maybe you're wrong
+33:41
+and to an extent this other group is right and still maintains the things that are important to you around open
+33:47
+use of AI is there kind of a compromise so the there certainly uh potential dangers in the medium term of that are
+33:55
+essentially due to potential misuse of the technology and the more available you make the technology the the more
+34:01
+people you you you know make make it accessible to more people so you have a higher chance of people with bad
+34:06
+intentions being able to use it so the question is what countermeasures do you use for that so some people are worried
+34:12
+about things like you know massive uh flood of misinformation for example that
+34:17
+is generated by AI you know what measures can you take against that so what we're working on is things like watermarking so that you know when a
+34:24
+system you know a piece of data has been generated by a system another thing that we're extremely familiar with at meta is
+34:32
+detecting false accounts um uh but uh you know divisive speech that is
+34:41
+sometimes generated sometimes just type by people with bad intentions um you know hate speech you know dangerous
+34:48
+misinformation we already have systems in place to protect against this on social networks and the thing that
+34:53
+people should understand is that those systems make massive use of AI so you know hate speech uh uh takedown
+35:01
+and detection in all languages in the world was not possible 5 years ago because the technology was just not there and now it's much much better
+35:07
+because of the progress in AI so um you know same for cyber security you know you can use AI systems to kind of try to
+35:14
+attack computer system but that means you can also use it to protect so you know every attack has a countermeasure
+35:20
+and they both make use of AI so it's a cat and mouse game as it's always been
+35:27
+nothing nothing new there okay so that's for the short to medium-term uh dangers
+35:32
+um and then there is the the long-term danger of you know risk of existential uh risk and I I just do not believe in
+35:39
+this at all because we have agency so we you know it's not a natural phenomenon that we can't stop this is something
+35:45
+that we do we're not going to distinguish ourselves by accident the
+35:50
+the reason why people think this among other things is because of a scenario that has been popularized by science
+35:56
+fiction which I received the name fum okay and what that means is that one day someone
+36:02
+is going to discover the secret of AGI whatever you want to call it super human intelligence is going to turn on the
+36:07
+system and two minutes later uh that system will take over the entire world destroy Humanity make so you know such
+36:15
+fast progress in technology and science that we're all dead uh and some people actually are predicting this in the next
+36:21
+three months which is insane um so I mean it's is not happening uh so that
+36:27
+scenario is completely realistic this is not the way things work the the progress towards human level AI is going to be
+36:34
+slow and incremental and and we're going to start by having systems that may have
+36:40
+the ability to potentially reach human level AI but at first they're going to be as smart as a rat or a cat something
+36:47
+like that and then you know we're going to crank them up and put some more guard rails to make sure they safe and then work our way through smarter and smarter
+36:53
+system that are more and more controllable and Etc it's not going to it's going to be like the same process
+36:59
+we used to make turbo Jets safe it took decades and now you can fly across the Pacific on the two engine airplane you
+37:05
+couldn't do this 10 years ago you had to have three engines or four uh because the reliability of tur Jets was not that
+37:11
+high so it's going to be the same thing a lot of engineering you know a lot of really complicated engineering we're
+37:18
+out of time for today but if we're all still here in three months maybe we'll do it again my pleasure thanks a lot

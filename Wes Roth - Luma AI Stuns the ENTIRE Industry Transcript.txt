@@ -1,0 +1,658 @@
+0:00
+so you've seen the insane text to video
+0:02
+AI models coming out open AI Sora was
+0:05
+probably the best looking one yet but
+0:07
+not available to the public another next
+0:09
+gen model that made its appearance was
+0:11
+called cing but we had to have a Chinese
+0:14
+mobile number to use it so I think a lot
+0:17
+of us assume that we're not going to see
+0:19
+the top-of-the-line AI video models
+0:21
+anytime soon at least ones that we can
+0:23
+get a Hands-On ones we can
+0:26
+use but Lumi makes an appearance and
+0:30
+it's good really good but most
+0:33
+importantly it's available to use now
+0:36
+well it looks like everyone on the
+0:37
+planet is trying it out right now so the
+0:39
+demand is SK High it took me oh about 3
+0:43
+hours to generate this one prompt so
+0:46
+expect to give it a day or two before it
+0:47
+can start generating stuff on the fly
+0:50
+but let me show you some stuff it can do
+0:52
+some of this stuff will be somewhat not
+0:54
+safe for work if you know what I mean
+0:57
+and the last one will be straight up
+1:00
+scary like horror movie scary it's
+1:03
+called the tales from the other side
+1:06
+I'll leave that one for last in case
+1:07
+you're watching this alone at night in
+1:11
+the dark because I'm going to say it now
+1:14
+ai generated horror fakes have the
+1:16
+potential to be the scariest things
+1:18
+we've ever seen here's another YouTube
+1:21
+Creator in the AI space his channel is
+1:24
+theoretically media and he got Early
+1:26
+Access to this I'll leave a link to his
+1:29
+video down below but he was able to do
+1:31
+some image to video so for example
+1:34
+creating an image in mid journey and
+1:36
+then animating that with Luma Ai and he
+1:39
+was also able to create some scenes from
+1:41
+his own prompts so this I think is a
+1:44
+really good non cherry-picked example of
+1:48
+what Luma AI can do here it is if you
+Early Access Showcase
+1:52
+ever played Hitman this is your chance
+1:54
+to recreate that as your very own movie
+1:56
+Very Dynamic very action-packed the
+1:59
+second version from that same prompt um
+2:01
+you know obviously per prompt you get
+2:03
+two generations uh yielded this as a
+2:05
+result and yes while there is some
+2:08
+decoherence and so each time it
+2:10
+generates two different ones so I got to
+2:12
+say that first one is very very good I
+2:15
+mean the fingers right the hands are a
+2:18
+nightmare but I mean it does look like
+2:20
+he's looking down the sights of the gun
+2:21
+that he's shooting in the prompt they St
+2:23
+that the Assassin should be bald which
+2:26
+it nailed I got to say it's pretty good
+2:28
+there it is he's shooting the gun
+2:30
+leaning around the corners I love it
+2:32
+next is Pirates of the Caribbean or
+2:35
+something like it right so some sort of
+2:37
+a adventure on a pirate
+2:41
+ship pretty cool and this is possibly
+2:44
+one of my favorites so this is uh an
+2:46
+image that he made so he made a static
+2:48
+image I'm not sure if it was mid Journey
+2:50
+but taking that image and adding it into
+2:52
+Luma Ai and the dream machine is what
+2:55
+this thing is called so Luma AI is the
+2:56
+company this is the dream machine this
+2:58
+is what it does so you can you can see
+3:00
+here it animates the movements she's
+3:02
+looking kind of keeping eyes on the
+3:05
+camera and one thing that's very
+3:06
+interesting is that you're able to add
+3:08
+certain prompts to make it for example
+3:11
+for her to change positions so here's
+3:13
+one with her hands
+3:15
+folded that's what that looks like so
+3:18
+her folding her hands across her body
+3:21
+again the arms and everything else looks
+3:24
+insane and not very good but I got to
+3:27
+say the fact that you can say what the
+3:29
+position should be what the movement
+3:30
+should be and that gets animated from a
+3:32
+static image that's pretty exciting
+3:34
+right so I'll put the links down below
+Dream Machine Features
+3:36
+so you can try this for yourself and in
+3:38
+a minute I'll show you the best of luma
+3:41
+Labs like the best Generations that it
+3:44
+can make so you can see what it's
+3:46
+capable of at if you're picking the best
+3:48
+examples so of course as you're
+3:49
+generating various examples various
+3:51
+samples some of them will be good some
+3:54
+of them will be bad so often times
+3:55
+picking the best shot will come down to
+3:58
+generating 100 shots with maybe slightly
+4:00
+different prompts and then picking out
+4:02
+the best ones that's similar to how we
+4:05
+often times approach mid journey and
+4:06
+these other things like magnific
+4:08
+upscaler you do multiple variations with
+4:10
+different parameters different settings
+4:12
+different prompts to hopefully capture
+4:14
+that perfect thing which is not too
+4:16
+dissimilar to how for example some
+4:18
+photographers approach photo shoots
+4:20
+right sometimes if you've ever seen a
+4:22
+professional photo shoot the
+4:23
+photographer will point the camera hold
+4:24
+down the button you hear that rapid
+4:26
+machine fire click that super fast
+4:28
+clicking of the camera as it's taking
+4:30
+dozens and dozens of shots and then
+4:32
+afterwards they go through it one by one
+4:34
+picking out the best ones some of the
+4:36
+newest phone cameras also do the same
+4:38
+thing right they take a little clip and
+4:40
+you can pick out the best the perfect
+4:42
+sort of still moment within that shot
+4:43
+and the reason that's important to
+4:45
+understand is because if you're trying
+4:46
+to produce something that's like
+4:47
+cinematic something that's like movie
+4:49
+quality yeah you might have to produce
+4:52
+hundreds of shots thousands perhaps have
+4:54
+some sort of a filtering process maybe
+4:56
+even do a little touch-ups here and
+4:58
+there but then once you put it together
+5:00
+the results can be stunning so let's
+5:01
+take a look at this and in a second I'll
+5:03
+show you what's possible if you're
+5:04
+willing to go through and find the best
+5:06
+shots so Luma labs and this is their
+5:09
+dream machine which is an AI model that
+5:11
+makes high quality realistic videos fast
+5:13
+from text and images So currently it's
+5:15
+taking they say 120 seconds to generate
+5:17
+One Clip but right now there's a huge CU
+5:20
+for how there a huge cue so it's taking
+5:22
+hours but you can see when it's in Q so
+5:25
+before it starts processing and they're
+5:26
+saying that it's a highly scalable and
+5:28
+efficient Transformer model train Direct
+5:29
+on videos making capable of generating
+5:31
+physically accurate consistent and
+5:33
+eventful shots and it sounds like they
+5:35
+will have more and more abilities to
+5:38
+customize the thing that you're trying
+5:39
+to capture as this thing gets rolled out
+5:41
+to more users they're going to be adding
+5:42
+these functionalities and it sounds like
+5:44
+there's a bit of a trade-off between how
+5:46
+eventful a shot will be versus
+5:47
+consistency versus how custom you want
+5:49
+it to be so if you want a long shot with
+5:52
+very specific things in it then it might
+5:54
+approach a point where the character on
+5:56
+the shot is not really doing anything
+5:57
+just standing still whereas if you let
+5:58
+it be a little bit creative I can go and
+6:00
+generate something with a lot of action
+6:02
+so there's a little bit of a trade-off
+6:03
+happening there we talked about this it
+6:05
+can create high quality video from both
+6:08
+text and images so you can upload your
+6:10
+favorite image and then have that be
+6:12
+brought to life so things incredibly
+6:14
+fast 120 frames in 120 seconds and here
+6:18
+they're talking about consistent
+6:20
+characters and this is something that I
+6:21
+did notice about the videos the
+6:23
+characters stay consistent dealing with
+6:26
+some of the previous text to video
+6:28
+models throughout the shop the character
+6:30
+can morph into something completely
+6:33
+different here whatever else you can say
+6:35
+I got to say they stay pretty consistent
+6:37
+there's still some glitches with the
+6:38
+fingers and hands but the character
+6:40
+doesn't like fundamentally flip and turn
+6:43
+into something completely different they
+6:45
+can also do a lot of the different
+6:46
+camera movements Zoom pan rotate Etc
+6:50
+that's going to be able to create a lot
+6:52
+of really stunning cinematic shots and
+6:54
+some like dramatic close-ups Etc the
+6:57
+fact that they can go from underwater to
+6:58
+above water with this little bear here
+7:01
+is uh pretty cool I got to say and I got
+7:03
+to give them credit for doing this so
+7:05
+they spell out their current limitations
+7:07
+right so they're saying what are we bad
+7:09
+at what is this model currently what
+7:10
+doesn't it do pretty well so morphing so
+7:13
+if a car has to morph into a different
+7:15
+color or a different car they're not
+7:16
+doing that too well quite yet movement
+7:18
+so this dog gliding along the the ground
+7:21
+so maybe if there's some sort of a
+7:22
+background foreground type of thing
+7:23
+maybe it's not that good text is
+7:25
+notoriously difficult to do for these
+7:27
+both image models and video models
+7:30
+and then Janis which I don't know what
+7:32
+that is I looked it up Janus it could be
+7:35
+referring to a god with two faces so
+7:37
+some sort of a two-faced deity so here
+7:40
+as you can see here's a polar bear maybe
+7:42
+the prompt was for it to have two front
+7:44
+ends two faces and basically I think
+7:47
+what you got to think of is like what
+7:48
+these models are trained on so if they
+7:50
+see tons of hours of footage of polar
+7:52
+bears they can reproduce a polar bear
+7:55
+how many hours of footage of two-headed
+7:57
+polar bears are there in the wild
+7:58
+probably not as many but the big message
+8:01
+here I think is that when Sora came out
+8:04
+there wasn't anything quite like it we
+8:06
+had pabs we had Runway ml they were good
+8:10
+but they weren't still a inspiring they
+8:13
+were they had that AI generated look so
+8:15
+you could make some cool things with it
+8:17
+some of the best stuff that I saw with
+8:19
+it lean more towards like mystical and
+8:21
+horror because just how weird the video
+8:25
+looked here I think we're definitely at
+8:26
+a point where a lot more thing SC be
+8:29
+done do you want something that's a
+8:30
+little bit more romantic do you want a
+8:32
+cinematic shot do you want an action
+8:34
+shot do you want like this whatever this
+8:36
+bear and Swine things are over here some
+8:39
+sort of a leather clawed badasses that
+8:42
+are walking away from an explosion like
+8:44
+you want to do that you can do that and
+8:47
+now we saw this sort of next step in in
+8:49
+these AI video models not just from Sora
+8:52
+which we couldn't get a hands- on
+8:54
+although people in the Hollywood have
+8:55
+been apparently have early access to it
+8:57
+and then we had cing which you had to
+8:59
+have a Chinese mobile number to use and
+9:01
+now finally this which now everyone can
+9:05
+use now you're limited to a certain
+9:06
+amount of generations here's the pricing
+9:08
+by the way so you get 3 free Generations
+9:10
+per month so each generation is two
+9:13
+different shots so two samples and you
+9:15
+can upgrade to have 120 Generations at
+9:17
+30 per month 400 at 100 bucks a month
+9:20
+and 2,000 Generations if you're willing
+9:22
+to Shell out 500 per month which again
+9:25
+if you're using this to create some sort
+9:26
+of features movies you're probably going
+9:29
+to need need that but with that said let
+9:30
+me show you some of the best of things
+9:33
+that people have created using this Luma
+9:36
+Labs dream machine if this was
+9:37
+interesting please make sure you're
+9:39
+subscribed because we're going to be
+9:40
+covering this in depth as soon as the
+9:42
+traffic demand dies down a little bit
+9:44
+and it's possible to generate these
+9:46
+videos we're going to be doing a deep
+9:48
+dive and seeing what's possible with
+9:50
+something like this seeing is it
+9:52
+possible to create our very own movie or
+9:55
+cartoon or anime of some sort so stay
+9:58
+tuned lots more than coming make sure
+10:00
+you're subscribed and enjoy
+Demos and Showcases
+10:04
+[Music]
+10:34
+at this point life seemed to be a
+10:37
+NeverEnding
+10:39
+Circle again and
+10:42
+again I did the same
+10:50
+routine like that auto taxi that flies
+10:53
+round and round all changed when I met
+10:57
+her Yuki the shrin keeper she was trying
+11:01
+to stop the robot sent to destroy the
+11:04
+Tor I felt the urge to help her and
+11:07
+deactivated the
+11:08
+bot she thanked me and showed around the
+11:11
+shrine's
+11:12
+garden I knew the corporation would send
+11:15
+more Bots but at that moment nothing
+11:18
+else mattered only the shrine only Yuki
+11:33
+[Music]
+11:41
+[Applause]
+11:44
+[Music]
+11:58
+[Music]
+12:12
+[Music]
+12:17
+me
+12:18
+[Music]
+13:10
+[Music]
+13:19
+close your
+13:23
+eyes count
+13:32
+think of
+13:36
+home and
+13:41
+[Music]
+13:44
+open you're
+13:46
+never
+13:48
+[Music]
+13:49
+never coming home again
+13:59
+it's passed
+14:02
+[Music]
+14:04
+away it's gone
+14:10
+away it's
+14:13
+pass
+14:16
+[Music]
+14:18
+away it's
+14:19
+[Music]
+14:27
+gone hey my name is Abel and let me tell
+14:32
+you the story of
+14:36
+[Music]
+14:44
+f on the other side the other side you
+14:51
+never know
+15:04
+desperate wondering soul will come my
+15:07
+friend
+15:13
+for
+15:18
+the you never
+15:26
+[Music]
+15:33
+[Music]
+

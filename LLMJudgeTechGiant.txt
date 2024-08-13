@@ -1,0 +1,1103 @@
+[
+  {
+    "id": "accuracy",
+    "spaceId": "evaluate-metric/accuracy",
+    "description": "Accuracy is the proportion of correct predictions among the total number of cases processed. It can be computed with: Accuracy = (TP + TN) / (TP + TN + FP + FN) Where: TP: True positive TN: True negative FP: False positive FN: False negative"
+  },
+  {
+    "id": "bertscore",
+    "spaceId": "evaluate-metric/bertscore",
+    "description": "BERTScore leverages the pre-trained contextual embeddings from BERT and matches words in candidate and reference sentences by cosine similarity. It has been shown to correlate with human judgment on sentence-level and system-level evaluation. Moreover, BERTScore computes precision, recall, and F1 measure, which can be useful for evaluating different language generation tasks.\nSee the project's README at https://github.com/Tiiiger/bert_score#readme for more information."
+  },
+  {
+    "id": "bleu",
+    "spaceId": "evaluate-metric/bleu",
+    "description": "BLEU (Bilingual Evaluation Understudy) is an algorithm for evaluating the quality of text which has been machine-translated from one natural language to another. Quality is considered to be the correspondence between a machine's output and that of a human: \"the closer a machine translation is to a professional human translation, the better it is\" – this is the central idea behind BLEU. BLEU was one of the first metrics to claim a high correlation with human judgements of quality, and remains one of the most popular automated and inexpensive metrics.\nScores are calculated for individual translated segments—generally sentences—by comparing them with a set of good quality reference translations. Those scores are then averaged over the whole corpus to reach an estimate of the translation's overall quality. Neither intelligibility nor grammatical correctness are not taken into account."
+  },
+  {
+    "id": "bleurt",
+    "spaceId": "evaluate-metric/bleurt",
+    "description": "BLEURT a learnt evaluation metric for Natural Language Generation. It is built using multiple phases of transfer learning starting from a pretrained BERT model (Devlin et al. 2018) and then employing another pre-training phrase using synthetic data. Finally it is trained on WMT human annotations. You may run BLEURT out-of-the-box or fine-tune it for your specific application (the latter is expected to perform better).\nSee the project's README at https://github.com/google-research/bleurt#readme for more information."
+  },
+  {
+    "id": "brier_score",
+    "spaceId": "evaluate-metric/brier_score",
+    "description": "The Brier score is a measure of the error between two probability distributions."
+  },
+  {
+    "id": "cer",
+    "spaceId": "evaluate-metric/cer",
+    "description": "Character error rate (CER) is a common metric of the performance of an automatic speech recognition system.\nCER is similar to Word Error Rate (WER), but operates on character instead of word. Please refer to docs of WER for further information.\nCharacter error rate can be computed as:\nCER = (S + D + I) / N = (S + D + I) / (S + D + C)\nwhere\nS is the number of substitutions, D is the number of deletions, I is the number of insertions, C is the number of correct characters, N is the number of characters in the reference (N=S+D+C).\nCER's output is not always a number between 0 and 1, in particular when there is a high number of insertions. This value is often associated to the percentage of characters that were incorrectly predicted. The lower the value, the better the performance of the ASR system with a CER of 0 being a perfect score."
+  },
+  {
+    "id": "character",
+    "spaceId": "evaluate-metric/character",
+    "description": "CharacTer is a character-level metric inspired by the commonly applied translation edit rate (TER)."
+  },
+  {
+    "id": "charcut_mt",
+    "spaceId": "evaluate-metric/charcut_mt",
+    "description": "CharCut is a character-based machine translation evaluation metric."
+  },
+  {
+    "id": "chrf",
+    "spaceId": "evaluate-metric/chrf",
+    "description": "ChrF and ChrF++ are two MT evaluation metrics. They both use the F-score statistic for character n-gram matches, and ChrF++ adds word n-grams as well which correlates more strongly with direct assessment. We use the implementation that is already present in sacrebleu.\nThe implementation here is slightly different from sacrebleu in terms of the required input format. The length of the references and hypotheses lists need to be the same, so you may need to transpose your references compared to sacrebleu's required input format. See https://github.com/huggingface/datasets/issues/3154#issuecomment-950746534\nSee the README.md file at https://github.com/mjpost/sacreBLEU#chrf--chrf for more information."
+  },
+  {
+    "id": "code_eval",
+    "spaceId": "evaluate-metric/code_eval",
+    "description": "This metric implements the evaluation harness for the HumanEval problem solving dataset described in the paper \"Evaluating Large Language Models Trained on Code\" (https://arxiv.org/abs/2107.03374)."
+  },
+  {
+    "id": "comet",
+    "spaceId": "evaluate-metric/comet",
+    "description": "Crosslingual Optimized Metric for Evaluation of Translation (COMET) is an open-source framework used to train Machine Translation metrics that achieve high levels of correlation with different types of human judgments (HTER, DA's or MQM). With the release of the framework the authors also released fully trained models that were used to compete in the WMT20 Metrics Shared Task achieving SOTA in that years competition.\nSee the [README.md] file at https://unbabel.github.io/COMET/html/models.html for more information."
+  },
+  {
+    "id": "competition_math",
+    "spaceId": "evaluate-metric/competition_math",
+    "description": "This metric is used to assess performance on the Mathematics Aptitude Test of Heuristics (MATH) dataset. It first canonicalizes the inputs (e.g., converting \"1/2\" to \"\\frac{1}{2}\") and then computes accuracy."
+  },
+  {
+    "id": "confusion_matrix",
+    "spaceId": "evaluate-metric/confusion_matrix",
+    "description": "The confusion matrix evaluates classification accuracy. \nEach row in a confusion matrix represents a true class and each column represents the instances in a predicted class."
+  },
+  {
+    "id": "coval",
+    "spaceId": "evaluate-metric/coval",
+    "description": "CoVal is a coreference evaluation tool for the CoNLL and ARRAU datasets which implements of the common evaluation metrics including MUC [Vilain et al, 1995], B-cubed [Bagga and Baldwin, 1998], CEAFe [Luo et al., 2005], LEA [Moosavi and Strube, 2016] and the averaged CoNLL score (the average of the F1 values of MUC, B-cubed and CEAFe) [Denis and Baldridge, 2009a; Pradhan et al., 2011].\nThis wrapper of CoVal currently only work with CoNLL line format: The CoNLL format has one word per line with all the annotation for this word in column separated by spaces: Column\tType\tDescription 1\tDocument ID\tThis is a variation on the document filename 2\tPart number\tSome files are divided into multiple parts numbered as 000, 001, 002, ... etc. 3\tWord number 4\tWord itself\tThis is the token as segmented/tokenized in the Treebank. Initially the *_skel file contain the placeholder [WORD] which gets replaced by the actual token from the Treebank which is part of the OntoNotes release. 5\tPart-of-Speech 6\tParse bit\tThis is the bracketed structure broken before the first open parenthesis in the parse, and the word/part-of-speech leaf replaced with a *. The full parse can be created by substituting the asterix with the \"([pos] [word])\" string (or leaf) and concatenating the items in the rows of that column. 7\tPredicate lemma\tThe predicate lemma is mentioned for the rows for which we have semantic role information. All other rows are marked with a \"-\" 8\tPredicate Frameset ID\tThis is the PropBank frameset ID of the predicate in Column 7. 9\tWord sense\tThis is the word sense of the word in Column 3. 10\tSpeaker/Author\tThis is the speaker or author name where available. Mostly in Broadcast Conversation and Web Log data. 11\tNamed Entities\tThese columns identifies the spans representing various named entities. 12:N\tPredicate Arguments\tThere is one column each of predicate argument structure information for the predicate mentioned in Column 7. N\tCoreference\tCoreference chain information encoded in a parenthesis structure. More informations on the format can be found here (section \"*_conll File Format\"): http://www.conll.cemantix.org/2012/data.html\nDetails on the evaluation on CoNLL can be found here: https://github.com/ns-moosavi/coval/blob/master/conll/README.md\nCoVal code was written by @ns-moosavi. Some parts are borrowed from https://github.com/clarkkev/deep-coref/blob/master/evaluation.py The test suite is taken from https://github.com/conll/reference-coreference-scorers/ Mention evaluation and the test suite are added by @andreasvc. Parsing CoNLL files is developed by Leo Born."
+  },
+  {
+    "id": "cuad",
+    "spaceId": "evaluate-metric/cuad",
+    "description": "This metric wrap the official scoring script for version 1 of the Contract Understanding Atticus Dataset (CUAD).\nContract Understanding Atticus Dataset (CUAD) v1 is a corpus of more than 13,000 labels in 510  commercial legal contracts that have been manually labeled to identify 41 categories of important clauses that lawyers look for when reviewing contracts in connection with corporate transactions."
+  },
+  {
+    "id": "exact_match",
+    "spaceId": "evaluate-metric/exact_match",
+    "description": "Returns the rate at which the input predicted strings exactly match their references, ignoring any strings input as part of the regexes_to_ignore list."
+  },
+  {
+    "id": "f1",
+    "spaceId": "evaluate-metric/f1",
+    "description": "The F1 score is the harmonic mean of the precision and recall. It can be computed with the equation: F1 = 2 * (precision * recall) / (precision + recall)"
+  },
+  {
+    "id": "frugalscore",
+    "spaceId": "evaluate-metric/frugalscore",
+    "description": "FrugalScore is a reference-based metric for NLG models evaluation. It is based on a distillation approach that allows to learn a fixed, low cost version of any expensive NLG metric, while retaining most of its original performance."
+  },
+  {
+    "id": "glue",
+    "spaceId": "evaluate-metric/glue",
+    "description": "GLUE, the General Language Understanding Evaluation benchmark (https://gluebenchmark.com/) is a collection of resources for training, evaluating, and analyzing natural language understanding systems."
+  },
+  {
+    "id": "google_bleu",
+    "spaceId": "evaluate-metric/google_bleu",
+    "description": "The BLEU score has some undesirable properties when used for single sentences, as it was designed to be a corpus measure. We therefore  use a slightly different score for our RL experiments which we call the 'GLEU score'. For the GLEU score, we record all sub-sequences of 1, 2, 3 or 4 tokens in output and target sequence (n-grams). We then compute a recall, which is the ratio of the number of matching n-grams to the number of total n-grams in the target (ground truth) sequence, and a precision, which is the ratio of the number of matching n-grams to the number of total n-grams in the generated output sequence. Then GLEU score is simply the minimum of recall and precision. This GLEU score's range is always between 0 (no matches) and 1 (all match) and it is symmetrical when switching output and target. According to our experiments, GLEU score correlates quite well with the BLEU metric on a corpus level but does not have its drawbacks for our per sentence reward objective."
+  },
+  {
+    "id": "indic_glue",
+    "spaceId": "evaluate-metric/indic_glue",
+    "description": "IndicGLUE is a natural language understanding benchmark for Indian languages. It contains a wide variety of tasks and covers 11 major Indian languages - as, bn, gu, hi, kn, ml, mr, or, pa, ta, te."
+  },
+  {
+    "id": "mae",
+    "spaceId": "evaluate-metric/mae",
+    "description": "Mean Absolute Error (MAE) is the mean of the magnitude of difference between the predicted and actual values."
+  },
+  {
+    "id": "mahalanobis",
+    "spaceId": "evaluate-metric/mahalanobis",
+    "description": "Compute the Mahalanobis Distance\nMahalonobis distance is the distance between a point and a distribution. And not between two distinct points. It is effectively a multivariate equivalent of the Euclidean distance. It was introduced by Prof. P. C. Mahalanobis in 1936 and has been used in various statistical applications ever since [source: https://www.machinelearningplus.com/statistics/mahalanobis-distance/]"
+  },
+  {
+    "id": "mape",
+    "spaceId": "evaluate-metric/mape",
+    "description": "Mean Absolute Percentage Error (MAPE) is the mean percentage error difference between the predicted and actual values."
+  },
+  {
+    "id": "mase",
+    "spaceId": "evaluate-metric/mase",
+    "description": "Mean Absolute Scaled Error (MASE) is the mean absolute error of the forecast values, divided by the mean absolute error of the in-sample one-step naive forecast on the training set."
+  },
+  {
+    "id": "matthews_correlation",
+    "spaceId": "evaluate-metric/matthews_correlation",
+    "description": "Compute the Matthews correlation coefficient (MCC)\nThe Matthews correlation coefficient is used in machine learning as a measure of the quality of binary and multiclass classifications. It takes into account true and false positives and negatives and is generally regarded as a balanced measure which can be used even if the classes are of very different sizes. The MCC is in essence a correlation coefficient value between -1 and +1. A coefficient of +1 represents a perfect prediction, 0 an average random prediction and -1 an inverse prediction.  The statistic is also known as the phi coefficient. [source: Wikipedia]"
+  },
+  {
+    "id": "mauve",
+    "spaceId": "evaluate-metric/mauve",
+    "description": "MAUVE is a measure of the statistical gap between two text distributions, e.g., how far the text written by a model is the distribution of human text, using samples from both distributions.\nMAUVE is obtained by computing Kullback–Leibler (KL) divergences between the two distributions in a quantized embedding space of a large language model. It can quantify differences in the quality of generated text based on the size of the model, the decoding algorithm, and the length of the generated text. MAUVE was found to correlate the strongest with human evaluations over baseline metrics for open-ended text generation."
+  },
+  {
+    "id": "mean_iou",
+    "spaceId": "evaluate-metric/mean_iou",
+    "description": "IoU is the area of overlap between the predicted segmentation and the ground truth divided by the area of union between the predicted segmentation and the ground truth. For binary (two classes) or multi-class segmentation, the mean IoU of the image is calculated by taking the IoU of each class and averaging them."
+  },
+  {
+    "id": "meteor",
+    "spaceId": "evaluate-metric/meteor",
+    "description": "METEOR, an automatic metric for machine translation evaluation that is based on a generalized concept of unigram matching between the machine-produced translation and human-produced reference translations. Unigrams can be matched based on their surface forms, stemmed forms, and meanings; furthermore, METEOR can be easily extended to include more advanced matching strategies. Once all generalized unigram matches between the two strings have been found, METEOR computes a score for this matching using a combination of unigram-precision, unigram-recall, and a measure of fragmentation that is designed to directly capture how well-ordered the matched words in the machine translation are in relation to the reference.\nMETEOR gets an R correlation value of 0.347 with human evaluation on the Arabic data and 0.331 on the Chinese data. This is shown to be an improvement on using simply unigram-precision, unigram-recall and their harmonic F1 combination."
+  },
+  {
+    "id": "mse",
+    "spaceId": "evaluate-metric/mse",
+    "description": "Mean Squared Error(MSE) is the average of the square of difference between the predicted and actual values."
+  },
+  {
+    "id": "nist_mt",
+    "spaceId": "evaluate-metric/nist_mt",
+    "description": "DARPA commissioned NIST to develop an MT evaluation facility based on the BLEU score."
+  },
+  {
+    "id": "pearsonr",
+    "spaceId": "evaluate-metric/pearsonr",
+    "description": "Pearson correlation coefficient and p-value for testing non-correlation. The Pearson correlation coefficient measures the linear relationship between two datasets. The calculation of the p-value relies on the assumption that each dataset is normally distributed. Like other correlation coefficients, this one varies between -1 and +1 with 0 implying no correlation. Correlations of -1 or +1 imply an exact linear relationship. Positive correlations imply that as x increases, so does y. Negative correlations imply that as x increases, y decreases. The p-value roughly indicates the probability of an uncorrelated system producing datasets that have a Pearson correlation at least as extreme as the one computed from these datasets."
+  },
+  {
+    "id": "perplexity",
+    "spaceId": "evaluate-metric/perplexity",
+    "description": "Perplexity (PPL) is one of the most common metrics for evaluating language models. It is defined as the exponentiated average negative log-likelihood of a sequence, calculated with exponent base `e`.\nFor more information on perplexity, see [this tutorial](https://huggingface.co/docs/transformers/perplexity)."
+  },
+  {
+    "id": "poseval",
+    "spaceId": "evaluate-metric/poseval",
+    "description": "The poseval metric can be used to evaluate POS taggers. Since seqeval does not work well with POS data  that is not in IOB format the poseval is an alternative. It treats each token in the dataset as independant  observation and computes the precision, recall and F1-score irrespective of sentences. It uses scikit-learns's classification report to compute the scores."
+  },
+  {
+    "id": "precision",
+    "spaceId": "evaluate-metric/precision",
+    "description": "Precision is the fraction of correctly labeled positive examples out of all of the examples that were labeled as positive. It is computed via the equation: Precision = TP / (TP + FP) where TP is the True positives (i.e. the examples correctly labeled as positive) and FP is the False positive examples (i.e. the examples incorrectly labeled as positive)."
+  },
+  {
+    "id": "r_squared",
+    "spaceId": "evaluate-metric/r_squared",
+    "description": "The R^2 (R Squared) metric is a measure of the goodness of fit of a linear regression model. It is the proportion of the variance in the dependent variable that is predictable from the independent variable."
+  },
+  {
+    "id": "recall",
+    "spaceId": "evaluate-metric/recall",
+    "description": "Recall is the fraction of the positive examples that were correctly labeled by the model as positive. It can be computed with the equation: Recall = TP / (TP + FN) Where TP is the true positives and FN is the false negatives."
+  },
+  {
+    "id": "rl_reliability",
+    "spaceId": "evaluate-metric/rl_reliability",
+    "description": "Computes the RL reliability metrics from a set of experiments. There is an `\"online\"` and `\"offline\"` configuration for evaluation."
+  },
+  {
+    "id": "roc_auc",
+    "spaceId": "evaluate-metric/roc_auc",
+    "description": "This metric computes the area under the curve (AUC) for the Receiver Operating Characteristic Curve (ROC). The return values represent how well the model used is predicting the correct classes, based on the input data. A score of `0.5` means that the model is predicting exactly at chance, i.e. the model's predictions are correct at the same rate as if the predictions were being decided by the flip of a fair coin or the roll of a fair die. A score above `0.5` indicates that the model is doing better than chance, while a score below `0.5` indicates that the model is doing worse than chance.\nThis metric has three separate use cases: - binary: The case in which there are only two different label classes, and each example gets only one label. This is the default implementation. - multiclass: The case in which there can be more than two different label classes, but each example still gets only one label. - multilabel: The case in which there can be more than two different label classes, and each example can have more than one label."
+  },
+  {
+    "id": "rouge",
+    "spaceId": "evaluate-metric/rouge",
+    "description": "ROUGE, or Recall-Oriented Understudy for Gisting Evaluation, is a set of metrics and a software package used for evaluating automatic summarization and machine translation software in natural language processing. The metrics compare an automatically produced summary or translation against a reference or a set of references (human-produced) summary or translation.\nNote that ROUGE is case insensitive, meaning that upper case letters are treated the same way as lower case letters.\nThis metrics is a wrapper around Google Research reimplementation of ROUGE: https://github.com/google-research/google-research/tree/master/rouge"
+  },
+  {
+    "id": "sacrebleu",
+    "spaceId": "evaluate-metric/sacrebleu",
+    "description": "SacreBLEU provides hassle-free computation of shareable, comparable, and reproducible BLEU scores. Inspired by Rico Sennrich's `multi-bleu-detok.perl`, it produces the official WMT scores but works with plain text. It also knows all the standard test sets and handles downloading, processing, and tokenization for you.\nSee the [README.md] file at https://github.com/mjpost/sacreBLEU for more information."
+  },
+  {
+    "id": "sari",
+    "spaceId": "evaluate-metric/sari",
+    "description": "SARI is a metric used for evaluating automatic text simplification systems. The metric compares the predicted simplified sentences against the reference and the source sentences. It explicitly measures the goodness of words that are added, deleted and kept by the system. Sari = (F1_add + F1_keep + P_del) / 3 where F1_add: n-gram F1 score for add operation F1_keep: n-gram F1 score for keep operation P_del: n-gram precision score for delete operation n = 4, as in the original paper.\nThis implementation is adapted from Tensorflow's tensor2tensor implementation [3]. It has two differences with the original GitHub [1] implementation: (1) Defines 0/0=1 instead of 0 to give higher scores for predictions that match a target exactly. (2) Fixes an alleged bug [2] in the keep score computation. [1] https://github.com/cocoxu/simplification/blob/master/SARI.py (commit 0210f15) [2] https://github.com/cocoxu/simplification/issues/6 [3] https://github.com/tensorflow/tensor2tensor/blob/master/tensor2tensor/utils/sari_hook.py"
+  },
+  {
+    "id": "seqeval",
+    "spaceId": "evaluate-metric/seqeval",
+    "description": "seqeval is a Python framework for sequence labeling evaluation. seqeval can evaluate the performance of chunking tasks such as named-entity recognition, part-of-speech tagging, semantic role labeling and so on.\nThis is well-tested by using the Perl script conlleval, which can be used for measuring the performance of a system that has processed the CoNLL-2000 shared task data.\nseqeval supports following formats: IOB1 IOB2 IOE1 IOE2 IOBES\nSee the [README.md] file at https://github.com/chakki-works/seqeval for more information."
+  },
+  {
+    "id": "smape",
+    "spaceId": "evaluate-metric/smape",
+    "description": "Symmetric Mean Absolute Percentage Error (sMAPE) is the symmetric mean percentage error difference between the predicted and actual values defined by Chen and Yang (2004)."
+  },
+  {
+    "id": "spearmanr",
+    "spaceId": "evaluate-metric/spearmanr",
+    "description": "The Spearman rank-order correlation coefficient is a measure of the relationship between two datasets. Like other correlation coefficients, this one varies between -1 and +1 with 0 implying no correlation. Positive correlations imply that as data in dataset x increases, so does data in dataset y. Negative correlations imply that as x increases, y decreases. Correlations of -1 or +1 imply an exact monotonic relationship.\nUnlike the Pearson correlation, the Spearman correlation does not assume that both datasets are normally distributed.\nThe p-value roughly indicates the probability of an uncorrelated system producing datasets that have a Spearman correlation at least as extreme as the one computed from these datasets. The p-values are not entirely reliable but are probably reasonable for datasets larger than 500 or so."
+  },
+  {
+    "id": "squad",
+    "spaceId": "evaluate-metric/squad",
+    "description": "This metric wrap the official scoring script for version 1 of the Stanford Question Answering Dataset (SQuAD).\nStanford Question Answering Dataset (SQuAD) is a reading comprehension dataset, consisting of questions posed by crowdworkers on a set of Wikipedia articles, where the answer to every question is a segment of text, or span, from the corresponding reading passage, or the question might be unanswerable."
+  },
+  {
+    "id": "squad_v2",
+    "spaceId": "evaluate-metric/squad_v2",
+    "description": "This metric wrap the official scoring script for version 2 of the Stanford Question Answering Dataset (SQuAD).\nStanford Question Answering Dataset (SQuAD) is a reading comprehension dataset, consisting of questions posed by crowdworkers on a set of Wikipedia articles, where the answer to every question is a segment of text, or span, from the corresponding reading passage, or the question might be unanswerable.\nSQuAD2.0 combines the 100,000 questions in SQuAD1.1 with over 50,000 unanswerable questions  written adversarially by crowdworkers to look similar to answerable ones. To do well on SQuAD2.0, systems must not only answer questions when possible, but also determine when no answer is supported by the paragraph and abstain from answering."
+  },
+  {
+    "id": "super_glue",
+    "spaceId": "evaluate-metric/super_glue",
+    "description": "SuperGLUE (https://super.gluebenchmark.com/) is a new benchmark styled after GLUE with a new set of more difficult language understanding tasks, improved resources, and a new public leaderboard."
+  },
+  {
+    "id": "ter",
+    "spaceId": "evaluate-metric/ter",
+    "description": "TER (Translation Edit Rate, also called Translation Error Rate) is a metric to quantify the edit operations that a hypothesis requires to match a reference translation. We use the implementation that is already present in sacrebleu (https://github.com/mjpost/sacreBLEU#ter), which in turn is inspired by the TERCOM implementation, which can be found here: https://github.com/jhclark/tercom.\nThe implementation here is slightly different from sacrebleu in terms of the required input format. The length of the references and hypotheses lists need to be the same, so you may need to transpose your references compared to sacrebleu's required input format. See https://github.com/huggingface/datasets/issues/3154#issuecomment-950746534\nSee the README.md file at https://github.com/mjpost/sacreBLEU#ter for more information."
+  },
+  {
+    "id": "trec_eval",
+    "spaceId": "evaluate-metric/trec_eval",
+    "description": "The TREC Eval metric combines a number of information retrieval metrics such as precision and nDCG. It is used to score rankings of retrieved documents with reference values."
+  },
+  {
+    "id": "wer",
+    "spaceId": "evaluate-metric/wer",
+    "description": "Word error rate (WER) is a common metric of the performance of an automatic speech recognition system.\nThe general difficulty of measuring performance lies in the fact that the recognized word sequence can have a different length from the reference word sequence (supposedly the correct one). The WER is derived from the Levenshtein distance, working at the word level instead of the phoneme level. The WER is a valuable tool for comparing different systems as well as for evaluating improvements within one system. This kind of measurement, however, provides no details on the nature of translation errors and further work is therefore required to identify the main source(s) of error and to focus any research effort.\nThis problem is solved by first aligning the recognized word sequence with the reference (spoken) word sequence using dynamic string alignment. Examination of this issue is seen through a theory called the power law that states the correlation between perplexity and word error rate.\nWord error rate can then be computed as:\nWER = (S + D + I) / N = (S + D + I) / (S + D + C)\nwhere\nS is the number of substitutions, D is the number of deletions, I is the number of insertions, C is the number of correct words, N is the number of words in the reference (N=S+D+C).\nThis value indicates the average number of errors per reference word. The lower the value, the better the performance of the ASR system with a WER of 0 being a perfect score."
+  },
+  {
+    "id": "wiki_split",
+    "spaceId": "evaluate-metric/wiki_split",
+    "description": "WIKI_SPLIT is the combination of three metrics SARI, EXACT and SACREBLEU It can be used to evaluate the quality of machine-generated texts."
+  },
+  {
+    "id": "xnli",
+    "spaceId": "evaluate-metric/xnli",
+    "description": "XNLI is a subset of a few thousand examples from MNLI which has been translated into a 14 different languages (some low-ish resource). As with MNLI, the goal is to predict textual entailment (does sentence A imply/contradict/neither sentence B) and is a classification task (given two sentences, predict one of three labels)."
+  },
+  {
+    "id": "xtreme_s",
+    "spaceId": "evaluate-metric/xtreme_s",
+    "description": "XTREME-S is a benchmark to evaluate universal cross-lingual speech representations in many languages. XTREME-S covers four task families: speech recognition, classification, speech-to-text translation and retrieval."
+  },
+  {
+    "id": "AlhitawiMohammed22/CER_Hu-Evaluation-Metrics",
+    "spaceId": "AlhitawiMohammed22/CER_Hu-Evaluation-Metrics"
+  },
+  {
+    "id": "BucketHeadP65/confusion_matrix",
+    "spaceId": "BucketHeadP65/confusion_matrix",
+    "description": "Compute confusion matrix to evaluate the accuracy of a classification. By definition a confusion matrix :math:C is such that :math:C_{i, j} is equal to the number of observations known to be in group :math:i and predicted to be in group :math:j. Thus in binary classification, the count of true negatives is :math:C_{0,0}, false negatives is :math:C_{1,0}, true positives is :math:C_{1,1} and false positives is :math:C_{0,1}."
+  },
+  {
+    "id": "BucketHeadP65/roc_curve",
+    "spaceId": "BucketHeadP65/roc_curve",
+    "description": "Compute Receiver operating characteristic (ROC). Note: this implementation is restricted to the binary classification task."
+  },
+  {
+    "id": "CZLC/rouge_raw",
+    "spaceId": "CZLC/rouge_raw",
+    "description": "ROUGE RAW is language-agnostic variant of ROUGE without stemmer, stop words and synonymas.  This is a wrapper around the original http://hdl.handle.net/11234/1-2615 script."
+  },
+  {
+    "id": "DaliaCaRo/accents_unplugged_eval",
+    "spaceId": "DaliaCaRo/accents_unplugged_eval",
+    "description": "Word error rate (WER) is a common metric of the performance of an automatic speech recognition system.\nThe general difficulty of measuring performance lies in the fact that the recognized word sequence can have a different length from the reference word sequence (supposedly the correct one). The WER is derived from the Levenshtein distance, working at the word level instead of the phoneme level. The WER is a valuable tool for comparing different systems as well as for evaluating improvements within one system. This kind of measurement, however, provides no details on the nature of translation errors and further work is therefore required to identify the main source(s) of error and to focus any research effort.\nThis problem is solved by first aligning the recognized word sequence with the reference (spoken) word sequence using dynamic string alignment. Examination of this issue is seen through a theory called the power law that states the correlation between perplexity and word error rate.\nWord error rate can then be computed as:\nWER = (S + D + I) / N = (S + D + I) / (S + D + C)\nwhere\nS is the number of substitutions, D is the number of deletions, I is the number of insertions, C is the number of correct words, N is the number of words in the reference (N=S+D+C).\nThis value indicates the average number of errors per reference word. The lower the value, the better the performance of the ASR system with a WER of 0 being a perfect score."
+  },
+  {
+    "id": "DarrenChensformer/eval_keyphrase",
+    "spaceId": "DarrenChensformer/eval_keyphrase",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "DarrenChensformer/relation_extraction",
+    "spaceId": "DarrenChensformer/relation_extraction",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "DoctorSlimm/bangalore_score",
+    "spaceId": "DoctorSlimm/bangalore_score",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "DoctorSlimm/kaushiks_criteria",
+    "spaceId": "DoctorSlimm/kaushiks_criteria",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "Drunper/metrica_tesi",
+    "spaceId": "Drunper/metrica_tesi",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "Felipehonorato/eer",
+    "spaceId": "Felipehonorato/eer",
+    "description": "Equal Error Rate (EER) is a measure that shows the performance of a biometric system, like fingerprint or facial recognition. It's the point where the system's False Acceptance Rate (letting the wrong person in) and False Rejection Rate (blocking the right person) are equal. The lower the EER value, the better the system's performance.\nEER is used in various security applications, such as airports, banks, and personal devices like smartphones and laptops, to evaluate the effectiveness of the biometric system in correctly identifying users."
+  },
+  {
+    "id": "Fritz02/execution_accuracy",
+    "spaceId": "Fritz02/execution_accuracy",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "GMFTBY/dailydialog_evaluate",
+    "spaceId": "GMFTBY/dailydialog_evaluate",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "GMFTBY/dailydialogevaluate",
+    "spaceId": "GMFTBY/dailydialogevaluate",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "He-Xingwei/sari_metric",
+    "spaceId": "He-Xingwei/sari_metric",
+    "description": "SARI is a metric used for evaluating automatic text simplification systems. The metric compares the predicted simplified sentences against the reference and the source sentences. It explicitly measures the goodness of words that are added, deleted and kept by the system. Sari = (F1_add + F1_keep + P_del) / 3 where F1_add: n-gram F1 score for add operation F1_keep: n-gram F1 score for keep operation P_del: n-gram precision score for delete operation n = 4, as in the original paper.\nThis implementation is adapted from Tensorflow's tensor2tensor implementation [3]. It has two differences with the original GitHub [1] implementation: (1) Defines 0/0=1 instead of 0 to give higher scores for predictions that match a target exactly. (2) Fixes an alleged bug [2] in the keep score computation. [1] https://github.com/cocoxu/simplification/blob/master/SARI.py (commit 0210f15) [2] https://github.com/cocoxu/simplification/issues/6 [3] https://github.com/tensorflow/tensor2tensor/blob/master/tensor2tensor/utils/sari_hook.py"
+  },
+  {
+    "id": "Ikala-allen/relation_extraction",
+    "spaceId": "Ikala-allen/relation_extraction",
+    "description": "This metric is used for evaluating the F1 accuracy of input references and predictions."
+  },
+  {
+    "id": "JP-SystemsX/nDCG",
+    "spaceId": "JP-SystemsX/nDCG",
+    "description": "The Discounted Cumulative Gain is a measure of ranking quality.  It is used to evaluate Information Retrieval Systems under the following 2 assumptions:\n        1. Highly relevant documents/Labels are more useful when appearing earlier in the results\n        2. Documents/Labels are relevant to different degrees\nIt is defined as the Sum over all relevances of the retrieved documents reduced logarithmically proportional to  the position in which they were retrieved. The Normalized DCG (nDCG) divides the resulting value by the best possible value to get a value between  0 and 1 s.t. a perfect retrieval achieves a nDCG of 1."
+  },
+  {
+    "id": "Josh98/nl2bash_m",
+    "spaceId": "Josh98/nl2bash_m",
+    "description": "Accuracy is the proportion of correct predictions among the total number of cases processed. It can be computed with: Accuracy = (TP + TN) / (TP + TN + FP + FN) Where: TP: True positive TN: True negative FP: False positive FN: False negative"
+  },
+  {
+    "id": "KevinSpaghetti/accuracyk",
+    "spaceId": "KevinSpaghetti/accuracyk",
+    "description": "computes the accuracy at k for a set of predictions as labels"
+  },
+  {
+    "id": "LottieW/accents_unplugged_eval",
+    "spaceId": "LottieW/accents_unplugged_eval",
+    "description": "Word error rate (WER) is a common metric of the performance of an automatic speech recognition system.\nThe general difficulty of measuring performance lies in the fact that the recognized word sequence can have a different length from the reference word sequence (supposedly the correct one). The WER is derived from the Levenshtein distance, working at the word level instead of the phoneme level. The WER is a valuable tool for comparing different systems as well as for evaluating improvements within one system. This kind of measurement, however, provides no details on the nature of translation errors and further work is therefore required to identify the main source(s) of error and to focus any research effort.\nThis problem is solved by first aligning the recognized word sequence with the reference (spoken) word sequence using dynamic string alignment. Examination of this issue is seen through a theory called the power law that states the correlation between perplexity and word error rate.\nWord error rate can then be computed as:\nWER = (S + D + I) / N = (S + D + I) / (S + D + C)\nwhere\nS is the number of substitutions, D is the number of deletions, I is the number of insertions, C is the number of correct words, N is the number of words in the reference (N=S+D+C).\nThis value indicates the average number of errors per reference word. The lower the value, the better the performance of the ASR system with a WER of 0 being a perfect score."
+  },
+  {
+    "id": "LuckiestOne/valid_efficiency_score",
+    "spaceId": "LuckiestOne/valid_efficiency_score",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "Merle456/accents_unplugged_eval",
+    "spaceId": "Merle456/accents_unplugged_eval",
+    "description": "Word error rate (WER) is a common metric of the performance of an automatic speech recognition system.\nThe general difficulty of measuring performance lies in the fact that the recognized word sequence can have a different length from the reference word sequence (supposedly the correct one). The WER is derived from the Levenshtein distance, working at the word level instead of the phoneme level. The WER is a valuable tool for comparing different systems as well as for evaluating improvements within one system. This kind of measurement, however, provides no details on the nature of translation errors and further work is therefore required to identify the main source(s) of error and to focus any research effort.\nThis problem is solved by first aligning the recognized word sequence with the reference (spoken) word sequence using dynamic string alignment. Examination of this issue is seen through a theory called the power law that states the correlation between perplexity and word error rate.\nWord error rate can then be computed as:\nWER = (S + D + I) / N = (S + D + I) / (S + D + C)\nwhere\nS is the number of substitutions, D is the number of deletions, I is the number of insertions, C is the number of correct words, N is the number of words in the reference (N=S+D+C).\nThis value indicates the average number of errors per reference word. The lower the value, the better the performance of the ASR system with a WER of 0 being a perfect score."
+  },
+  {
+    "id": "Muennighoff/code_eval_octopack",
+    "spaceId": "Muennighoff/code_eval_octopack",
+    "description": "This metric implements code evaluation with execution across multiple languages as used in the paper \"OctoPack: Instruction Tuning Code Large Language Models\" (https://arxiv.org/abs/2308.07124)."
+  },
+  {
+    "id": "NCSOFT/harim_plus",
+    "spaceId": "NCSOFT/harim_plus",
+    "description": "HaRiM+ is reference-less metric for summary quality evaluation which hurls the power of summarization model to estimate the quality of the summary-article pair. <br /> Note that this metric is reference-free and do not require training. It is ready to go without reference text to compare with the generation nor any model training for scoring."
+  },
+  {
+    "id": "Natooz/ece",
+    "spaceId": "Natooz/ece",
+    "description": "Expected calibration error (ECE)"
+  },
+  {
+    "id": "Ndyyyy/bertscore",
+    "spaceId": "Ndyyyy/bertscore",
+    "description": "BERTScore leverages the pre-trained contextual embeddings from BERT and matches words in candidate and reference sentences by cosine similarity. It has been shown to correlate with human judgment on sentence-level and system-level evaluation. Moreover, BERTScore computes precision, recall, and F1 measure, which can be useful for evaluating different language generation tasks.\nSee the project's README at https://github.com/Tiiiger/bert_score#readme for more information."
+  },
+  {
+    "id": "NikitaMartynov/spell-check-metric",
+    "spaceId": "NikitaMartynov/spell-check-metric",
+    "description": "This module calculates classification metrics e.g. precision, recall, F1, on spell-checking task."
+  },
+  {
+    "id": "NimaBoscarino/weat",
+    "spaceId": "NimaBoscarino/weat",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "Ochiroo/rouge_mn",
+    "spaceId": "Ochiroo/rouge_mn",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "Pipatpong/perplexity",
+    "spaceId": "Pipatpong/perplexity",
+    "description": "Perplexity (PPL) is one of the most common metrics for evaluating language models. It is defined as the exponentiated average negative log-likelihood of a sequence, calculated with exponent base `e`.\nFor more information on perplexity, see [this tutorial](https://huggingface.co/docs/transformers/perplexity)."
+  },
+  {
+    "id": "Qui-nn/accents_unplugged_eval",
+    "spaceId": "Qui-nn/accents_unplugged_eval",
+    "description": "Word error rate (WER) is a common metric of the performance of an automatic speech recognition system.\nThe general difficulty of measuring performance lies in the fact that the recognized word sequence can have a different length from the reference word sequence (supposedly the correct one). The WER is derived from the Levenshtein distance, working at the word level instead of the phoneme level. The WER is a valuable tool for comparing different systems as well as for evaluating improvements within one system. This kind of measurement, however, provides no details on the nature of translation errors and further work is therefore required to identify the main source(s) of error and to focus any research effort.\nThis problem is solved by first aligning the recognized word sequence with the reference (spoken) word sequence using dynamic string alignment. Examination of this issue is seen through a theory called the power law that states the correlation between perplexity and word error rate.\nWord error rate can then be computed as:\nWER = (S + D + I) / N = (S + D + I) / (S + D + C)\nwhere\nS is the number of substitutions, D is the number of deletions, I is the number of insertions, C is the number of correct words, N is the number of words in the reference (N=S+D+C).\nThis value indicates the average number of errors per reference word. The lower the value, the better the performance of the ASR system with a WER of 0 being a perfect score."
+  },
+  {
+    "id": "RiciHuggingFace/accents_unplugged_eval",
+    "spaceId": "RiciHuggingFace/accents_unplugged_eval",
+    "description": "Word error rate (WER) is a common metric of the performance of an automatic speech recognition system.\nThe general difficulty of measuring performance lies in the fact that the recognized word sequence can have a different length from the reference word sequence (supposedly the correct one). The WER is derived from the Levenshtein distance, working at the word level instead of the phoneme level. The WER is a valuable tool for comparing different systems as well as for evaluating improvements within one system. This kind of measurement, however, provides no details on the nature of translation errors and further work is therefore required to identify the main source(s) of error and to focus any research effort.\nThis problem is solved by first aligning the recognized word sequence with the reference (spoken) word sequence using dynamic string alignment. Examination of this issue is seen through a theory called the power law that states the correlation between perplexity and word error rate.\nWord error rate can then be computed as:\nWER = (S + D + I) / N = (S + D + I) / (S + D + C)\nwhere\nS is the number of substitutions, D is the number of deletions, I is the number of insertions, C is the number of correct words, N is the number of words in the reference (N=S+D+C).\nThis value indicates the average number of errors per reference word. The lower the value, the better the performance of the ASR system with a WER of 0 being a perfect score."
+  },
+  {
+    "id": "SEA-AI/det-metrics",
+    "spaceId": "SEA-AI/det-metrics",
+    "description": "Compute multiple object detection metrics at different bounding box area levels."
+  },
+  {
+    "id": "SEA-AI/mot-metrics",
+    "spaceId": "SEA-AI/mot-metrics",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "Soroor/cer",
+    "spaceId": "Soroor/cer",
+    "description": "Character error rate (CER) is a common metric of the performance of an automatic speech recognition system.\nCER is similar to Word Error Rate (WER), but operates on character instead of word. Please refer to docs of WER for further information.\nCharacter error rate can be computed as:\nCER = (S + D + I) / N = (S + D + I) / (S + D + C)\nwhere\nS is the number of substitutions, D is the number of deletions, I is the number of insertions, C is the number of correct characters, N is the number of characters in the reference (N=S+D+C).\nCER's output is not always a number between 0 and 1, in particular when there is a high number of insertions. This value is often associated to the percentage of characters that were incorrectly predicted. The lower the value, the better the performance of the ASR system with a CER of 0 being a perfect score."
+  },
+  {
+    "id": "SpfIo/wer_checker",
+    "spaceId": "SpfIo/wer_checker",
+    "description": "Word error rate (WER) is a common metric of the performance of an automatic speech recognition system.\nThe general difficulty of measuring performance lies in the fact that the recognized word sequence can have a different length from the reference word sequence (supposedly the correct one). The WER is derived from the Levenshtein distance, working at the word level instead of the phoneme level. The WER is a valuable tool for comparing different systems as well as for evaluating improvements within one system. This kind of measurement, however, provides no details on the nature of translation errors and further work is therefore required to identify the main source(s) of error and to focus any research effort.\nThis problem is solved by first aligning the recognized word sequence with the reference (spoken) word sequence using dynamic string alignment. Examination of this issue is seen through a theory called the power law that states the correlation between perplexity and word error rate.\nWord error rate can then be computed as:\nWER = (S + D + I) / N = (S + D + I) / (S + D + C)\nwhere\nS is the number of substitutions, D is the number of deletions, I is the number of insertions, C is the number of correct words, N is the number of words in the reference (N=S+D+C).\nThis value indicates the average number of errors per reference word. The lower the value, the better the performance of the ASR system with a WER of 0 being a perfect score."
+  },
+  {
+    "id": "Splend1dchan/cosine_similarity",
+    "spaceId": "Splend1dchan/cosine_similarity",
+    "description": "calculate the cosine similarity of two"
+  },
+  {
+    "id": "TelEl/accents_unplugged_eval",
+    "spaceId": "TelEl/accents_unplugged_eval",
+    "description": "Word error rate (WER) is a common metric of the performance of an automatic speech recognition system.\nThe general difficulty of measuring performance lies in the fact that the recognized word sequence can have a different length from the reference word sequence (supposedly the correct one). The WER is derived from the Levenshtein distance, working at the word level instead of the phoneme level. The WER is a valuable tool for comparing different systems as well as for evaluating improvements within one system. This kind of measurement, however, provides no details on the nature of translation errors and further work is therefore required to identify the main source(s) of error and to focus any research effort.\nThis problem is solved by first aligning the recognized word sequence with the reference (spoken) word sequence using dynamic string alignment. Examination of this issue is seen through a theory called the power law that states the correlation between perplexity and word error rate.\nWord error rate can then be computed as:\nWER = (S + D + I) / N = (S + D + I) / (S + D + C)\nwhere\nS is the number of substitutions, D is the number of deletions, I is the number of insertions, C is the number of correct words, N is the number of words in the reference (N=S+D+C).\nThis value indicates the average number of errors per reference word. The lower the value, the better the performance of the ASR system with a WER of 0 being a perfect score."
+  },
+  {
+    "id": "Vallp/ter",
+    "spaceId": "Vallp/ter",
+    "description": "TER (Translation Edit Rate, also called Translation Error Rate) is a metric to quantify the edit operations that a hypothesis requires to match a reference translation. We use the implementation that is already present in sacrebleu (https://github.com/mjpost/sacreBLEU#ter), which in turn is inspired by the TERCOM implementation, which can be found here: https://github.com/jhclark/tercom.\nThe implementation here is slightly different from sacrebleu in terms of the required input format. The length of the references and hypotheses lists need to be the same, so you may need to transpose your references compared to sacrebleu's required input format. See https://github.com/huggingface/datasets/issues/3154#issuecomment-950746534\nSee the README.md file at https://github.com/mjpost/sacreBLEU#ter for more information."
+  },
+  {
+    "id": "Vertaix/vendiscore",
+    "spaceId": "Vertaix/vendiscore",
+    "description": "The Vendi Score is a metric for evaluating diversity in machine learning. See the project's README at https://github.com/vertaix/Vendi-Score for more information."
+  },
+  {
+    "id": "Vickyage/accents_unplugged_eval",
+    "spaceId": "Vickyage/accents_unplugged_eval",
+    "description": "Word error rate (WER) is a common metric of the performance of an automatic speech recognition system.\nThe general difficulty of measuring performance lies in the fact that the recognized word sequence can have a different length from the reference word sequence (supposedly the correct one). The WER is derived from the Levenshtein distance, working at the word level instead of the phoneme level. The WER is a valuable tool for comparing different systems as well as for evaluating improvements within one system. This kind of measurement, however, provides no details on the nature of translation errors and further work is therefore required to identify the main source(s) of error and to focus any research effort.\nThis problem is solved by first aligning the recognized word sequence with the reference (spoken) word sequence using dynamic string alignment. Examination of this issue is seen through a theory called the power law that states the correlation between perplexity and word error rate.\nWord error rate can then be computed as:\nWER = (S + D + I) / N = (S + D + I) / (S + D + C)\nwhere\nS is the number of substitutions, D is the number of deletions, I is the number of insertions, C is the number of correct words, N is the number of words in the reference (N=S+D+C).\nThis value indicates the average number of errors per reference word. The lower the value, the better the performance of the ASR system with a WER of 0 being a perfect score."
+  },
+  {
+    "id": "Viona/fuzzy_reordering",
+    "spaceId": "Viona/fuzzy_reordering",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "Viona/infolm",
+    "spaceId": "Viona/infolm",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "Viona/kendall_tau",
+    "spaceId": "Viona/kendall_tau",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "Vipitis/shadermatch",
+    "spaceId": "Vipitis/shadermatch",
+    "description": "compare rendered frames from shadercode, using a WGPU implementation"
+  },
+  {
+    "id": "Vlasta/pr_auc",
+    "spaceId": "Vlasta/pr_auc",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "Yeshwant123/mcc",
+    "spaceId": "Yeshwant123/mcc",
+    "description": "Matthews correlation coefficient (MCC) is a correlation coefficient used in machine learning as a measure of the quality of binary and multiclass classifications."
+  },
+  {
+    "id": "abdusah/aradiawer",
+    "spaceId": "abdusah/aradiawer",
+    "description": "This new module is designed to calculate an enhanced Dialectical Arabic (DA) WER (AraDiaWER) based on linguistic and semantic factors."
+  },
+  {
+    "id": "abidlabs/mean_iou",
+    "spaceId": "abidlabs/mean_iou",
+    "description": "IoU is the area of overlap between the predicted segmentation and the ground truth divided by the area of union between the predicted segmentation and the ground truth. For binary (two classes) or multi-class segmentation, the mean IoU of the image is calculated by taking the IoU of each class and averaging them."
+  },
+  {
+    "id": "abidlabs/mean_iou2",
+    "spaceId": "abidlabs/mean_iou2",
+    "description": "IoU is the area of overlap between the predicted segmentation and the ground truth divided by the area of union between the predicted segmentation and the ground truth. For binary (two classes) or multi-class segmentation, the mean IoU of the image is calculated by taking the IoU of each class and averaging them."
+  },
+  {
+    "id": "agkphysics/ccc",
+    "spaceId": "agkphysics/ccc",
+    "description": "Concordance correlation coefficient"
+  },
+  {
+    "id": "akki2825/accents_unplugged_eval",
+    "spaceId": "akki2825/accents_unplugged_eval",
+    "description": "Word error rate (WER) is a common metric of the performance of an automatic speech recognition system.\nThe general difficulty of measuring performance lies in the fact that the recognized word sequence can have a different length from the reference word sequence (supposedly the correct one). The WER is derived from the Levenshtein distance, working at the word level instead of the phoneme level. The WER is a valuable tool for comparing different systems as well as for evaluating improvements within one system. This kind of measurement, however, provides no details on the nature of translation errors and further work is therefore required to identify the main source(s) of error and to focus any research effort.\nThis problem is solved by first aligning the recognized word sequence with the reference (spoken) word sequence using dynamic string alignment. Examination of this issue is seen through a theory called the power law that states the correlation between perplexity and word error rate.\nWord error rate can then be computed as:\nWER = (S + D + I) / N = (S + D + I) / (S + D + C)\nwhere\nS is the number of substitutions, D is the number of deletions, I is the number of insertions, C is the number of correct words, N is the number of words in the reference (N=S+D+C).\nThis value indicates the average number of errors per reference word. The lower the value, the better the performance of the ASR system with a WER of 0 being a perfect score."
+  },
+  {
+    "id": "alvinasvk/accents_unplugged_eval",
+    "spaceId": "alvinasvk/accents_unplugged_eval",
+    "description": "Word error rate (WER) is a common metric of the performance of an automatic speech recognition system.\nThe general difficulty of measuring performance lies in the fact that the recognized word sequence can have a different length from the reference word sequence (supposedly the correct one). The WER is derived from the Levenshtein distance, working at the word level instead of the phoneme level. The WER is a valuable tool for comparing different systems as well as for evaluating improvements within one system. This kind of measurement, however, provides no details on the nature of translation errors and further work is therefore required to identify the main source(s) of error and to focus any research effort.\nThis problem is solved by first aligning the recognized word sequence with the reference (spoken) word sequence using dynamic string alignment. Examination of this issue is seen through a theory called the power law that states the correlation between perplexity and word error rate.\nWord error rate can then be computed as:\nWER = (S + D + I) / N = (S + D + I) / (S + D + C)\nwhere\nS is the number of substitutions, D is the number of deletions, I is the number of insertions, C is the number of correct words, N is the number of words in the reference (N=S+D+C).\nThis value indicates the average number of errors per reference word. The lower the value, the better the performance of the ASR system with a WER of 0 being a perfect score."
+  },
+  {
+    "id": "amitness/perplexity",
+    "spaceId": "amitness/perplexity",
+    "description": "Perplexity (PPL) is one of the most common metrics for evaluating language models. It is defined as the exponentiated average negative log-likelihood of a sequence, calculated with exponent base `e`.\nFor more information on perplexity, see [this tutorial](https://huggingface.co/docs/transformers/perplexity)."
+  },
+  {
+    "id": "andstor/code_perplexity",
+    "spaceId": "andstor/code_perplexity",
+    "description": "Perplexity measure for code."
+  },
+  {
+    "id": "angelasophie/accents_unplugged_eval",
+    "spaceId": "angelasophie/accents_unplugged_eval",
+    "description": "Word error rate (WER) is a common metric of the performance of an automatic speech recognition system.\nThe general difficulty of measuring performance lies in the fact that the recognized word sequence can have a different length from the reference word sequence (supposedly the correct one). The WER is derived from the Levenshtein distance, working at the word level instead of the phoneme level. The WER is a valuable tool for comparing different systems as well as for evaluating improvements within one system. This kind of measurement, however, provides no details on the nature of translation errors and further work is therefore required to identify the main source(s) of error and to focus any research effort.\nThis problem is solved by first aligning the recognized word sequence with the reference (spoken) word sequence using dynamic string alignment. Examination of this issue is seen through a theory called the power law that states the correlation between perplexity and word error rate.\nWord error rate can then be computed as:\nWER = (S + D + I) / N = (S + D + I) / (S + D + C)\nwhere\nS is the number of substitutions, D is the number of deletions, I is the number of insertions, C is the number of correct words, N is the number of words in the reference (N=S+D+C).\nThis value indicates the average number of errors per reference word. The lower the value, the better the performance of the ASR system with a WER of 0 being a perfect score."
+  },
+  {
+    "id": "angelina-wang/directional_bias_amplification",
+    "spaceId": "angelina-wang/directional_bias_amplification",
+    "description": "Directional Bias Amplification is a metric that captures the amount of bias (i.e., a conditional probability) that is amplified. This metric was introduced in the ICML 2021 paper [\"Directional Bias Amplification\"](https://arxiv.org/abs/2102.12594) for fairness evaluation."
+  },
+  {
+    "id": "anz2/iliauniiccocrevaluation",
+    "spaceId": "anz2/iliauniiccocrevaluation",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "arthurvqin/pr_auc",
+    "spaceId": "arthurvqin/pr_auc",
+    "description": "This metric computes the area under the curve (AUC) for the Precision-Recall Curve (PR). summarizes a precision-recall curve as the weighted mean of precisions achieved at each threshold, with the increase in recall from the previous threshold used as the weight."
+  },
+  {
+    "id": "aryopg/roc_auc_skip_uniform_labels",
+    "spaceId": "aryopg/roc_auc_skip_uniform_labels",
+    "description": "This metric computes the area under the curve (AUC) for the Receiver Operating Characteristic Curve (ROC). The return values represent how well the model used is predicting the correct classes, based on the input data. A score of `0.5` means that the model is predicting exactly at chance, i.e. the model's predictions are correct at the same rate as if the predictions were being decided by the flip of a fair coin or the roll of a fair die. A score above `0.5` indicates that the model is doing better than chance, while a score below `0.5` indicates that the model is doing worse than chance.\nThis metric has three separate use cases: - binary: The case in which there are only two different label classes, and each example gets only one label. This is the default implementation. - multiclass: The case in which there can be more than two different label classes, but each example still gets only one label. - multilabel: The case in which there can be more than two different label classes, and each example can have more than one label."
+  },
+  {
+    "id": "bascobasculino/mot-metrics",
+    "spaceId": "bascobasculino/mot-metrics",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "bdsaglam/jer",
+    "spaceId": "bdsaglam/jer",
+    "description": "Computes precision, recall, and f1 scores for joint entity-relation extraction."
+  },
+  {
+    "id": "boschar/accents_unplugged_eval",
+    "spaceId": "boschar/accents_unplugged_eval",
+    "description": "Word error rate (WER) is a common metric of the performance of an automatic speech recognition system.\nThe general difficulty of measuring performance lies in the fact that the recognized word sequence can have a different length from the reference word sequence (supposedly the correct one). The WER is derived from the Levenshtein distance, working at the word level instead of the phoneme level. The WER is a valuable tool for comparing different systems as well as for evaluating improvements within one system. This kind of measurement, however, provides no details on the nature of translation errors and further work is therefore required to identify the main source(s) of error and to focus any research effort.\nThis problem is solved by first aligning the recognized word sequence with the reference (spoken) word sequence using dynamic string alignment. Examination of this issue is seen through a theory called the power law that states the correlation between perplexity and word error rate.\nWord error rate can then be computed as:\nWER = (S + D + I) / N = (S + D + I) / (S + D + C)\nwhere\nS is the number of substitutions, D is the number of deletions, I is the number of insertions, C is the number of correct words, N is the number of words in the reference (N=S+D+C).\nThis value indicates the average number of errors per reference word. The lower the value, the better the performance of the ASR system with a WER of 0 being a perfect score."
+  },
+  {
+    "id": "brian920128/doc_retrieve_metrics",
+    "spaceId": "brian920128/doc_retrieve_metrics",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "bstrai/classification_report",
+    "spaceId": "bstrai/classification_report",
+    "description": "Build a text report showing the main classification metrics that are accuracy, precision, recall and F1."
+  },
+  {
+    "id": "bugbounty1806/accuracy",
+    "spaceId": "bugbounty1806/accuracy",
+    "description": "Accuracy is the proportion of correct predictions among the total number of cases processed. It can be computed with: Accuracy = (TP + TN) / (TP + TN + FP + FN) Where: TP: True positive TN: True negative FP: False positive FN: False negative"
+  },
+  {
+    "id": "cakiki/ndcg",
+    "spaceId": "cakiki/ndcg",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "carletoncognitivescience/peak_signal_to_noise_ratio",
+    "spaceId": "carletoncognitivescience/peak_signal_to_noise_ratio",
+    "description": "Image quality metric"
+  },
+  {
+    "id": "chanelcolgate/average_precision",
+    "spaceId": "chanelcolgate/average_precision",
+    "description": "Average precision score."
+  },
+  {
+    "id": "chimene/accents_unplugged_eval",
+    "spaceId": "chimene/accents_unplugged_eval",
+    "description": "Word error rate (WER) is a common metric of the performance of an automatic speech recognition system.\nThe general difficulty of measuring performance lies in the fact that the recognized word sequence can have a different length from the reference word sequence (supposedly the correct one). The WER is derived from the Levenshtein distance, working at the word level instead of the phoneme level. The WER is a valuable tool for comparing different systems as well as for evaluating improvements within one system. This kind of measurement, however, provides no details on the nature of translation errors and further work is therefore required to identify the main source(s) of error and to focus any research effort.\nThis problem is solved by first aligning the recognized word sequence with the reference (spoken) word sequence using dynamic string alignment. Examination of this issue is seen through a theory called the power law that states the correlation between perplexity and word error rate.\nWord error rate can then be computed as:\nWER = (S + D + I) / N = (S + D + I) / (S + D + C)\nwhere\nS is the number of substitutions, D is the number of deletions, I is the number of insertions, C is the number of correct words, N is the number of words in the reference (N=S+D+C).\nThis value indicates the average number of errors per reference word. The lower the value, the better the performance of the ASR system with a WER of 0 being a perfect score."
+  },
+  {
+    "id": "ckb/unigram",
+    "spaceId": "ckb/unigram",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "codeparrot/apps_metric",
+    "spaceId": "codeparrot/apps_metric",
+    "description": "Evaluation metric for the APPS benchmark"
+  },
+  {
+    "id": "cpllab/syntaxgym",
+    "spaceId": "cpllab/syntaxgym",
+    "description": "Evaluates Huggingface models on SyntaxGym datasets (targeted syntactic evaluations)."
+  },
+  {
+    "id": "d-matrix/dmx_perplexity",
+    "spaceId": "d-matrix/dmx_perplexity",
+    "description": "Perplexity metric implemented by d-Matrix. Perplexity (PPL) is one of the most common metrics for evaluating language models. It is defined as the exponentiated average negative log-likelihood of a sequence, calculated with exponent base `e`. Note that this metric is intended for Causual Language Models, the perplexity calculation is only correct if model uses Cross Entropy Loss. For more information, see https://huggingface.co/docs/transformers/perplexity"
+  },
+  {
+    "id": "daiyizheng/valid",
+    "spaceId": "daiyizheng/valid",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "danieldux/hierarchical_softmax_loss",
+    "spaceId": "danieldux/hierarchical_softmax_loss",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "dayil100/accents_unplugged_eval",
+    "spaceId": "dayil100/accents_unplugged_eval",
+    "description": "Word error rate (WER) is a common metric of the performance of an automatic speech recognition system.\nThe general difficulty of measuring performance lies in the fact that the recognized word sequence can have a different length from the reference word sequence (supposedly the correct one). The WER is derived from the Levenshtein distance, working at the word level instead of the phoneme level. The WER is a valuable tool for comparing different systems as well as for evaluating improvements within one system. This kind of measurement, however, provides no details on the nature of translation errors and further work is therefore required to identify the main source(s) of error and to focus any research effort.\nThis problem is solved by first aligning the recognized word sequence with the reference (spoken) word sequence using dynamic string alignment. Examination of this issue is seen through a theory called the power law that states the correlation between perplexity and word error rate.\nWord error rate can then be computed as:\nWER = (S + D + I) / N = (S + D + I) / (S + D + C)\nwhere\nS is the number of substitutions, D is the number of deletions, I is the number of insertions, C is the number of correct words, N is the number of words in the reference (N=S+D+C).\nThis value indicates the average number of errors per reference word. The lower the value, the better the performance of the ASR system with a WER of 0 being a perfect score."
+  },
+  {
+    "id": "dayil100/accents_unplugged_eval_WER",
+    "spaceId": "dayil100/accents_unplugged_eval_WER",
+    "description": "Word error rate (WER) is a common metric of the performance of an automatic speech recognition system.\nThe general difficulty of measuring performance lies in the fact that the recognized word sequence can have a different length from the reference word sequence (supposedly the correct one). The WER is derived from the Levenshtein distance, working at the word level instead of the phoneme level. The WER is a valuable tool for comparing different systems as well as for evaluating improvements within one system. This kind of measurement, however, provides no details on the nature of translation errors and further work is therefore required to identify the main source(s) of error and to focus any research effort.\nThis problem is solved by first aligning the recognized word sequence with the reference (spoken) word sequence using dynamic string alignment. Examination of this issue is seen through a theory called the power law that states the correlation between perplexity and word error rate.\nWord error rate can then be computed as:\nWER = (S + D + I) / N = (S + D + I) / (S + D + C)\nwhere\nS is the number of substitutions, D is the number of deletions, I is the number of insertions, C is the number of correct words, N is the number of words in the reference (N=S+D+C).\nThis value indicates the average number of errors per reference word. The lower the value, the better the performance of the ASR system with a WER of 0 being a perfect score."
+  },
+  {
+    "id": "dgfh76564/accents_unplugged_eval",
+    "spaceId": "dgfh76564/accents_unplugged_eval",
+    "description": "Word error rate (WER) is a common metric of the performance of an automatic speech recognition system.\nThe general difficulty of measuring performance lies in the fact that the recognized word sequence can have a different length from the reference word sequence (supposedly the correct one). The WER is derived from the Levenshtein distance, working at the word level instead of the phoneme level. The WER is a valuable tool for comparing different systems as well as for evaluating improvements within one system. This kind of measurement, however, provides no details on the nature of translation errors and further work is therefore required to identify the main source(s) of error and to focus any research effort.\nThis problem is solved by first aligning the recognized word sequence with the reference (spoken) word sequence using dynamic string alignment. Examination of this issue is seen through a theory called the power law that states the correlation between perplexity and word error rate.\nWord error rate can then be computed as:\nWER = (S + D + I) / N = (S + D + I) / (S + D + C)\nwhere\nS is the number of substitutions, D is the number of deletions, I is the number of insertions, C is the number of correct words, N is the number of words in the reference (N=S+D+C).\nThis value indicates the average number of errors per reference word. The lower the value, the better the performance of the ASR system with a WER of 0 being a perfect score."
+  },
+  {
+    "id": "dvitel/codebleu",
+    "spaceId": "dvitel/codebleu",
+    "description": "CodeBLEU"
+  },
+  {
+    "id": "ecody726/bertscore",
+    "spaceId": "ecody726/bertscore",
+    "description": "BERTScore leverages the pre-trained contextual embeddings from BERT and matches words in candidate and reference sentences by cosine similarity. It has been shown to correlate with human judgment on sentence-level and system-level evaluation. Moreover, BERTScore computes precision, recall, and F1 measure, which can be useful for evaluating different language generation tasks.\nSee the project's README at https://github.com/Tiiiger/bert_score#readme for more information."
+  },
+  {
+    "id": "erntkn/dice_coefficient",
+    "spaceId": "erntkn/dice_coefficient",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "fnvls/bleu1234",
+    "spaceId": "fnvls/bleu1234",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "fnvls/bleu_1234",
+    "spaceId": "fnvls/bleu_1234",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "franzi2505/detection_metric",
+    "spaceId": "franzi2505/detection_metric",
+    "description": "Compute multiple object detection metrics at different bounding box area levels."
+  },
+  {
+    "id": "fschlatt/ner_eval",
+    "spaceId": "fschlatt/ner_eval",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "gabeorlanski/bc_eval",
+    "spaceId": "gabeorlanski/bc_eval",
+    "description": "This metric implements the evaluation harness for datasets translated with the BabelCode framework as described in the paper \"Measuring The Impact Of Programming Language Distribution\" (https://arxiv.org/abs/2302.01973)."
+  },
+  {
+    "id": "giulio98/code_eval_outputs",
+    "spaceId": "giulio98/code_eval_outputs"
+  },
+  {
+    "id": "giulio98/codebleu",
+    "spaceId": "giulio98/codebleu",
+    "description": "CodeBLEU metric for Python and C++"
+  },
+  {
+    "id": "gjacob/bertimbauscore",
+    "spaceId": "gjacob/bertimbauscore",
+    "description": "BERTScore leverages the pre-trained contextual embeddings from BERT and matches words in candidate and reference sentences by cosine similarity. It has been shown to correlate with human judgment on sentence-level and system-level evaluation. Moreover, BERTScore computes precision, recall, and F1 measure, which can be useful for evaluating different language generation tasks.\nSee the project's README at https://github.com/Tiiiger/bert_score#readme for more information."
+  },
+  {
+    "id": "gjacob/chrf",
+    "spaceId": "gjacob/chrf",
+    "description": "ChrF and ChrF++ are two MT evaluation metrics. They both use the F-score statistic for character n-gram matches, and ChrF++ adds word n-grams as well which correlates more strongly with direct assessment. We use the implementation that is already present in sacrebleu.\nThe implementation here is slightly different from sacrebleu in terms of the required input format. The length of the references and hypotheses lists need to be the same, so you may need to transpose your references compared to sacrebleu's required input format. See https://github.com/huggingface/datasets/issues/3154#issuecomment-950746534\nSee the README.md file at https://github.com/mjpost/sacreBLEU#chrf--chrf for more information."
+  },
+  {
+    "id": "gjacob/google_bleu",
+    "spaceId": "gjacob/google_bleu",
+    "description": "The BLEU score has some undesirable properties when used for single sentences, as it was designed to be a corpus measure. We therefore  use a slightly different score for our RL experiments which we call the 'GLEU score'. For the GLEU score, we record all sub-sequences of 1, 2, 3 or 4 tokens in output and target sequence (n-grams). We then compute a recall, which is the ratio of the number of matching n-grams to the number of total n-grams in the target (ground truth) sequence, and a precision, which is the ratio of the number of matching n-grams to the number of total n-grams in the generated output sequence. Then GLEU score is simply the minimum of recall and precision. This GLEU score's range is always between 0 (no matches) and 1 (all match) and it is symmetrical when switching output and target. According to our experiments, GLEU score correlates quite well with the BLEU metric on a corpus level but does not have its drawbacks for our per sentence reward objective."
+  },
+  {
+    "id": "gjacob/wiki_split",
+    "spaceId": "gjacob/wiki_split",
+    "description": "WIKI_SPLIT is the combination of three metrics SARI, EXACT and SACREBLEU It can be used to evaluate the quality of machine-generated texts."
+  },
+  {
+    "id": "gnail/cosine_similarity",
+    "spaceId": "gnail/cosine_similarity",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "gorkaartola/metric_for_tp_fp_samples",
+    "spaceId": "gorkaartola/metric_for_tp_fp_samples",
+    "description": "This metric is specially designed to measure the performance of sentence classification models over multiclass test datasets containing both True Positive samples, meaning that the label associated to the sentence in the sample is correctly assigned, and False Positive samples, meaning that the label associated to the sentence in the sample is incorrectly assigned."
+  },
+  {
+    "id": "guydav/restrictedpython_code_eval",
+    "spaceId": "guydav/restrictedpython_code_eval",
+    "description": "Same logic as the built-in `code_eval`, but compiling and running the code using `RestrictedPython`"
+  },
+  {
+    "id": "hack/test_metric",
+    "spaceId": "hack/test_metric",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "harshhpareek/bertscore",
+    "spaceId": "harshhpareek/bertscore",
+    "description": "BERTScore leverages the pre-trained contextual embeddings from BERT and matches words in candidate and reference sentences by cosine similarity. It has been shown to correlate with human judgment on sentence-level and system-level evaluation. Moreover, BERTScore computes precision, recall, and F1 measure, which can be useful for evaluating different language generation tasks.\nSee the project's README at https://github.com/Tiiiger/bert_score#readme for more information."
+  },
+  {
+    "id": "hpi-dhc/FairEval",
+    "spaceId": "hpi-dhc/FairEval",
+    "description": "Fair Evaluation for Squence labeling"
+  },
+  {
+    "id": "huanghuayu/multiclass_brier_score",
+    "spaceId": "huanghuayu/multiclass_brier_score",
+    "description": "brier_score metric for multiclass problem."
+  },
+  {
+    "id": "hynky/sklearn_proxy",
+    "spaceId": "hynky/sklearn_proxy",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "hyperml/balanced_accuracy",
+    "spaceId": "hyperml/balanced_accuracy",
+    "description": "Balanced Accuracy is the average of recall obtained on each class. It can be computed with: Balanced Accuracy = (TPR + TNR) / N Where: TPR: True positive rate TNR: True negative rate N: Number of classes"
+  },
+  {
+    "id": "iNeil77/code_eval_octopack",
+    "spaceId": "iNeil77/code_eval_octopack",
+    "description": "This metric implements code evaluation with execution across multiple languages as used in the paper \"OctoPack: Instruction Tuning Code Large Language Models\" (https://arxiv.org/abs/2308.07124)."
+  },
+  {
+    "id": "idsedykh/codebleu",
+    "spaceId": "idsedykh/codebleu",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "idsedykh/codebleu2",
+    "spaceId": "idsedykh/codebleu2",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "idsedykh/megaglue",
+    "spaceId": "idsedykh/megaglue",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "idsedykh/metric",
+    "spaceId": "idsedykh/metric",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "illorca/FairEval",
+    "spaceId": "illorca/FairEval",
+    "description": "Fair Evaluation for Squence labeling"
+  },
+  {
+    "id": "ingyu/klue_mrc",
+    "spaceId": "ingyu/klue_mrc",
+    "description": "This metric wrap the unofficial scoring script for [Machine Machine Reading Comprehension task of Korean Language Understanding Evaluation (KLUE-MRC)](https://huggingface.co/datasets/klue/viewer/mrc/train).\nKLUE-MRC is a Korean reading comprehension dataset consisting of questions where the answer to every question is a segment of text, or span, from the corresponding reading passage, or the question might be unanswerable.\nAs KLUE-MRC has the same task format as SQuAD 2.0, this evaluation script uses the same metrics of SQuAD 2.0 (F1 and EM).\nKLUE-MRC consists of 12,286 question paraphrasing, 7,931 multi-sentence reasoning, and 9,269 unanswerable questions. Totally, 29,313 examples are made with 22,343 documents and 23,717 passages."
+  },
+  {
+    "id": "jialinsong/apps_metric",
+    "spaceId": "jialinsong/apps_metric",
+    "description": "Evaluation metric for the APPS benchmark"
+  },
+  {
+    "id": "jjkim0807/code_eval",
+    "spaceId": "jjkim0807/code_eval",
+    "description": "This metric implements the evaluation harness for the HumanEval problem solving dataset described in the paper \"Evaluating Large Language Models Trained on Code\" (https://arxiv.org/abs/2107.03374)."
+  },
+  {
+    "id": "jordyvl/ece",
+    "spaceId": "jordyvl/ece",
+    "description": "binned estimator of expected calibration error"
+  },
+  {
+    "id": "jpxkqx/peak_signal_to_noise_ratio",
+    "spaceId": "jpxkqx/peak_signal_to_noise_ratio",
+    "description": "Image quality metric"
+  },
+  {
+    "id": "jpxkqx/signal_to_reconstruction_error",
+    "spaceId": "jpxkqx/signal_to_reconstruction_error",
+    "description": "Signal-to-Reconstruction Error"
+  },
+  {
+    "id": "juliakaczor/accents_unplugged_eval",
+    "spaceId": "juliakaczor/accents_unplugged_eval",
+    "description": "Word error rate (WER) is a common metric of the performance of an automatic speech recognition system.\nThe general difficulty of measuring performance lies in the fact that the recognized word sequence can have a different length from the reference word sequence (supposedly the correct one). The WER is derived from the Levenshtein distance, working at the word level instead of the phoneme level. The WER is a valuable tool for comparing different systems as well as for evaluating improvements within one system. This kind of measurement, however, provides no details on the nature of translation errors and further work is therefore required to identify the main source(s) of error and to focus any research effort.\nThis problem is solved by first aligning the recognized word sequence with the reference (spoken) word sequence using dynamic string alignment. Examination of this issue is seen through a theory called the power law that states the correlation between perplexity and word error rate.\nWord error rate can then be computed as:\nWER = (S + D + I) / N = (S + D + I) / (S + D + C)\nwhere\nS is the number of substitutions, D is the number of deletions, I is the number of insertions, C is the number of correct words, N is the number of words in the reference (N=S+D+C).\nThis value indicates the average number of errors per reference word. The lower the value, the better the performance of the ASR system with a WER of 0 being a perfect score."
+  },
+  {
+    "id": "jzm-mailchimp/joshs_second_test_metric",
+    "spaceId": "jzm-mailchimp/joshs_second_test_metric",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "k4black/codebleu",
+    "spaceId": "k4black/codebleu",
+    "description": "Unofficial `CodeBLEU` implementation that supports Linux, MacOS and Windows."
+  },
+  {
+    "id": "kashif/mape",
+    "spaceId": "kashif/mape",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "kedudzic/charmatch",
+    "spaceId": "kedudzic/charmatch",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "kyokote/my_metric2",
+    "spaceId": "kyokote/my_metric2",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "langdonholmes/cohen_weighted_kappa",
+    "spaceId": "langdonholmes/cohen_weighted_kappa",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "leslyarun/fbeta_score",
+    "spaceId": "leslyarun/fbeta_score",
+    "description": "Calculate FBeta_Score"
+  },
+  {
+    "id": "lhy/hamming_loss",
+    "spaceId": "lhy/hamming_loss",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "lhy/ranking_loss",
+    "spaceId": "lhy/ranking_loss",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "livvie/accents_unplugged_eval",
+    "spaceId": "livvie/accents_unplugged_eval",
+    "description": "Word error rate (WER) is a common metric of the performance of an automatic speech recognition system.\nThe general difficulty of measuring performance lies in the fact that the recognized word sequence can have a different length from the reference word sequence (supposedly the correct one). The WER is derived from the Levenshtein distance, working at the word level instead of the phoneme level. The WER is a valuable tool for comparing different systems as well as for evaluating improvements within one system. This kind of measurement, however, provides no details on the nature of translation errors and further work is therefore required to identify the main source(s) of error and to focus any research effort.\nThis problem is solved by first aligning the recognized word sequence with the reference (spoken) word sequence using dynamic string alignment. Examination of this issue is seen through a theory called the power law that states the correlation between perplexity and word error rate.\nWord error rate can then be computed as:\nWER = (S + D + I) / N = (S + D + I) / (S + D + C)\nwhere\nS is the number of substitutions, D is the number of deletions, I is the number of insertions, C is the number of correct words, N is the number of words in the reference (N=S+D+C).\nThis value indicates the average number of errors per reference word. The lower the value, the better the performance of the ASR system with a WER of 0 being a perfect score."
+  },
+  {
+    "id": "loubnabnl/apps_metric2",
+    "spaceId": "loubnabnl/apps_metric2",
+    "description": "Evaluation metric for the APPS benchmark"
+  },
+  {
+    "id": "lvwerra/accuracy_score",
+    "spaceId": "lvwerra/accuracy_score",
+    "description": "\"Accuracy classification score.\""
+  },
+  {
+    "id": "lvwerra/bary_score",
+    "spaceId": "lvwerra/bary_score",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "lvwerra/test",
+    "spaceId": "lvwerra/test"
+  },
+  {
+    "id": "manueldeprada/beer",
+    "spaceId": "manueldeprada/beer",
+    "description": "BEER 2.0 (BEtter Evaluation as Ranking) is a trained machine translation evaluation metric with high correlation with human judgment both on sentence and corpus level. It is a linear model-based metric for sentence-level evaluation in machine translation (MT) that combines 33 relatively dense features, including character n-grams and reordering features. It employs a learning-to-rank framework to differentiate between function and non-function words and weighs each word type according to its importance for evaluation. The model is trained on ranking similar translations using a vector of feature values for each system output. BEER outperforms the strong baseline metric METEOR in five out of eight language pairs, showing that less sparse features at the sentence level can lead to state-of-the-art results. Features on character n-grams are crucial, and higher-order character n-grams are less prone to sparse counts than word n-grams."
+  },
+  {
+    "id": "mfumanelli/geometric_mean",
+    "spaceId": "mfumanelli/geometric_mean",
+    "description": "The geometric mean (G-mean) is the root of the product of class-wise sensitivity.  "
+  },
+  {
+    "id": "mgfrantz/roc_auc_macro",
+    "spaceId": "mgfrantz/roc_auc_macro",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "mtc/fragments",
+    "spaceId": "mtc/fragments",
+    "description": "Fragments computes the extractiveness between source articles and their summaries. The metric computes two scores: coverage and density.  The code is adapted from the newsroom package(https://github.com/lil-lab/newsroom/blob/master/newsroom/analyze/fragments.py). All credits goes to the authors of aforementioned code."
+  },
+  {
+    "id": "nevikw39/specificity",
+    "spaceId": "nevikw39/specificity",
+    "description": "Specificity is the fraction of the negatives examples that were correctly labeled by the model as negatives. It can be computed with the equation: Specificity = TN / (TN + FP) Where TN is the true negatives and FP is the false positives."
+  },
+  {
+    "id": "nlpln/tst",
+    "spaceId": "nlpln/tst",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "ola13/precision_at_k",
+    "spaceId": "ola13/precision_at_k",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "omidf/squad_precision_recall",
+    "spaceId": "omidf/squad_precision_recall",
+    "description": "This metric wrap the official scoring script for version 1 of the Stanford Question Answering Dataset (SQuAD).\nStanford Question Answering Dataset (SQuAD) is a reading comprehension dataset, consisting of questions posed by crowdworkers on a set of Wikipedia articles, where the answer to every question is a segment of text, or span, from the corresponding reading passage, or the question might be unanswerable."
+  },
+  {
+    "id": "posicube/mean_reciprocal_rank",
+    "spaceId": "posicube/mean_reciprocal_rank",
+    "description": "Mean Reciprocal Rank is a statistic measure for evaluating any process that produces a list of possible responses to a sample of queries, ordered by probability of correctness."
+  },
+  {
+    "id": "repllabs/mean_average_precision",
+    "spaceId": "repllabs/mean_average_precision",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "repllabs/mean_reciprocal_rank",
+    "spaceId": "repllabs/mean_reciprocal_rank",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "ronaldahmed/nwentfaithfulness",
+    "spaceId": "ronaldahmed/nwentfaithfulness",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "sakusakumura/bertscore",
+    "spaceId": "sakusakumura/bertscore",
+    "description": "BERTScore leverages the pre-trained contextual embeddings from BERT and matches words in candidate and reference sentences by cosine similarity. It has been shown to correlate with human judgment on sentence-level and system-level evaluation. Moreover, BERTScore computes precision, recall, and F1 measure, which can be useful for evaluating different language generation tasks.\nSee the project's README at https://github.com/Tiiiger/bert_score#readme for more information."
+  },
+  {
+    "id": "shalakasatheesh/squad",
+    "spaceId": "shalakasatheesh/squad",
+    "description": "This metric wrap the official scoring script for version 1 of the Stanford Question Answering Dataset (SQuAD).\nStanford Question Answering Dataset (SQuAD) is a reading comprehension dataset, consisting of questions posed by crowdworkers on a set of Wikipedia articles, where the answer to every question is a segment of text, or span, from the corresponding reading passage, or the question might be unanswerable."
+  },
+  {
+    "id": "shalakasatheesh/squad_v2",
+    "spaceId": "shalakasatheesh/squad_v2",
+    "description": "This metric wrap the official scoring script for version 2 of the Stanford Question Answering Dataset (SQuAD).\nStanford Question Answering Dataset (SQuAD) is a reading comprehension dataset, consisting of questions posed by crowdworkers on a set of Wikipedia articles, where the answer to every question is a segment of text, or span, from the corresponding reading passage, or the question might be unanswerable.\nSQuAD2.0 combines the 100,000 questions in SQuAD1.1 with over 50,000 unanswerable questions  written adversarially by crowdworkers to look similar to answerable ones. To do well on SQuAD2.0, systems must not only answer questions when possible, but also determine when no answer is supported by the paragraph and abstain from answering."
+  },
+  {
+    "id": "shirayukikun/sescore",
+    "spaceId": "shirayukikun/sescore",
+    "description": "SEScore: a text generation evaluation metric"
+  },
+  {
+    "id": "shunzh/apps_metric",
+    "spaceId": "shunzh/apps_metric",
+    "description": "Evaluation metric for the APPS benchmark"
+  },
+  {
+    "id": "sma2023/wil",
+    "spaceId": "sma2023/wil"
+  },
+  {
+    "id": "sportlosos/sescore",
+    "spaceId": "sportlosos/sescore",
+    "description": "SEScore: a text generation evaluation metric"
+  },
+  {
+    "id": "transZ/sbert_cosine",
+    "spaceId": "transZ/sbert_cosine",
+    "description": "Sbert cosine is a metric to score the semantic similarity of text generation tasks\nThis is not the official implementation of cosine similarity using SBERT\nSee the project at https://www.sbert.net/ for more information."
+  },
+  {
+    "id": "transZ/test_parascore",
+    "spaceId": "transZ/test_parascore",
+    "description": "ParaScore is a new metric to scoring the performance of paraphrase generation tasks\nSee the project at https://github.com/shadowkiller33/ParaScore for more information."
+  },
+  {
+    "id": "transformersegmentation/segmentation_scores",
+    "spaceId": "transformersegmentation/segmentation_scores",
+    "description": " metric for word segmentation scores "
+  },
+  {
+    "id": "unitxt/metric",
+    "spaceId": "unitxt/metric",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "unnati/kendall_tau_distance",
+    "spaceId": "unnati/kendall_tau_distance",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "vichyt/metric-codebleu",
+    "spaceId": "vichyt/metric-codebleu",
+    "description": "Unofficial `CodeBLEU` implementation that supports Linux and MacOS. It is only available for python at the feature website."
+  },
+  {
+    "id": "weiqis/pajm",
+    "spaceId": "weiqis/pajm",
+    "description": "a metric module to do Partial Answer & Justification Match (pajm)."
+  },
+  {
+    "id": "xu1998hz/sescore",
+    "spaceId": "xu1998hz/sescore",
+    "description": "SEScore: a text generation evaluation metric"
+  },
+  {
+    "id": "xu1998hz/sescore_english_coco",
+    "spaceId": "xu1998hz/sescore_english_coco",
+    "description": "SEScore: a text generation evaluation metric"
+  },
+  {
+    "id": "xu1998hz/sescore_english_mt",
+    "spaceId": "xu1998hz/sescore_english_mt",
+    "description": "SEScore: a text generation evaluation metric"
+  },
+  {
+    "id": "xu1998hz/sescore_english_webnlg",
+    "spaceId": "xu1998hz/sescore_english_webnlg",
+    "description": "SEScore: a text generation evaluation metric"
+  },
+  {
+    "id": "xu1998hz/sescore_german_mt",
+    "spaceId": "xu1998hz/sescore_german_mt",
+    "description": "SEScore: a text generation evaluation metric"
+  },
+  {
+    "id": "ybelkada/cocoevaluate",
+    "spaceId": "ybelkada/cocoevaluate",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "yonting/average_precision_score",
+    "spaceId": "yonting/average_precision_score",
+    "description": "Average precision score."
+  },
+  {
+    "id": "yqsong/execution_accuracy",
+    "spaceId": "yqsong/execution_accuracy",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "yulong-me/yl_metric",
+    "spaceId": "yulong-me/yl_metric",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "yuyijiong/quad_match_score",
+    "spaceId": "yuyijiong/quad_match_score",
+    "description": "TODO: add a description here"
+  },
+  {
+    "id": "yzha/ctc_eval",
+    "spaceId": "yzha/ctc_eval",
+    "description": "This repo contains code of an automatic evaluation metric described in the paper Compression, Transduction, and Creation: A Unified Framework for Evaluating Natural Language Generation"
+  },
+  {
+    "id": "zbeloki/m2",
+    "spaceId": "zbeloki/m2",
+    "description": "TODO: add a description here"
+  }
+]

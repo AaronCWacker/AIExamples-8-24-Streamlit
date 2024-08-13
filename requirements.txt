@@ -1,0 +1,6 @@
+nltk
+graphviz
+streamlit
+altair<5
+scikit-learn
+networkx

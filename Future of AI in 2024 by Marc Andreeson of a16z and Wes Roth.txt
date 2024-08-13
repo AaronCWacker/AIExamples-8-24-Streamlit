@@ -1,0 +1,895 @@
+
+Marc on Lex: https://youtu.be/-hxeDjAxvJ8
+Wes on a16z: https://www.youtube.com/watch?v=sGV3AzWFjB0&t=150s 
+
+
+a16z
+0:00
+a16z drops the abundance agenda if you are interested in having wealthy
+0:05
+individuals and huge investment companies give you money to build various AI apps this is a very
+0:11
+interesting read all right so let's start here the a16z the abundance agenda so a16z is a venture capital firm they
+0:19
+put tons of money into various Tech things they've been doing it for quite a while this is Mark Andre so a16z uh is
+0:26
+also called andreon Horowitz because I guess it's a then 16 letters than Z so a16z this is Mark so he sold the one of
+0:34
+the earliest internet browsers Mosaic and co- found a Netscape sold to a for $4.2 billion and then since then he's
+0:41
+been putting this money into various internet Technologies and doing extremely well with it and now he's doubling down on AI and so they're
+0:48
+talking about how today's luxuries are tomorrow's Commodities basically where a lot of things that used to be very
+0:54
+expensive that were kind of hard to get that were only available to the top 1% will now become much more accessible
+1:00
+with the use of AI and before we dive into what they're going to be talking about here I think this is this is the
+1:07
+thing to understand here's what this report is saying right if we kind of just translate it to to the most basic
+1:13
+thing possible they're saying if you build this we will shove lots of money
+1:19
+at you so whether you're an app builder that's trying to get acquired or trying to get investment or not maybe you're
+1:26
+investor maybe you're just somebody looking to make money during this AI boom here the people that are saying these are the ideas these are the areas
+1:33
+that will be important here are the problems that will need to get solved that has lots of sort of money-making
+1:39
+potential behind it so it's important to understand that these people this is what they do for a living they invest in
+1:44
+cuttingedge Technologies they think about how those Technologies make money how they acquire users so in other words
+1:50
+these aren't just like guesses by people who don't know what they're talking about doing any one of these could very likely lead to building a 789 figure
+1:58
+company or even if you're not building AI app kind of playing in these Arenas that's where the interest is that's
+2:04
+where the money is that's where all the investors who are also reading you know this thing by a16z that's where they're
+2:10
+looking to allocate their money so for example here when they talking about productivity you know they're saying here's what we're looking for in other
+2:16
+words you know AKA dollar signs right so they're saying agents that act as systems of action and if you've seen the
+2:23
+previous few videos that I did the last couple days that's literally what we're talking about right 2024 will be the
+MultiOn
+2:30
+year of the AI agent of the autonomous AI agent that's what everybody's heading
+2:35
+towards so they're saying we expect to see General agents that can compete common consumer tasks like booking a
+2:41
+restaurant or finding and sending a gift to a friend however we're also anticipating specialized agents fine
+2:46
+tune for specific and complex tasks like data analysis and marketing automation
+2:52
+the latter may be first to Market as they narrow the scope of requests and actions they need to reliably fulfill
+2:58
+and they have a few examples here of that's funny so this is multi-on
+3:04
+literally I just published a video on this yesterday I finally got access to to the beta of multi on which is just
+3:11
+sort of being rolled out to the general public and it's good it's really good it's really good in its ability to find
+3:19
+let me actually show you really fast all right so really fast so I'm going to search for I'm going to ask it I can just ask it to do whatever so find a
+3:25
+table in the ho California for Valentine's Day and book it around sunset time do it so it might not be
+3:31
+able to do it unless you're logged into specific things so if you wanted to do something on Amazon you have to be logged into Amazon and so here it begins
+3:38
+thinking about what it needs to be doing how it's going to carry out that task it's thinking through the problems that
+3:43
+could reach for example so sorry if you can see that too well so for example here it found Open
+3:49
+Table San Diego it's looking for the sunset time in LA ho California on February 14th so
+3:55
+it's figuring out like okay what time is sunset cuz he wants uh that thing around Sunset so figured out it's 5:33 p.m. now
+4:04
+it went back to open table and it's finding on February 14th around 5:30
+4:10
+p.m. for two people I probably did not pick the right example because obviously everything's uh taken taken up already
+4:16
+right everything's reserved but notice that it continues doing it so it found rovino in La Hoya and so now it's saying
+4:24
+okay to complete your reservation I need your first name last name phone number now I didn't set up my profile on this
+4:29
+normally you would give it all information and he would just go through and do it if you're interested I'll link the uh video down below in the show
+4:35
+notes because the stuff this thing does is kind of mind-blowing it will tweet for you it will go on instacart order a
+4:42
+bunch of stuff and just check out for you I even asked it to go onto Amazon and cancel some of the auto
+4:48
+replenishment orders that I have like the auto recurring orders and it did that now as you'll see in the video if
+4:54
+you end up watching it it does run into certain issues but here's the the thing
+4:59
+after testing I've tested a lot of these agents and I've looked at a lot of studies that that kind of Benchmark
+5:05
+these agents the thing that usually runs into the issue is the agent isn't able
+5:10
+to intelligently figure out how to navigate like it'll make poor reasoning choices this thing its reasoning
+5:17
+abilities are excellent most of the issues I've ran into are like Tech issues like it'll click a button that
+5:23
+doesn't work or because it's a chrome plug-in there's some like security issues Chrome won't let it do certain
+5:30
+things so it'll prevent it from doing certain stuff but those are easily fixable because they're not like the AI
+5:36
+is good enough to figure out what to click on where to go the rest is just kind of like coding and troubleshooting
+5:41
+and working out the glitches and stuff like that mulon is phenomenal it's
+5:47
+really good I'll go ahead and close this but I'm just I'm surprised to see it right here I I did not know it was on
+5:52
+here I just randomly picked this as sort of an example and there it is but yeah I wouldn't be surprised if mulon or other
+5:59
+similar things like this they end up getting acquired for you know maybe hundreds of millions but anyway so with
+6:04
+that let's let's let's back up a little bit so I just wanted you know the point of this so this isn't just some fluffed
+Abundance Agenda
+6:10
+up you know presentation deck about nothing some corporate nonsense like this is you know there's uh gold in them
+6:17
+their Hills so the abundance agenda so they're talking about creativity and productivity companionship and social
+6:24
+wellness and personal growth so we'll skip that CU they go into it later for each one of those categories and so this
+6:30
+is the moment for Consumer Founders AI creates opportunity for Challengers just as mobile gave us WhatsApp Instagram
+6:37
+Airbnb twitch Uber AI will birth a new wave of category defining companies over
+6:43
+the coming decade the what if it works is enormous some of the biggest Global
+6:48
+software companies are consumer Fang is a 3 trillion market cap and 10% of the
+6:53
+S&P 500 of the 15 largest exits ever 13 were consumer focused companies culture
+7:00
+and Technology are converging America's two great Global exports culture and Technology are coming together in
+7:05
+unprecedented ways AI has captured the imagination of consumer and creatives driving experimentation with and
+7:12
+Adoption of new AA products and tools at a record pace so how a16z invests so
+7:18
+sort of the intersection of weird and working so consumers can't be predicted only observed in consumer success isn't
+7:24
+determined by team's pedigree or insights by by the product magic and founder intuition because of this we're
+7:30
+in the business of observation not prediction we focus on building magic and momentum and investing behind them
+7:36
+culture shifts and platform shifts we invest at the intersection of culture and platform shifts where the products
+7:43
+emerge that capitalize on or create new consumer behaviors this is not just a function of timing but how the
+7:49
+technology comes to Market and products that capture our imagination yeah you see all these like big winds coming out
+7:55
+of these random places you have big companies trying to do product research about what people like right and then
+8:00
+like the founder of Minecraft notch whatever you know just single-handedly creates Minecraft right and it sells to
+8:06
+Microsoft for $2.5 billion how world is blowing up right now that game that's on
+8:12
+Steam that looks like Pokemon with guns basically that's a small development team I think the kid that made the
+8:18
+models for them was like a middle schooler that worked at the local gas station I guess the developers used to go into and they're like hey can you
+8:24
+draw some stuff for us he's like yeah sure and that's the game that's printing I mean he it's hundreds of millions I
+8:30
+believe at this point and it's been out just it's still in Early Access successful consumer products have strong word of mouth virality due to surprising
+8:38
+or even unserious early use cases for example snap being just a sexting app
+8:43
+but these products often fulfill a real need that shines through an engagement and retention metrics again for me it's
+8:50
+always like the thing that you keep coming back to might be the big winner
+8:55
+that you might not quite capture if you just have a little spreadsheet about it like for me lexity AI that AI powered
+9:01
+search engine I keep coming back to use it other people that I tell about this
+9:06
+thing that may not be always early adopters for Tech things they try it out
+9:11
+and they they stick with it as well so there's just this virality and stickiness to where like this thing is
+9:18
+is probably going to be a winner it's not guaranteed but it has all the traits of being a big big winner and so this is
+9:24
+their investment thesis where a team is excited to invest so creativity and productivity AI Narrows the gap between
+9:31
+idea and execution enabling everyday consumers and creatives to do professional grade work so we have
+9:36
+content generation content editing and productivity somebody please build a
+9:42
+video editing app that uses Ai and that is just really good at doing it all right so content generation so here's
+Content Generation
+9:49
+what they're looking for so you no longer need years of training or knowledge of complex software to create art music videos or Graphics so this
+9:56
+even 10 years ago especially 10 plus years ago was a big big problem like how many people nowadays would even
+10:03
+understand what's happening in this image like could they explain what this is what these are what this is why this
+10:09
+this it's like a red color now I know that you know what it is because YouTube shows me the demographics of my viewers
+10:16
+and we're all very very old but most people have no clue what this is this is basically how people used to develop
+10:23
+photos back in the days from film you would take out the film out of the camera then you then you put the image
+10:28
+on paper I actually forgot how you do that then you have to like give it a little bath and these these little chemicals and if somebody opened the
+10:35
+door and let the light in everything would just be ruined forever nowadays younger kids are much better at taking
+10:42
+pictures and and videos than than like the older you get the more out of touch with it you are in general so AI tools
+10:49
+close the gap between creativity and craft for everyday consumers and will also be and will also uplevel existing
+10:55
+and professional creatives to produce more and better works at a lower cost and if you've seen some of the artists
+11:01
+in the artist community and this is like I'm generalizing obviously it's not everybody but there are some people who
+11:07
+just really hate Ai and are really fighting against it including these attempts to create these like poison
+11:14
+pills these algorithms to try to corrupt the AI image generation models and
+11:19
+they're basically like violently opposed to AI being used to produce art and
+11:25
+images Etc because they equating it to stealing from the artists and basically
+11:31
+you know putting them out of business but now if you think of you know creating art as Talent Plus skill like
+11:37
+the skill of drawing something for example we're kind of taking skill out of the equation now as long as you have
+11:42
+the the idea the vision right that talent to create how much skill you need
+11:48
+just keeps getting lower and lower and lower you no longer do this or deal with the settings on the camera you just push it Buton that Trend continues and so
+11:55
+what they're looking for is here are the specific things that they're looking for when it comes to content generation one
+12:01
+is killing the blank page problem so when people talk about like writer's block right when you open up you know a
+12:07
+blank page a brand new page like where do I even start right something like Chad GPT can quickly help you brainstorm
+12:13
+multiple ideas or give you a sketch or an outline or whatever and so they produce they give a few examples so
+12:19
+ideogram which ideogram which I don't think I've uh I've seen 11 Labs so
+12:25
+that's I've used it quite extensively if you ever saw a video of mine where that like sarcastic robot voice comes out and
+12:31
+like makes fun of me that's uh like this female voice that's kind of like oh you screwed that up whatever that's that's
+12:37
+11 Labs that's that's not a real person although it sounds like a real person that I know which I didn't realize till
+12:43
+they pointed out to me and that was that was kind of bizarre he's kind of slow on the uptake next is Pika so Pika is is
+12:50
+text to video I believe we've tried out one of the Front Runners Al along with Runway ML and now Google has their own
+12:57
+version of it which I don't think we able to test out yet but looks pretty good andso andso is like a music and
+13:04
+lyrics and vocals generator so you tell it hey make me a rap about Chad GPT and
+13:09
+it does and it's pretty good I mean it's not like music that you would put on the radio and sit there and listen to it
+13:15
+right it's not like something to work out to or whatever it's not listening music but as far as like demos go it's
+13:20
+it's pretty good the B where dreams
+13:25
+unfold the Symphony of the machine for a of prices etheral and strong we
+13:37
+[Music]
+13:43
+are then we have making open- Source models easily accessible so some of the most interesting work in content
+13:49
+generation is happening in the open-source ecosystems with developers fine-tuning and combining base models to
+13:55
+push the limits of what users can create however it's hard for for everyday consumers to download and run these
+14:01
+models locally they I mean absolutely have nailed this I feel like so the big
+14:06
+models are very limited by what they can provide they have to be very careful with you know things like it being
+14:12
+inappropriate or offensive you know infringing on somebody's works or copyrights Etc and there's not an easy
+14:18
+way to like do that so they big companies like they tend to just like over sensor and like really overdo it so
+14:26
+that there's like no chance that'll produce something that's quote or bad and a lot of the open source stuff they
+14:31
+they don't care you can do whatever you want so if you want more like specific stuff if you want stuff that's like off
+14:37
+the beaten path I mean that's where you go for that and the gap between you know these big proprietary models where you
+14:43
+can just open up a web page and click on a button and it it just does it for you right that's super easy anybody can do
+14:49
+it and you know deling into the open- source ecosystem that's super
+14:54
+complicated depending on what you're trying to do like that goes very deep it's very comp complicated if you're
+14:59
+trying to run it locally you have to have like a beast of a system and there is a number of companies that are doing
+15:05
+this but I mean yes I can see this being very very huge almost like a platform for open source stuff so you pay the
+15:11
+platform for ease of access then we have creating remixable outputs and so the idea that every image clip or song Can
+15:18
+Inspire another iteration or combination of its parts so the idea that you can grab somebody's song or video or something like that and just kind of
+15:24
+remix it change it like tweak it to your needs and wants and maybe even having the original Creator get paid off of
+15:31
+that then we have enabling consumers to build content creation apps and so as users take turns to generate more
+15:37
+complex content like you know if you want to do like a 5minute film instead of a 4se second clip it's unlikely that
+15:43
+one prompt or even one model will be able to handle every step of the generation so the idea here is to kind
+15:49
+of stitch them together so that you're able to to basic create whatever you want so in this space the idea of
+15:55
+creating for example movies using AI like this is big and I'm like really
+16:01
+excited about this I don't know if I'm necessarily going to do anything in that space But for those of you that have
+16:06
+wanted to create their own movies their own stories your own worlds like this feels just so so so big and I think
+16:14
+we're going to see a lot better stuff coming from you know small Studios one person or maybe even a few people and AI
+16:21
+than these big studios spending millions of dollars producing stuff then we have content editing content editing is a
+16:27
+long and painful process this is very very true so what they're looking for is owning multimedia workflows so many
+16:34
+creative projects require more than one type of content so users want to combine an image with text music with video
+16:40
+animation with a voice over so you you want to be able to kind of just like mix it up uh so we've tried heyen which is
+16:47
+excellent like I can feed it videos of myself and then it creates these realistic sort of versions of me
+16:53
+speaking in whatever language that I want if I can find the clips I will post them here
+17:05
+[Music]
+17:22
+then besides haen there's Runway which is another great one that can do quite a bit of cool things and is improving
+17:27
+rapidly they have some very interesting research going on into AI building World models that I can't wait to hear more
+17:35
+about then we have enabling in platform refinement the final 10% of Polish is often the difference in creating
+17:41
+something good versus great AI products can help users identify what can be improved and then automatically make
+17:46
+those changes so it's like the auto retouch feature on photos on Google I think it's called the portrait mode and
+17:53
+I mean magnific I was blown away with magnific so here's magnific so this is before and this is after so you can see
+17:59
+it kind of like really sharpens everything brings out the details here's another example so as you can see it's a
+18:04
+little bit blurry and then this is what magnific does it really like sharpens everything here's an example so see how
+18:11
+kind of this is like pretty low resolution right if we go like this I mean look at how it like brings out the
+18:18
+details and the definition and everything else and the thing is obviously it kind of makes stuff up
+18:24
+right so this is this is not real you know like if it's lower resolution it's low resolution there's no extra data
+18:29
+hidden there so it it kind of makes up what it thinks but you can use prompts and various and various sliders to you
+18:35
+know change what what you're making with it so here's a blurry image and here's the the magnific image so see how much
+18:43
+more detailed it is here's old school L craftt and this is how uh magnifi changes it so this one is with
+18:51
+creativity set to high so you can set it to be much more closer to the original
+18:56
+or you can set it to like really go out it's way to change it and depending on those settings you know the results you
+19:01
+get can look very similar or completely different all right so that's uh in platform refinement magnifi was the one
+19:08
+we looked at topas Labs I tested back in the day but I should probably give another look then we have iterating with
+19:14
+intelligent editors so here they're talking about you know taking an existing product or something that you're trying to edit and kind of refine
+19:21
+it regenerate one frame or feature without completely starting from scratch so paa is the one that we've looked at
+19:28
+for automatically repurposing content an enormous amount of manual editing goes into repurposing a piece of content for
+19:34
+different platforms a classic example is turning a long form YouTube video into Tik toks or IG reals yeah something like
+19:40
+this that's like smart the this would be great if you can like intelligently chop it up into pieces that make sense you
+19:47
+know part of me is concerned with how much garbage this could produce right because you give everybody the ability
+19:53
+to you know Take 5 minute video and turn it like 50 million pieces of content that could be a problem but whoever
+Productivity
+19:59
+makes that app is is going to make some money productivity so this is where we started right so this idea of agents
+20:04
+that act as systems of actions so we looked over this one we've covered mulon which is excellent then we have voice
+20:11
+first apps and so this is the idea of just you do your voice dictation and it does whatever it needs to get done you
+20:17
+know rabbit the rabbit R1 device there so they're going to be combining it with perplexity Ai and you're going to be
+20:24
+able to just talk to it with voice I don't even think it has too many buttons on there you just hold down the button like a walkie-talkie you say what you
+20:30
+want and it goes and does that thing I mean something like that could easily replace a lot of your devices
+20:36
+potentially like your whole phone If eventually you're able to say whatever you want done and it just does it that
+20:41
+would be pretty cool then we have apps that provide inlow assistance context switching is deadly H I'm I'm glad that
+20:49
+they said they said that I feel like a lot of people don't understand what a big toll context switching has on you
+20:56
+especially if you have uh ADHD like that is a killer there was a study not too
+21:01
+long ago where they took three sets of students and one would take their test sort of normally you know the control
+21:07
+group one would be like they they were forced to sleep last night before one of it was like inebriated in some way and
+21:13
+the fourth one like it was just completely normal no no issues but it would get a text every three or every
+21:20
+five minutes that they had to like pick up reply to and that's it they would have to like reply yes or no it it was
+21:27
+something simple like it didn't have to think too hard about it but they would have to focus on it for a few seconds
+21:32
+and that group did the worst like the drunks did better than than that group because they had to switch from one task
+21:38
+to the other and even if it happened every 5 minutes so maybe it happened you just a handful of times throughout the test like that killed their performance
+21:45
+so here they're saying with AI users should never have to break the flow of their work information ideas or examples
+21:51
+magically appear where and when is needed so this might manifest in tools that own an entire workflow like
+21:57
+translating research notes into a final block poster Graphics that is very interesting I don't even know what that
+22:02
+would look like but I got to say having AI tools when I'm doing some research so instead of having to go to Google type
+22:09
+it in and then get hit with all the ads and click on something and get hit with the cookie notification the pop like all
+22:15
+that stuff it like takes you out of the flow it's it's such a pain because each app each web page just cranks up how
+22:22
+much they want to distract you to like 11 cuz right because they want to just Harvest whatever information that they
+22:28
+they can out of you they just want to squeeze everything out of you and that makes it very difficult to stay focused
+22:33
+while also trying to do research in that way so that's that was huge for me they're they're taking this to the next
+22:39
+level saying how about like a whole an entire workflow some tool where you just
+22:44
+you sit in that tool and you just bring in everything that you need to to do that entire workflow to complete the
+22:50
+project like a research project and turning it into the final script or the final paper or whatever I haven't heard
+22:56
+of any of these but I'd love to to uh take a look at those then you have build your own workflows AI finally allows
+23:02
+non-programmers to build automations that streamline their work these may be information based like email me if an
+23:08
+IPO is announced or systems based like slack me if someone submits a support ticket users will be able to specify
+23:13
+what they want in natural language with llms acting as intermediaries to allow users to stitch together much more
+23:20
+complex flows than pre aai so again I do want to take a a look at these but um
+23:25
+zapier is doing a great job of incorporating AI into their thing and it already hooks into so many different
+23:31
+things that you're able to build these workflows they're calling them workflows
+23:36
+I mean to me they're more like little automations but yeah whatever the case is like this is the future autonomous
+23:42
+agents you know workflows automations whatever you call them like being able to build your own I refer to them as
+23:47
+like swarms of agents that kind of go and do things on your behalf that you've like customized them to do that will I
+23:54
+feel like that will change the game of how businesses done of with what productivity is recently Sam Alman
+24:02
+founder of opening eye was talking to Alex oh henan I believe Alexis soen
+24:07
+founder of Reddit and so Sam was saying that he and his group of CEOs that they chat with like they're taking bets on
+24:14
+when we're going to see the first oneperson billion dollar company so when are we going to see one person probably
+24:22
+with this Army of autonomous agents at their disposal build a company that's valued at a billion now I recall back in
+24:29
+2011 I think Forbes had this article they were talking about the rise of one person $1 million companies so they were
+24:36
+talking about one person that's generating a million dollars a year in revenue and they were saying how that
+24:41
+used to be extremely rare and then it like rapidly increased and a lot of that was through technology and so now a
+24:48
+decade plus later we're talking about one person billion doll companies potentially being created with AI and
+24:54
+that's not just the monetary inflation like that's like we're we talking a serious increase in productivity so I
+25:00
+think there's going to be some percent of the world's population that's going to do extremely well by utilizing these
+25:06
+AI armies to build whatever businesses they want and uh you know for all the other people there's uh companionship
+Social & Dating
+25:14
+and and social AI I'm I'm only partly kidding but I feel like there's going to be a lot of people that will sort of
+25:20
+rely on this to to escape I guess so AI gives computers a personality the days of rule-based chat Bots are over today's
+25:27
+Bots can engage in free flowing conversations about any topic that interests you there are countless use
+25:32
+cases from companionships that keep you company to interact of live streamers in digital matchmakers I never thought
+25:39
+about this although I think a Black Mirror episode covered that but actually multiple Black Mirror episodes covered
+25:45
+that exact thing but when two people are out on a date each of them having like a like their own little coach and those
+25:52
+like an AI coach and those two kind of communicating together might help facilitate kind of a free flowing
+25:58
+discussion maybe kind of like help reduce some of the social faas like I I feel like there's something there that
+26:04
+can not not just tell the people what to do but more like just like help them faster more quickly find that Common
+26:11
+Ground I was at a party once where I was talking to several people but there's this one person that was kind of boring
+26:16
+and I think we spent like an hour or two there and like right as I'm leaving I've mentioned something about blizzard
+26:22
+building their latest sort of big video game this was a while ago and so just to give you some context this was an Irvine
+26:28
+California for people that are familiar you know like where the Spectrum Center is and those are those apartments kind
+26:33
+of across the street over there like the nice ones like that's where we were and so just as I'm about to to leave this
+26:39
+guy goes oh yeah I'm on that project I work for blizzard cuz it was like why didn't you tell me that when I just
+26:45
+first walked in that was the first interesting piece of information about this person so I feel like these little
+26:51
+little digital assistants could help us like hey this person you know might be interesting to talk to if you're
+26:56
+interested in blizzard gaming for example blizzard their main headquarters were like across the street from where
+27:02
+we were for those that are not familiar so here we have companionship so and they're both talking about I like how they kind of like separate these out so
+27:09
+say for work right like friendship and assistance and like not say for work like romance uh those AI companions will
+27:15
+become part of everyday's daily lives as they already have for millions of users for people that kind of dismissed this
+27:21
+because it's like whatever AI boyfriend or girlfriend whatever I mean imagine having something like this but like a
+27:28
+coach somebody that like from the time that you wake up kind of kicks your butt in the right direction for you to get
+27:34
+done what whatever you get done you set the higher level priorities and they kind of help you accomplish your goals
+27:40
+with whatever motivation that you know that you prefer you want you want them to be abusive they know exactly which
+27:47
+pain points to hit because they know you very well you want them to be more encouraging they know how to do that you
+27:52
+don't think people would want that this David goggin's clip has millions of views and it's just him running and
+27:59
+yelling abuse at you you ain't good man you're not blank good enough so this could be like David goggin's yelling at
+28:05
+your year 24/7 stay hard all right so they're talking about what they're looking for
+28:11
+is one differentiated value prop versus generalist chat products and so to drive
+28:17
+strong user adoption retention AI companion products need to offer something different or better than
+28:22
+generalist products like Chad GPT so this could be a model that specializes in content that mainst models aren't
+28:28
+good at or don't allow so this is what we're talking about right so so the the farther you go from sort of like
+28:34
+mainstream acceptability acceptable topics right the more and more use cases
+28:40
+there are for these sort of differentiated products that are custom character AI is the big one that I've
+28:45
+heard of one of the people I believe one of the researchers on Google's attention is all you need paper like the people
+28:52
+that kind of like discovered SL invented the Transformer the thing that kind of in a way pushed this whole AI frenzy
+28:59
+into existence I believe one of those people he left Google and started
+29:05
+character AI so here's that paper so I think most of them left they published that paper it was kind of a big deal and
+29:11
+they all just skidaddled and built their own company so I guess n shazir made
+29:16
+character AI one of them and then these people went to Adept coh here I guess
+29:22
+Chad GPT all right or open AI inceptive near Incorporated all right and then so
+29:28
+we have new methods of interaction today most interactions with AI companions happen via a simple chat interface we
+29:35
+expect these companions will become more Dynamic and live beyond the text box
+29:40
+across all of the software and even Hardware we use now as well as new devices imagine a companion you can
+29:45
+summon anywhere with a voice Avatar and animation that feels like a real friend
+29:50
+hanging out with you so we have call Annie mate rabbit and Yoo so is rabbit
+29:57
+so I'm guessing rabbit is the R1 that they're referring to the rabbit device and apps that enable memory and
+30:03
+progression just like a human relationship your relationship with AI companion should evolve a companion
+30:09
+should get to know you better over time remember your previous conversations and change the nature of the relationship
+30:15
+some companion products may even up the stakes with the AI able to evolve or even pause their Communications if the
+30:21
+user isn't engaging in some specific way there used to be websites there probably are still
+30:27
+where you can have like it's like an anti- or anti motivation and people have made these Bets with each other too to
+30:33
+where like if we we both agree to show up at the gym every day and if one of us bailes one of us doesn't make it then
+30:40
+the another one does something bad like they'll release some some photos of the person that that person like their their
+30:45
+fat photos or whatever so I guess kind of like blackmail but motivational blackmail so is this what they're
+30:52
+talking about motivational blackmail of AI like it's going to do something horrible if you don't keep up up your
+30:57
+side of the bargain and then we have social so AI content is near indistinguishable from Human content and
+31:03
+Bots can now be real participants in social interactions and so we expect to see consumers entertain themselves and
+31:08
+their friends with AI characters and content across almost every place they spend time online and we believe that AI
+31:14
+will power better real world connections between humans through enhanced matchmaking yeah I got to say so a lot
+31:21
+of the studies into AI they take forms of games and some of these games you can
+31:26
+even participate in like the one where it's kind of like Among Us what called Hoodwinked AI where you're trapped in
+31:31
+the house and you know you're trying to escape and there's other AI players in there and one of them is trying to kill
+31:36
+you and you're trying to get away and escape and the Killer is trying to lie their way out of it they're trying to
+31:42
+like frame somebody else or confuse everybody and try to basically kill everybody before they can escape and I
+31:47
+got to say that was much more entertaining to me than I would have guessed cuz playing those games before
+31:55
+AI when they were just kind of pre scripted they were just kind of hardcoded what would happen like it just
+32:01
+wasn't the same you could kind of go along with it but it wasn't there's no no suspense really playing with other
+32:06
+humans is also could be issues cuz some people are more or less interested some people you know want to play their own
+32:13
+games or just are not as invested in whatever you're doing or just don't want to play that game with you in the first place here you have this AI that is
+32:20
+capable of reasoning and trickery and all sorts of stuff and it's like whole mission in life is that game it's going
+32:27
+to keep playing until you tell it to stop and there's there's something there there's something very interesting there so we have hybrid AI by human communi so
+32:34
+AI is a dynamic and often surprising conversational partner we expect to see yes this is exactly what I'm talking
+32:40
+about we expect to see messaging and social apps where Bots are treated as equal citizens Bots should be able to
+32:46
+join chats with you and friends and weigh in or spark discussions no more dry group chats we've also seen early
+32:52
+versions of Bot Centric social apps think Instagram or X where AI screen that content and humans can jump in when
+32:59
+I think of large corporations doing this I it feels weird however I can see where
+33:04
+this would be interesting with like open source stuff by the way if you're into science fiction I just finally read this
+33:09
+book through audible so it's an Audi book just last year it's the player of games by Ian M Banks and wow it's really
+33:18
+good it immediately probably my top 10 maybe even top five sci-fi book of all time and this uh kind of reminded me of
+33:25
+it a little bit the whole human communities with you know AI communities Etc but that book is really well done
+33:30
+gets really dark at the end for like a little bit but just excellent live interactive entertainment at a massive
+33:37
+scale and so AI allows anyone to be an Entertainer with the help of generative Avatar so vtuber neuros Sama is one
+33:44
+example I so I guess this is Twitch so the AI makes live content much more scalable with no humans behind the
+33:50
+scenes controlling a storyline or speaking to the viewers AI characters are already hosting interactive streams and shows in which they respond to
+33:56
+audience questions comments or votes in real game so I guess this is neuros Sama and so I guess tons of people are
+34:04
+watching this so this is an AI generated uh what Avatar that's playing the game
+34:09
+so I'm not familiar with this but I got to say I think what they said at the very beginning makes a lot of sense cuz they're saying like we all think we can
+34:15
+predict what people will or will not like and the reality is just we can't like the consumer right the culture
+34:22
+whatever just kind of takes its own shape and goes in its own Direction so if everybody prefers watching you know
+34:29
+these AIS that could be huge right I mean who knows should I do the rest of the video like this are you not
+34:36
+entertained no okay fine and next we have next gen avatars for Next Level
+34:41
+communication gifts gifs and images are language of their own and a very effective one AI gives consumers a
+34:48
+hyperrealistic digital likeness that they can use to instantly generate and share these assets if you want to
+34:53
+convince your friend to go on a trip generate a photo of you two on the beach so that's interesting and then we have
+34:58
+ai to make in real life matches IRL matches today's matchmaking apps whether for dating friendship or professional
+35:05
+connections are inefficient they rely on users building a good profile knowing what they are looking for and swiping
+35:11
+enough to find a fit which reminds me so there's this guy that trained up Bots to swipe on Tinder profiles based on his
+35:18
+preferences and they use Chad GPT to message them and set up dates so he was able to communicate with 5,200 women and
+35:24
+now one year later he's engaged to one of them so I guess this is in in Russian and so he was just able to have chbt
+35:31
+basically answer some of the stuff so he bu he built this Tinder bot Alpha and it would just like talk to the people
+35:38
+inside the app he would have some pre-written answers or at least like if they ask like where do you work like how
+35:44
+how he would answer or how Chad gbt would answer for him and so he's got this whole schematic about how the AI
+35:50
+would choose the women so like look at the actual visuals as well as some other data that they've uploaded like like
+35:56
+their location and stuff like that which makes you wonder will nerds become like the like the players of the AI age I
+36:03
+mean okay so I guess this is legitimately them this is not a I thought this was like one of those stock
+36:08
+photos that that's them okay all right so a16z back to a16z what if you could instead chat with a bot that learns
+36:15
+about you on a deeper level and uses this information to make a curated set of matches which kind of is like what
+36:20
+that guy did but of course if you're the only one doing that obviously that's a massive advantage if everyone's doing
+36:28
+that the whole system breaks down and so it does seem like a new system has to be kind of built on top of that right a
+36:34
+different matchmaking system it's like that thing where people keep saying Simpsons already did it or Simpsons
+36:40
+already predicted it I think like half of the AI stuff is like black miror already did that black miror like has
+36:45
+like three different episodes on just AI plus dating and then we have personal growth so every consumer will have a
+Personal Growth
+36:51
+bespoke team of teachers doctors wealth managers and coaches that collaborate daily to help them live their best life
+36:57
+so we're going to have education personal finance and wellness so these I mean all these are incredible education
+37:03
+is huge we've talked about the two Sigma problem basically when you introduce customize learning with one-on-one
+37:09
+tutoring that approach is to standard deviations better than the normal sort
+37:14
+of school system where we have you know a set schedule with set classes and you know one teacher to many students like
+37:21
+this basically turns any kid into an A+ student like it just drastically shifts
+37:28
+that curve to the right so this is going to be incredible personal finance I think this is great because uh and I
+37:34
+think a16z has talked about this before before personal finance apps could only
+37:40
+read your information right so they can gather all your information on your transactions and they kind of show you little graphs but they couldn't do too
+37:46
+much to actually execute stuff on your behalf here they can help better manage
+37:51
+your money by for example you know paying your bills saying saving setting some money aside you know if you're
+37:57
+going out maybe having some sort of like hey your budget is this much don't go beyond this like they can interact more
+38:04
+ref few to help you keep control your finances so in education we have what they're looking for is multimodal
+38:10
+ability so basically having you know allowing the users to input questions topics ideas in whatever form whatever
+38:17
+modality that they want and then get a response in the media type that helps them learn best and then new interfaces
+38:23
+that break the Ed Tech mold while some AI May operate via more traditional formats like lectures or Q&A we also
+38:30
+anticipate the rise of more casual experimental learning at scale I feel like gaming could be huge here for
+38:36
+learning all sorts of stuff from engineering to coding to whatever if you can get players to grind the same boss
+38:43
+you know 100 times spending you know hundreds of hours doing that you can you can get them to do something that's more
+38:48
+productive like coding and then go to markets that doesn't rely on schools so AI doesn't solve the structural problems
+38:54
+of selling into schools we believe the the strongest companies will force their way into the educational system through
+39:00
+parents or even individual teachers who will pay for products that save them time and help their student learn better
+39:06
+Bottoms Up adoption and engagement is key so that's the key he not you're not building something for the school
+39:12
+administrator not something that they might like or dislike you're building something for the students for the for the teachers for the parents it's like
+39:19
+Seth Goen says you know for example marketers they sell cat food to the cat food owners they don't sell them to the
+39:25
+cats right cuz if they were selling to the cats the flavors would be like mice and birds and and pigeon and rat instead
+39:32
+they're like tuna and chicken and then we have hyp specialized products building an environment building an
+39:38
+effective and engaging ettech platform is hard we expect the most successful products will be live at the
+39:43
+intersection of a specific stage for example like kind kindergarten versus high school and subject for example Math
+39:50
+versus reading with an interface that uniquely serves those Learners platforms here may even look overly narrow to
+39:57
+start with like reading tutors for preschoolers but can expand over time and then we have personal finance AI
+40:03
+finally unlocks the vision of money on autopilot giving every consumer a financial adviser who executes decisions
+40:10
+on their behalf imagine an AI that moves your money to constantly optimize your balance sheet this may mean rebalancing
+40:16
+funds refinancing debt or reserving cash for retirement this one the refinancing debt I mean there's so many different
+40:22
+like card offers credit card offers and as the interest rates change you can save a lot of money by just going
+40:30
+through those tasks of you know applying for new credit cards getting those free points and you might have seen some
+40:35
+people on YouTube that like take this to the next level where they're like basically live off of their credit card points but it takes a lot like it's it's
+40:42
+like binders and spreadsheets and just a lot of calculations like it's a lot of work with AI you can automate a lot of
+40:49
+that and so what they're looking for is for example cross account visibility and management so so instead of having like
+40:54
+a Robin Hood of fidelity and wfront they want one that gives a global portfolio view so having multiple places with your
+41:01
+money is okay but there needs to be one thing like one agent that kind of looks over all of them Auto optimization
+41:08
+across accounts so many consumers are overpaying for their debt insurance and bills yeah I mean like Insurance how
+41:14
+many people truly take the time to find the best insurance deals but finding cheaper options calculating the new net
+41:20
+cost and going to the efforts to switch or negotiate with providers is a very tall ask AI agents can take over this
+41:27
+process by constantly monitoring the landscape and executing on a transfer if needed with little to no action required
+41:32
+from the user and then programmatic investing using natural language so basically using natural language or decision trees and consumers with no
+41:39
+knowledge of code can build algorithms that execute trades for them and then complex transactions move from services
+41:45
+to AI so we have many financial decisions are too complex to be automated with a single click think tax
+41:51
+planning or wealth management and human judgment and consumer preferences have a real influence on the approach and this
+41:57
+is going to lower the cost and make the one-on-one financial services available to every consumer and so a lot of these
+42:02
+Services can be taken over or augmented somehow with AI and so that's going to lower the costs and make these
+42:08
+one-on-one financial services available to every consumer that wants them and then with Wellness we have our data
+42:13
+first approach so instead of having General tips or advice from a checkup every few months this is going to be
+42:18
+like real time and customized to you humanik interaction and so we're already seeing we're seeing some AI systems have
+42:24
+better um accuracy at Di agnostics than than doctors and better bets I matter
+42:29
+than than human doctors so this is certainly could be big and then we have daily use case with memory and health is
+42:34
+a journey that amends consistent commitment so these AI products would you know have these daily check-ins or
+42:40
+two to three times per day check-ins and making sure you're adhering to your behavior I mean if you've ever done like
+42:46
+macro tracking or calorie tracking or whatever like that's a pain in the butt if you can like automate that that would
+42:51
+be incredible and here are some of their Investments so a16z they Miss in 11 Labs
+42:57
+CV Tha ideogram Luma captions descript descript is very good at video editing
+43:03
+using AI a little clunky it's a little bit needs a little bit more work but it's it's really good and then character
+43:09
+Ai and looks like they have some unannounced investments in Creative tools app Builders Etc so that's what
+Etc
+43:16
+they're looking for that's where they see the big opportunities but if you have an idea that's kind of outside of
+43:21
+some of that Dimension here that's just fine they're looking for really huge returns and so they're going where they
+43:28
+see like really really big big money billions of dollars Etc now of course bigger rewards also means bigger risks
+43:34
+more competition so I don't think it's necessary to go chasing one of these but if you're feel feeling ambitious if
+43:41
+you're looking for one of those big categories I think they've covered a lot of really big ones really good ones you
+43:47
+know on top of this there's also gaming which they've talked about before not here but that's another big one but
+43:52
+whatever sort of industry or category you're going for or keep this in mind this idea of agents that act as a as
+44:00
+systems of actions as they put it over the next years let's say the ability of these agents to execute complex tasks
+44:07
+that you give it will just keep getting better and better this will have an impact on you whatever you're doing
+44:13
+whether you're building a business or you're just trying to be more productive in your career or in your personal life
+44:19
+let's say you collect rare Pokemon cards this could help you you know scour the web for the latest listings of those
+44:25
+rare and to find Pokemon Pokemon cards the AI agent could go and start negotiating on your behalf so this is
+44:31
+brand new to the world and it's going to be just fascinating to see how it affects everybody how it affects the
+44:37
+economy how it affects people's productivity but I feel like 2023 was the year where people were like demoing
+44:43
+the stuff and testing it out and seeing what was possible and 2024 is the year that people are building you know multi
+44:49
+is much more useful than I would expect it to be perplexity EI is much more
+44:55
+useful than I expect it to be last year some people were saying you know chbt is cool but what are the use cases well
+45:02
+here comes the tsunami of use cases of actual things that make your life easier
+45:07
+when you use these tools so if you're building this stuff I'm looking forward to seeing what you build if you're not
+45:12
+building it I think it's important for all us to start learning how to use it spot the latest greatest things and kind
+45:18
+of start incorporating it into our lives and you know using it to be more productive to free up more time Etc and
+45:23
+now I'm going to go and edit this video somebody please create something that makes it so I don't have to edit another
+45:30
+video in my life again I would pay you for that the script is good it's great I
