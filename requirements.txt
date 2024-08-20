@@ -4,3 +4,4 @@ streamlit
 altair<5
 scikit-learn
 networkx
+matplotlib
