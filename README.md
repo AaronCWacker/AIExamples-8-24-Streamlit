@@ -1,7 +1,7 @@
 # AIExamples-8-24-Streamlit
 AIExamples-8-24-Streamlit
 
-
+```mermaid
 graph LR
     subgraph VNET["VNET"]
         subgraph ContainerAppEnv["Container App Environment Subnet"]
@@ -36,3 +36,4 @@ graph LR
     
     classDef dnsZone fill:#fff2cc,stroke:#ffcd28;
     class PrivateDNSZone dnsZone;
+```
