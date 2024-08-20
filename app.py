@@ -34,8 +34,8 @@ st.markdown('''
 ''')
 
 # Download NLTK resources
-nltk.download('punkt')
-nltk.download('stopwords')
+#nltk.download('punkt')
+#nltk.download('stopwords')
 
 def remove_timestamps(text):
     return re.sub(r'\d{1,2}:\d{2}\n.*\n', '', text)
