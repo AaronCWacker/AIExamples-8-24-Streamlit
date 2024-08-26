@@ -35,6 +35,19 @@ c:\users\aaron\appdata\local\packages\pythonsoftwarefoundation.python.3.12_qbz5n
 This unique ID also matches this directory:
 C:\Users\aaron\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0 which is where the launched version will reside.
 
+Using the command line shell you will also notice that this scripts directory is not on your path.  Add it to your path to ensure that when executables from pypi packages for your user account are shelled from the correct location:
+
+ WARNING: The script watchmedo.exe is installed in 'C:\Users\aaron\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location. 
+
+If you navigate in Windows to Desktop then to your machine name, then open properties panel you can modify the path:
+
+![image](https://github.com/user-attachments/assets/638eeaed-a5ab-469d-8ce9-53f6e6a5f627)
+
+Add the two lines to your path at the top so performance from command line finds 3.12.5 easily along with any pip installed requirements.
+
+![image](https://github.com/user-attachments/assets/102b0ff2-d703-43af-a1b3-b9029c670538)
+
 
 
 
