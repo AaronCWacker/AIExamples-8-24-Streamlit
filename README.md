@@ -17,6 +17,8 @@ AIExamples-8-24-Streamlit
 # Use Latest Python - 3.12.5 using In VSCode Ctrl-Shift-P for Select: Python Interpreter
 If using torch use 3.11 as 3.12 is not supported yet.
 
+![image](https://github.com/user-attachments/assets/82d66224-5924-4537-8a5b-caebfdc18e12)
+
 
 
 
