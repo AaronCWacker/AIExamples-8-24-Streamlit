@@ -1,6 +1,20 @@
 # AIExamples-8-24-Streamlit
 AIExamples-8-24-Streamlit
 
+# VSCode Extensions
+1. Azure Resources
+2. Azure Account
+3. Azure App Services
+4. Azure CLI Tools
+5. Azure Functions
+6. Azure Resource Manager Snippets
+7. Azure Resource Manager Tools
+
+
+
+
+
+
 # Deploy as Web App on AZ:
 
 ## Startup Command:
