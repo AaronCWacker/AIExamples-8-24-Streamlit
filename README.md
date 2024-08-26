@@ -22,6 +22,20 @@ This also means that with a launch.json file used to debug that we will run pyth
 
 https://apps.microsoft.com/detail/9ncvdn91xzqp?hl=en-US&gl=US
 
+# Install requirements.txt.
+
+One thing you will notice is now MS has secured the python executables in a place where scripts and pip installs will be read only and thus they will install to your user directory:
+
+PS C:\Users\aaron\Desktop\AIExamples\AIExamples-8-24-Streamlit> pip install -r requirements.txt
+Defaulting to user installation because normal site-packages is not writeable
+
+For my local debug install for latest VSCode this is in:
+c:\users\aaron\appdata\local\packages\pythonsoftwarefoundation.python.3.12_qbz5n2kfra8p0\localcache\local-packages\python312\site-packages
+
+This unique ID also matches this directory:
+C:\Users\aaron\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0 which is where the launched version will reside.
+
+
 
 
 
