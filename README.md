@@ -48,7 +48,28 @@ Add the two lines to your path at the top so performance from command line finds
 
 ![image](https://github.com/user-attachments/assets/102b0ff2-d703-43af-a1b3-b9029c670538)
 
+After adding that and rerun of pip install -r requirements.txt you will see the warnings do not appear but launch.json still is unaware of where to find streamlit.exe
 
+Assist by adding this same to your path inside launch.json.
+
+.vscode/launch.json should now your path to streamlit:
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Streamlit: Run app.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "C:\Users\aaron\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\Scripts\streamlit.exe",
+            "args": [
+                "run",
+                "app.py"
+            ],
+            "console": "integratedTerminal"
+        }
+    ]
+}
 
 
 
