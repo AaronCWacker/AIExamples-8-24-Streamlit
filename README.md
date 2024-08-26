@@ -10,6 +10,10 @@ AIExamples-8-24-Streamlit
 6. Azure Resource Manager Snippets
 7. Azure Resource Manager Tools
 
+# VSCode Insiders - 1.93 system
+
+![image](https://github.com/user-attachments/assets/096fbb1f-1075-4b12-83ca-96861260ce8e)
+
 
 
 
