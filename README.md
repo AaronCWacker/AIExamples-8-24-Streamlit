@@ -10,9 +10,13 @@ AIExamples-8-24-Streamlit
 6. Azure Resource Manager Snippets
 7. Azure Resource Manager Tools
 
-# VSCode Insiders - 1.93 system
+# Use Latest VSCode Insiders - 1.93 system
 
 ![image](https://github.com/user-attachments/assets/096fbb1f-1075-4b12-83ca-96861260ce8e)
+
+# Use Latest Python - 3.12.5 using In VSCode Ctrl-Shift-P for Select: Python Interpreter
+If using torch use 3.11 as 3.12 is not supported yet.
+
 
 
 
