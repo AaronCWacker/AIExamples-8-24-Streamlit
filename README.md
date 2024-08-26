@@ -17,6 +17,7 @@ AIExamples-8-24-Streamlit
 # Use Latest Python - 3.12.5 using In VSCode Ctrl-Shift-P for Select: Python Interpreter
 If using torch use 3.11 as 3.12 is not supported yet.
 Notice the path with ~AppData - this means that if username in Windows is aaron it would be installed in user's windows apps.  For me this path is the path to the 3.12.exe file to run py 3.12.5:  C:\Users\aaron\AppData\Local\Microsoft\WindowsApps
+This also means that with a launch.json file used to debug that we will run python from there and also refer to our Scripts directory when examining install of requirements.txt libraries.
 ![image](https://github.com/user-attachments/assets/82d66224-5924-4537-8a5b-caebfdc18e12)
 
 https://apps.microsoft.com/detail/9ncvdn91xzqp?hl=en-US&gl=US
