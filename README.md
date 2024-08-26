@@ -19,6 +19,7 @@ If using torch use 3.11 as 3.12 is not supported yet.
 
 ![image](https://github.com/user-attachments/assets/82d66224-5924-4537-8a5b-caebfdc18e12)
 
+https://apps.microsoft.com/detail/9ncvdn91xzqp?hl=en-US&gl=US
 
 
 
