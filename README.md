@@ -1,6 +1,75 @@
 # AIExamples-8-24-Streamlit
 AIExamples-8-24-Streamlit
 
+# Mentorship - How we can support eachother to improve our impact on customer pains.
+
+1. Group up - we are stronger together than we are alone.
+2. Support and mentor one another each day since each person has unique specialties, discoveries and knowledge.
+3. Solve performance and fairness together through listening, empathy and understanding with collaboration through peer review.
+4. Knowledge across larger teams has mass and agency when we spread good news and we make things easier for eachother because we can.
+5. Appeal to and pursue to decrease need and increase payout of how we work together as a Team, Division, Organization, Corporation, Country and Humanity.
+6. Take time to listen and understand by knowing and saying aloud names of all you encounter sharing in the joy of supporting eachother while coaching and mentoring to be our best.
+7. Sacrifice pride and confusion by focusing on mind, body, knowledge, improvement, hard thoughtful work, and speed of passing what you learn on to others.
+8. Continually reach out and help others in pain.  What we do for eachother can create joy and superpowers where doubt fails and resilience wins.
+9. Take care of mind and body to replace discouragement with quiet confidence and preparedness.
+10. Overcome fear and be curious, asking for help when you need it, and always assist others in need.
+11. Practice truth through careful study and humor.  Being genuine and giving time to others with careful attention changes motives and attitudes.
+12. Control and focus desire to help one another, be your best supportive self to those around you.
+
+# Improving our AI Practice and Methodology
+
+🤝 Collaborative AI Evaluation Framework
+• Standardized metrics across institutions
+• Shared results for best practices
+• Focus on privacy, accuracy, and efficiency
+
+🔒 Privacy-Preserving Federated Learning Network
+• Distributed training without data sharing
+• Cost-benefit analysis of implementation
+• Balance performance gains vs. privacy protection
+
+🧭 AI Ethics Mentorship Program
+• Pair experienced ethicists with developers
+• Guide bias and fairness studies
+• Quantify costs of biased systems vs. benefits
+
+👥 Multi-stakeholder Value Assessment Workshops
+• Include AI scientists, providers, patients, administrators
+• Define and prioritize value metrics
+• Holistic understanding of AI impact
+
+📊 Longitudinal AI Impact Studies
+• Track outcomes, burnout, efficiency over years
+• Assess evolving value proposition
+• Inform future development strategies
+
+🏅 AI Transparency Scorecards
+• Standardize transparency metrics
+• Correlate with trust, adoption, outcomes
+• Analyze cost-benefit of explainability investments
+
+🛡️ Cross-disciplinary AI Safety Teams
+• Combine ML, cybersecurity, privacy expertise
+• Comprehensive risk assessments
+• Quantify potential costs vs. benefits
+
+📘 Adaptive AI Governance Framework
+• Regular reassessments of performance and compliance
+• Clear update processes for policies and requirements
+• Evolve based on ongoing cost-benefit analyses
+
+🤖👤 AI-Human Collaboration Optimization Studies
+• Analyze different human-AI interaction models
+• Use time-motion studies and satisfaction surveys
+• Quantify costs and benefits of collaboration designs
+
+🩺 Patient-Centric AI Value Assessment
+• Direct patient perspective on AI systems
+• Focus groups, surveys, patient-reported outcomes
+• Balance perceived benefits vs. privacy concerns
+
+
+
 # VSCode Extensions
 1. Azure Resources
 2. Azure Account
