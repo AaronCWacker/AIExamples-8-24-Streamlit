@@ -4,17 +4,17 @@ AIExamples-8-24-Streamlit
 # Mentorship - How we can support eachother to improve our impact on customer pains.
 
 1. Group up - we are stronger together than we are alone.
-2. Support and mentor one another each day since each person has unique specialties, discoveries and knowledge.
-3. Solve performance and fairness together through listening, empathy and understanding with collaboration through peer review.
-4. Knowledge across larger teams has mass and agency when we spread good news and we make things easier for eachother because we can.
-5. Appeal to and pursue to decrease need and increase payout of how we work together as a Team, Division, Organization, Corporation, Country and Humanity.
-6. Take time to listen and understand by knowing and saying aloud names of all you encounter sharing in the joy of supporting eachother while coaching and mentoring to be our best.
-7. Sacrifice pride and confusion by focusing on mind, body, knowledge, improvement, hard thoughtful work, and speed of passing what you learn on to others.
-8. Continually reach out and help others in pain.  What we do for eachother can create joy and superpowers where doubt fails and resilience wins.
-9. Take care of mind and body to replace discouragement with quiet confidence and preparedness.
-10. Overcome fear and be curious, asking for help when you need it, and always assist others in need.
-11. Practice truth through careful study and humor.  Being genuine and giving time to others with careful attention changes motives and attitudes.
-12. Control and focus desire to help one another, be your best supportive self to those around you.
+2. Support and mentor each day with the useful things you learn.  Each person has unique specialties, discoveries and knowledge which augment your knowledge..
+3. Solve for performance and fairness through listening, empathy and understanding with collaboration through peer review.
+4. Build knowledge across larger teams since mass and agency spread good news.  We make things easier for eachother because we can.
+5. Appeal to and pursue decreasing pains and needs.  This increases scale of payout when we work together as a Team, Division, Organization, Corporation, Country and Humanity.
+6. Take time to listen and understand.  Knowing and say aloud often names of people you encounter to share in the joy of supporting, coaching and mentoring to be our best.
+7. Sacrifice pride and confusion by focusing on mind, body, knowledge, improvement, hard thoughtful work, and the speed of passing what you learn on to others.
+8. Continually reach out and help others in pain.  What we do for eachother creates joy and superpowers where doubt will fail and resilience wins.
+9. Take care of mind and body to replace difficulty, and discouragement with quiet confidence and preparedness.
+10. Overcome fear and be curious, asking for help when you need it.  Always assist others in need.
+11. Practice truth through careful study, fact checking and humor.  Be genuine and give time to others using careful attention on what changes motives and attitudes.
+12. Control and focus desire to help one another.  Be your best supportive self to those around you.
 
 # Improving our AI Practice and Methodology
 
