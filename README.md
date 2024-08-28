@@ -1,40 +1,44 @@
-# AIExamples-8-24-Streamlit
-AIExamples-8-24-Streamlit
+# Data Science and Data Engineering with AI, Azure, Python and Streamlit
 
 # 1.Q; What are the top 3 data science and data engineering uses of AI?
+
 # 1.A; Three top uses of AI in data science and data engineering:
 
-1. Automated feature engineering and selection: AI can analyze large datasets to automatically identify relevant features and create new derived features, saving data scientists significant time and potentially uncovering insights humans might miss.
+1. Automated **feature** engineering and selection: AI can **analyze** large datasets to automatically **identify** relevant features and **create** new derived features, saving data scientists significant **time** and potentially uncovering **insights** humans might miss.
 
-2. Anomaly detection and predictive maintenance: AI models can detect unusual patterns in data streams from sensors or systems, allowing for early identification of potential issues or failures in industrial equipment, networks, or other complex systems.
+3. Anomaly **detection** and **predictive** maintenance: AI models can detect unusual **patterns** in data streams from sensors or systems, allowing for early identification of potential issues or failures in industrial equipment, networks, or other complex systems.
 
-3. Natural language processing for unstructured data: AI enables the extraction of insights from vast amounts of unstructured text data (like customer reviews, social media posts, or support tickets) through techniques like sentiment analysis, topic modeling, and named entity recognition.
+4. Natural language processing for **unstructured** data: AI enables the extraction of **insights** from vast amounts of unstructured text data (like customer reviews, social media posts, or support tickets) through techniques like **sentiment analysis**, **topic modeling**, and **named entity recognition**.
 
 # 2.Q; Elaborate on each use case and then create a Streamlit application that demonstrates aspects of all three.
-# 2.A;
-1. Automated feature engineering and selection:
-This process involves using machine learning algorithms to automatically create, transform, and select the most relevant features from a dataset. It can include techniques like:
 
--Principal Component Analysis (PCA) for dimensionality reduction
--Polynomial feature creation
--Encoding categorical variables
--Feature importance ranking using methods like Random Forest or Gradient Boosting
+# 2.A;
+
+1. Automated **feature engineering** and selection:
+
+This process involves using **machine learning algorithms** to automatically create, transform, and select the **most relevant features** from a dataset. It can include techniques like:
+
+#### -Principal Component Analysis (PCA) for dimensionality reduction
+#### -Polynomial feature creation
+#### -Encoding categorical variables
+#### -Feature importance ranking using methods like Random Forest or Gradient Boosting
+
 
 2. Anomaly detection and predictive maintenance:
 This involves using statistical and machine learning methods to identify unusual patterns in data. Key aspects include:
 
--Establishing a baseline of "normal" behavior
--Using algorithms like Isolation Forests, One-Class SVM, or autoencoders to detect outliers
--Time series analysis to predict future anomalies or system failures
--Integration with IoT sensors for real-time monitoring
+#### -Establishing a baseline of "normal" behavior
+#### -Using algorithms like Isolation Forests, One-Class SVM, or autoencoders to detect outliers
+#### -Time series analysis to predict future anomalies or system failures
+#### -Integration with IoT sensors for real-time monitoring
 
 3. Natural Language Processing for unstructured data:
 This encompasses a wide range of techniques to extract meaning from text data. Key components include:
 
--Text preprocessing (tokenization, stemming, lemmatization)
--Sentiment analysis to determine emotional tone
--Topic modeling to categorize documents or extract themes
--Named Entity Recognition to identify and classify named entities (e.g., persons, organizations, locations)
+#### -Text preprocessing (tokenization, stemming, lemmatization)
+#### -Sentiment analysis to determine emotional tone
+#### -Topic modeling to categorize documents or extract themes
+#### -Named Entity Recognition to identify and classify named entities (e.g., persons, organizations, locations)
 
 # Streamlit app for questions and answers:
 ## app.py
@@ -183,59 +187,57 @@ matplotlib==3.7.1
 
 # How we can improve our AI Practice and Methodology
 
-1. 🤝 Collaborative AI Evaluation Framework
+#### 1. 🤝 Collaborative AI Evaluation Frameworks
 • Standardized metrics across institutions
 • Shared results for best practices
 • Focus on privacy, accuracy, and efficiency
 
-2. 🔒 Privacy-Preserving Federated Learning Network
+#### 2. 🔒 Privacy-Preserving Federated Learning Networks
 • Distributed training without data sharing
 • Cost-benefit analysis of implementation
 • Balance performance gains vs. privacy protection
 
-3. 🧭 AI Ethics Mentorship Program
+#### 3. 🧭 AI Ethics Mentorship Programs
 • Pair experienced ethicists with developers
 • Guide bias and fairness studies
 • Quantify costs of biased systems vs. benefits
 
-4. 👥 Multi-stakeholder Value Assessment Workshops
+#### 4. 👥 Multi-stakeholder Value Assessment Workshops
 • Include AI scientists, providers, patients, administrators
 • Define and prioritize value metrics
 • Holistic understanding of AI impact
 
-5. 📊 Longitudinal AI Impact Studies
+#### 5. 📊 Longitudinal AI Impact Studies
 • Track outcomes, burnout, efficiency over years
 • Assess evolving value proposition
 • Inform future development strategies
 
-6. 🏅 AI Transparency Scorecards
+#### 6. 🏅 AI Transparency Scorecards
 • Standardize transparency metrics
 • Correlate with trust, adoption, outcomes
 • Analyze cost-benefit of explainability investments
 
-7. 🛡️ Cross-disciplinary AI Safety Teams
+#### 7. 🛡️ Cross-disciplinary AI Safety Teams
 • Combine ML, cybersecurity, privacy expertise
 • Comprehensive risk assessments
 • Quantify potential costs vs. benefits
 
-8. 📘 Adaptive AI Governance Framework
+#### 8. 📘 Adaptive AI Governance Frameworks
 • Regular reassessments of performance and compliance
 • Clear update processes for policies and requirements
 • Evolve based on ongoing cost-benefit analyses
 
-9. 🤖👤 AI-Human Collaboration Optimization Studies
+#### 9. 🤖👤 AI-Human Collaboration Optimization Studies
 • Analyze different human-AI interaction models
 • Use time-motion studies and satisfaction surveys
 • Quantify costs and benefits of collaboration designs
 
-10. 🩺 Patient-Centric AI Value Assessment
+#### 10. 🩺 Patient-Centric AI Value Assessments
 • Direct patient perspective on AI systems
 • Focus groups, surveys, patient-reported outcomes
 • Balance perceived benefits vs. privacy concerns
 
-
-
-# VSCode Extensions
+# VSCode Extensions for Azure
 1. Azure Resources
 2. Azure Account
 3. Azure App Services
@@ -244,7 +246,7 @@ matplotlib==3.7.1
 6. Azure Resource Manager Snippets
 7. Azure Resource Manager Tools
 
-# Use Latest VSCode Insiders - 1.93 system
+# Test Using Latest VSCode Insiders - 1.93 system - Why?  
 
 ![image](https://github.com/user-attachments/assets/096fbb1f-1075-4b12-83ca-96861260ce8e)
 
@@ -333,9 +335,6 @@ Inbound traffic config
 Public: Enabled no restrict
 Inbound address
 
-
-
-
 # Detailed VNET for ACA
 
 ```mermaid
@@ -392,9 +391,6 @@ graph LR
     class Notes notes;
 
 ```
-
-
-
 
 
 # Simple VNET for ACA
